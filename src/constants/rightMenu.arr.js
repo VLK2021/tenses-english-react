@@ -33,14 +33,14 @@ export const rightMenu = [
     },
     {
         id: 9,
-        name: 'неправильні дієслова'
+        name: 'Irregular Verbs'
     },
     {
         id: 10,
-        name: 'узгодження часів'
+        name: 'Sequence of tenses'
     },
     {
         id: 11,
-        name: 'алфавіт'
+        name: 'Alphabet'
     },
 ];
