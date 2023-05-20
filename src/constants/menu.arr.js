@@ -1,4 +1,4 @@
-export const leftMenu = [
+export const menu = [
     {
         id: 1,
         name: 'Present Simple'
@@ -46,5 +46,49 @@ export const leftMenu = [
     {
         id: 12,
         name: ' Future Perfect Continuous'
+    },
+    {
+        id: 13,
+        name: 'a/an/the'
+    },
+    {
+        id: 14,
+        name: 'there is/there are'
+    },
+    {
+        id: 15,
+        name: 'to be'
+    },
+    {
+        id: 16,
+        name: 'have to'
+    },
+    {
+        id: 17,
+        name: 'to be going to'
+    },
+    {
+        id: 18,
+        name: 'can/ could'
+    },
+    {
+        id: 19,
+        name: 'will/would'
+    },
+    {
+        id: 20,
+        name: 'used to'
+    },
+    {
+        id: 21,
+        name: 'Irregular Verbs'
+    },
+    {
+        id: 22,
+        name: 'Sequence of tenses'
+    },
+    {
+        id: 23,
+        name: 'Alphabet'
     },
 ];

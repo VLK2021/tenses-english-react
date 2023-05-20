@@ -1,3 +1,2 @@
-export * from './leftMenu.arr';
+export * from './menu.arr';
 export * from './tenses.arr';
-export * from './rightMenu.arr';

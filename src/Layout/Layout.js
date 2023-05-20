@@ -1,30 +1,20 @@
 import React from 'react';
-import {Outlet, useNavigate} from 'react-router-dom';
+import {Outlet} from 'react-router-dom';
 
 import './LayoutStyle.css';
-import {leftMenu, rightMenu} from '../constants';
+import {menu} from '../constants';
+import Button from "../components/Button/Button";
 
 
 const Layout = () => {
-    const navigate = useNavigate();
 
-    const goToPage = (e) => {
-        console.log(e.target.innerText);
-        navigate(`/${e.target.innerText}`)
-    }
 
     return (
         <div className={'layout'}>
 
-            <div className={'layout-lift'}>
+            <div className={'layout-left'}>
                 {
-                    leftMenu.map(obj => <button
-                        key={obj.id}
-                        className={'btn-left'}
-                        onClick={(e) => goToPage(e)}
-                    >
-                        {obj.name}
-                    </button>)
+                    menu.slice(0, 12).map(obj => <Button key={obj.id} obj={obj}/>)
                 }
             </div>
 
@@ -32,13 +22,7 @@ const Layout = () => {
 
             <div className={'layout-right'}>
                 {
-                    rightMenu.map(obj => <button
-                        key={obj.id}
-                        className={'btn-right'}
-                        onClick={(e) => goToPage(e)}
-                    >
-                        {obj.name}
-                    </button>)
+                    menu.slice(12, 23).map(obj => <Button key={obj.id} obj={obj}/>)
                 }
             </div>
         </div>

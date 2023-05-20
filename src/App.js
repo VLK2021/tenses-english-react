@@ -24,7 +24,7 @@ function App() {
         <div className="App">
             <Routes>
                 <Route path={'/'} element={<Layout/>}>
-                    <Route path={'/PRESENT SIMPLE'} element={<PresentSimple/>}/>
+                    <Route path={'/1'} element={<PresentSimple/>}/>
                 </Route>
             </Routes>
         </div>

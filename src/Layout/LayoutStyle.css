@@ -7,20 +7,20 @@
     /*padding: 5rem 0;*/
 }
 
-.layout-lift, .layout-right{
+.layout-left, .layout-right{
     width: 15%;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
-.btn-left{
-    border-radius: 0.5rem 0 0 0.5rem;
-}
+/*.btn-left{*/
+/*    border-radius: 0.5rem 0 0 0.5rem;*/
+/*}*/
 
-.btn-right{
-    border-radius: 0 0.5rem 0.5rem 0;
-}
+/*.btn-right{*/
+/*    border-radius: 0 0.5rem 0.5rem 0;*/
+/*}*/
 
 .outlet{
     width: 70%;
