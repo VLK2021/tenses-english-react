@@ -16,7 +16,12 @@
 }
 
 
-.presentSimple-markers > h2, .presentSimple-formation > h2, .presentSimple-toBe > h2{
+.presentSimple-markers > h2,
+.presentSimple-formation > h2,
+.presentSimple-toBe > h2,
+.presentSimple-affirmative > h2,
+.presentSimple-negative > h2,
+.presentSimple-interrogative > h2{
     color: var(--var-color-h);
 }
 
@@ -34,7 +39,7 @@
     color: var(--var-color-li);
 }
 
-.presentSimple-formation-info{
+.presentSimple-formation-info, .presentSimple-affirmative-info{
     margin: 0.5rem 0 0 0.5rem;
 }
 

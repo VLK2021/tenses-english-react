@@ -12,6 +12,7 @@
     --var-color-strong: #e60000;
     --var-color-text: #808080;
     --var-color-li: #4d79ff;
+    --var-color-example-text: #cc5200
 
 }
 
@@ -60,6 +61,12 @@ strong {
     font-weight: bold;
     font-size: 1.3rem;
     color: var(--var-color-strong);
+}
+
+b{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--var-color-example-text);
 }
 
 .flexDirectionColumn{
