@@ -1,3 +1,39 @@
 .pastSimple{
+    padding: 1rem;
+}
 
+.pastSimple > h1{
+    color: var(--var-color-h);
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.2rem 0.2rem grey;
+    margin: 0 0 1rem 0;
+    text-decoration: underline;
+}
+
+.pastSimple-rule{
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.pastSimple-markers > h2,
+.pastSimple-formation > h2,
+.pastSimple-toBe > h2,
+.pastSimple-affirmative > h2,
+.pastSimple-negative > h2,
+.pastSimple-interrogative > h2{
+    color: var(--var-color-h);
+}
+
+.pastSimple-markers > ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.pastSimple-markers > ul > li{
+    text-align: center;
+    color: var(--var-color-li);
 }

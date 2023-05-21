@@ -1,13 +1,19 @@
 import React from 'react';
 
 import './FutureSimpleStyle.css';
+import {tenses} from "../../constants";
 
 
 const FutureSimple = () => {
+    const {title, markers} = tenses[2];
+
+
     return (
-        <div className={'futureSimple'}>
-            FutureSimple
-        </div>
+        <main className={'futureSimple flexDirectionColumn width'}>
+            <h1>{title}</h1>
+
+
+        </main>
     );
 };
 
