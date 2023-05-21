@@ -1,33 +1,77 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-:root{
-  --var-bg-image: url(./images/greyfon.jpg) no-repeat center fixed;
+:root {
+    --var-bg-image: url(./images/greyfon.jpg) no-repeat center fixed;
+    --var-bg-button: lightseagreen;
+    --var-color-button: snow;
+    --var-color-h: black;
+    --var-color-strong: #e60000;
+    --var-color-text: #808080;
+    --var-color-li: #4d79ff;
+
 }
 
 body {
-  background: var(--var-bg-image);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: var(--var-bg-image);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: grey;
 }
 
-a{
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-button{
-  width: 100%;
-  min-height: 3rem;
-  padding: 0.3rem;
-  text-transform: uppercase;
-  background: lightseagreen;
-  color: snow;
-  cursor: pointer;
-  font-weight: bold;
-  text-align: start;
+li {
+    list-style: none;
 }
+
+.width{
+    width: 100%;
+}
+
+.marginTop {
+    margin-top: 1rem;
+}
+
+.fontSizeText{
+    font-size: 1.2rem;
+}
+
+button {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.3rem;
+    text-transform: uppercase;
+    background: var(--var-bg-button);
+    color: var(--var-color-button);
+    cursor: pointer;
+    font-weight: bold;
+    text-align: start;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--var-color-strong);
+}
+
+.flexDirectionColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.example{
+    color: var(--var-color-li);
+    font-size: 1.1rem;
+    font-style: italic;
+}
+

@@ -10,22 +10,21 @@ const Layout = () => {
 
 
     return (
-        <div className={'layout'}>
-
-            <div className={'layout-left'}>
+        <main className={'layout'}>
+            <aside className={'layout-left'}>
                 {
                     menu.slice(0, 12).map(obj => <Button key={obj.id} obj={obj}/>)
                 }
-            </div>
+            </aside>
 
-            <div className={'outlet'}><Outlet/></div>
+            <article className={'outlet'}><Outlet/></article>
 
-            <div className={'layout-right'}>
+            <aside className={'layout-right'}>
                 {
                     menu.slice(12, 23).map(obj => <Button key={obj.id} obj={obj}/>)
                 }
-            </div>
-        </div>
+            </aside>
+        </main>
     );
 };
 
