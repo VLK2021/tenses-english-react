@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 import './ButtonStyle.css';
 
 
-const Button = ({obj, goToPage}) => {
+const Button = ({obj}) => {
     const {id, name} = obj;
 
     const setBtnClass = (id) => {

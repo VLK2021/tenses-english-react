@@ -5,3 +5,6 @@ export * from './PresentContinuous/PresentContinuous';
 export * from  './PastContinuous/PastContinuous';
 export * from './FutureContinuous/FutureContinuous';
 export * from './HomeComponent/HomeComponent';
+export * from './Button/Button';
+export * from './IrregularVerbs/IrregularVerbs';
+export * from './IrregularVerb/IrregularVerb';

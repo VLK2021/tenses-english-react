@@ -9,6 +9,7 @@ import FutureSimple from "./components/FutureSimple/FutureSimple";
 import PresentContinuous from "./components/PresentContinuous/PresentContinuous";
 import PastContinuous from "./components/PastContinuous/PastContinuous";
 import FutureContinuous from "./components/FutureContinuous/FutureContinuous";
+import IrregularVerbs from "./components/IrregularVerbs/IrregularVerbs";
 
 
 
@@ -33,6 +34,7 @@ function App() {
                     <Route path={'/4'} element={<PresentContinuous/>}/>
                     <Route path={'/5'} element={<PastContinuous/>}/>
                     <Route path={'/6'} element={<FutureContinuous/>}/>
+                    <Route path={'/21'} element={<IrregularVerbs/>}/>
                 </Route>
             </Routes>
         </div>

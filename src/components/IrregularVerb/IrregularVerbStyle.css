@@ -1,0 +1,18 @@
+.irregularVerb {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.irregularVerb-info {
+    width: 25%;
+    height: 3rem;
+    margin-bottom: 0.4rem;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.colorTr {
+    color: var(--var-color-example-text);
+}
