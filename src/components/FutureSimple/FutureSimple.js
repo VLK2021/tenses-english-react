@@ -97,7 +97,36 @@ const FutureSimple = () => {
                 </article>
             </section>
 
+            <section className={'futureSimple-interrogative flexDirectionColumn width fontSizeText'}>
+                <h2 className={'marginTop'}>Interrogative sentence</h2>
 
+                <article className={'width fontSizeText'}>
+                    <p className={'width'}>
+                        Утворення загального питання в <strong>Future Simple</strong> відбувається шляхом винесення
+                        допоміжного дієслова <strong>will</strong> або <strong>shall</strong> на початок речення
+                        перед підметом.
+                        <span className={'example'}>
+                            <p><b>Will</b> I go for a walk tomorrow? – Я піду завтра на прогулянку?</p>
+                            <p><b>Will</b> we find your key tomorrow? – Ми знайдемо твій ключ завтра?</p>
+                            <p><b>Will</b> my husband buy this ring for me? – Мій чоловік придбає для мене цю каблучку?</p>
+                    </span>
+                    </p>
+
+                    <p className={'width marginTop'}>
+                        Спеціальне питання в <strong>Future Simple</strong> утворюється за допомогою питального слова
+                        або фрази, що ставиться в самий початок речення. Подальший порядок слів такий самий, як і в
+                        загальному питанні для <strong>Future
+                        Simple (will + підмет + інфінітив)</strong>.
+                        <span className={'example'}>
+                            <p><b>Where will</b> I go tomorrow? – Куди я піду завтра?</p>
+                            <p><b>What will</b> my husband buy for me? – Що придбає для мене мій чоловік?</p>
+                            <p><b>When will</b> we find your key? – Коли ми знайдемо твій ключ?</p>
+                            <p><b>Why will</b> the project be presented next Tuesday? – Чому проект буде представлений
+                                наступного вівторка?</p>
+                    </span>
+                    </p>
+                </article>
+            </section>
         </main>
     );
 };

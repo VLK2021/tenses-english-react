@@ -18,7 +18,8 @@
 .futureSimple-markers > h2,
 .futureSimple-formation > h2,
 .futureSimple-affirmative > h2,
-.futureSimple-negative > h2{
+.futureSimple-negative > h2,
+.futureSimple-interrogative > h2{
     color: var(--var-color-h);
 }
 
