@@ -10,8 +10,8 @@ import PresentContinuous from "./components/PresentContinuous/PresentContinuous"
 import PastContinuous from "./components/PastContinuous/PastContinuous";
 import FutureContinuous from "./components/FutureContinuous/FutureContinuous";
 import IrregularVerbs from "./components/IrregularVerbs/IrregularVerbs";
-
-
+import Vocabulary from "./components/vocabularyArchive/Vocabulary/Vocabulary";
+import ForItComponent from "./components/vocabularyArchive/ForItComponent/ForItComponent";
 
 
 function App() {
@@ -28,13 +28,16 @@ function App() {
             <Routes>
                 <Route path={'/'} element={<Layout/>}>
                     <Route index element={<HomeComponent/>}/>
-                    <Route path={'/1'} element={<PresentSimple/>}/>
-                    <Route path={'/2'} element={<PastSimple/>}/>
-                    <Route path={'/3'} element={<FutureSimple/>}/>
-                    <Route path={'/4'} element={<PresentContinuous/>}/>
-                    <Route path={'/5'} element={<PastContinuous/>}/>
-                    <Route path={'/6'} element={<FutureContinuous/>}/>
-                    <Route path={'/21'} element={<IrregularVerbs/>}/>
+                    <Route path={'1'} element={<PresentSimple/>}/>
+                    <Route path={'2'} element={<PastSimple/>}/>
+                    <Route path={'3'} element={<FutureSimple/>}/>
+                    <Route path={'4'} element={<PresentContinuous/>}/>
+                    <Route path={'5'} element={<PastContinuous/>}/>
+                    <Route path={'6'} element={<FutureContinuous/>}/>
+                    <Route path={'21'} element={<IrregularVerbs/>}/>
+                    <Route path={'24'} element={<Vocabulary/>}>
+                        <Route path={'VT3'} element={<ForItComponent/>}/>
+                    </Route>
                 </Route>
             </Routes>
         </div>

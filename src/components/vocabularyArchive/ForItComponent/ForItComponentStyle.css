@@ -1,0 +1,52 @@
+.forItComponent{
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.forItComponent > h1{
+    color: var(--var-color-li);
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.2rem 0.2rem grey;
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.forItComponent-vocabulary{
+    color: var(--var-color-h);
+}
+
+.forItComponent-vocabulary-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.block {
+    text-align: center;
+    margin: 1rem 0 0 0;
+}
+
+.trainingPopUp{
+    width: 69%;
+    min-height: 15rem;
+    background: gainsboro;
+    position: fixed;
+    top: 45%;
+}
+
+.trainingPopUp-btn{
+    background: #4d79ff;
+    text-align: center;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--var-color-h);
+}

@@ -91,4 +91,8 @@ export const menu = [
         id: 23,
         name: 'Alphabet'
     },
+    {
+        id: 24,
+        name: 'Vocabulary'
+    }
 ];

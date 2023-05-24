@@ -23,7 +23,7 @@
 /*}*/
 
 .outlet{
-    width: 70%;
-    min-height: 80vh;
+    width: 100%;
+    min-height: 55vh;
     background: snow;
 }

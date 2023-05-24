@@ -21,7 +21,7 @@ const Layout = () => {
 
             <aside className={'layout-right'}>
                 {
-                    menu.slice(12, 23).map(obj => <Button key={obj.id} obj={obj}/>)
+                    menu.slice(12, 24).map(obj => <Button key={obj.id} obj={obj}/>)
                 }
             </aside>
         </main>

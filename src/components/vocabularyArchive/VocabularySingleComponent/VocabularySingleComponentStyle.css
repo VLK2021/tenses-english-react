@@ -1,0 +1,19 @@
+.vocabularySingleComponent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vocabularySingleComponent-transcription{
+    color: var(--var-color-example-text);
+}
+
+.vocabularySingleComponent-btn{
+    width: 100%;
+    text-align: center;
+    background: snow;
+    color: red;
+    border: none;
+    min-height: 0;
+}
+

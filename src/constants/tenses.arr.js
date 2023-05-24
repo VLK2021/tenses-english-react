@@ -152,60 +152,57 @@ export const tenses = [
         markers: [
             {
                 id: 1,
-                name: ','
+                name: 'now ,'
             },
             {
                 id: 2,
-                name: ','
+                name: 'right now,'
             },
             {
                 id: 3,
-                name: ','
+                name: 'still,'
             },
             {
                 id: 4,
-                name: ','
+                name: 'currently ,'
             },
             {
                 id: 5,
-                name: ','
+                name: 'at the moment ,'
             },
             {
                 id: 6,
-                name: ','
+                name: 'at present ,'
             },
             {
                 id: 7,
-                name: ','
+                name: 'this morning ,'
             },
             {
                 id: 8,
-                name: ','
+                name: 'this evening,'
             },
             {
                 id: 9,
-                name: ','
+                name: 'this afternoon,'
             },
             {
                 id: 10,
-                name: ','
+                name: 'today ,'
             },
             {
                 id: 11,
-                name: ','
+                name: 'tonight,'
             },
             {
                 id: 12,
-                name: ','
+                name: 'these days ,'
             },
             {
                 id: 13,
-                name: ','
-            },
-            {
-                id: 14,
-                name: ''
-            },
+                name: 'nowadays'
+            }
+
         ]
     },
     {

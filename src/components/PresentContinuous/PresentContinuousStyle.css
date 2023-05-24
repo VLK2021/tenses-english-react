@@ -9,3 +9,30 @@
     margin: 0 0 1rem 0;
     text-decoration: underline;
 }
+
+.presentContinuous-rule{
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.presentContinuous-markers > h2,
+.presentContinuous-formation > h2,
+.presentContinuous-affirmative > h2,
+.presentContinuous-negative > h2,
+.presentContinuous-interrogative > h2{
+    color: var(--var-color-h);
+}
+
+.presentContinuous-markers > ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.presentContinuous-markers > ul > li{
+    text-align: center;
+    color: var(--var-color-li);
+}
