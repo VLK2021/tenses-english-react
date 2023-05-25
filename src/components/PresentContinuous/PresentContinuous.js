@@ -17,7 +17,8 @@ const PresentContinuous = () => {
                 майбутнє, особливо якщо час та місце виконання дії заздалегідь відомі та сплановані, для вираження
                 ситуацій, що розвиваються або змінюються, тобто для вираження певних тенденцій, для вираження тимчасової
                 дії, що відбувається не в даний момент часу, а загалом в найближчий часовий проміжок, певної дії, що
-                відбувається прямо зараз, в момент говоріння. Також <strong>Present Continuous</strong> вказує на одночасні дії,
+                відбувається прямо зараз, в момент говоріння. Також <strong>Present Continuous</strong> вказує на
+                одночасні дії,
                 що відбуваються саме в цей момент. Дії, що відбуваються зараз, плани на найближче майбутнє, обставини,
                 що змінюються, негативние ставлення до дій.
             </p>
@@ -38,7 +39,8 @@ const PresentContinuous = () => {
                 <article className={'futureSimple-formation-info fontSizeText width'}>
                     <p>
                         <strong>Present Continuous</strong> (Present Progressive) утворюється за допомогою допоміжного
-                        дієслова <strong>to be</strong> у формах <strong>(am, is, are)</strong> та дієприкметника теперішнього
+                        дієслова <strong>to be</strong> у формах <strong>(am, is, are)</strong> та дієприкметника
+                        теперішнього
                         часу смислового дієслова. В англійській мові дієприкметники утворюються за допомогою
                         закінчення <strong>-ing</strong>.
                     </p>
@@ -53,7 +55,8 @@ const PresentContinuous = () => {
                         Граматичний час <strong>Present Continuous (Present Progressive)</strong> утворюється за
                         допомогою допоміжного дієслова <strong>be</strong> у формах <strong>am, is, are</strong> та
                         форми <strong>Present Participle</strong> (першої форми смислового дієслова з
-                        закінченням <strong>-ing</strong>). Вибір необхідної форми допоміжного дієслова залежить від підмета.
+                        закінченням <strong>-ing</strong>). Вибір необхідної форми допоміжного дієслова залежить від
+                        підмета.
                         <span className={'example'}>
                             <p>I → <b>am</b> (про себе)</p>
                             <p>He, she, it → <b>is</b> (підмет виражений іменником або займенником в однині)</p>
@@ -74,7 +77,8 @@ const PresentContinuous = () => {
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
                         Заперечне речення в <strong>Present Continuous</strong> утворюється за допомогою заперечної
-                        частки <strong>not</strong>, що ставиться після допоміжного дієслова <strong>am, is або are</strong>.
+                        частки <strong>not</strong>, що ставиться після допоміжного дієслова <strong>am, is або
+                        are</strong>.
                         Загальний порядок слів при цьому не змінюється.
 
                         <span className={'example'}>

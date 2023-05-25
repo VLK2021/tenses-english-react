@@ -59,4 +59,106 @@ export const vocabularyForIt = [
         transcriptionInf: '[ˈdeɪtəˌbeɪs]',
         translation: 'база даних'
     },
+    {
+        id: 'VFI11',
+        infinitive: 'algorithm',
+        transcriptionInf: '[ˈælɡəˌrɪðəm]',
+        translation: 'алгоритм'
+    },
+    {
+        id: 'VFI12',
+        infinitive: 'callback',
+        transcriptionInf: '[ˈkælbæk]',
+        translation: 'зворотний виклик'
+    },
+    {
+        id: 'VFI13',
+        infinitive: 'web development',
+        transcriptionInf: '[wɛb dɪˈvɛləpmənt]',
+        translation: 'веб-розробка'
+    },
+    {
+        id: 'VFI14',
+        infinitive: 'algorithm',
+        transcriptionInf: '[ˈælɡəˌrɪðəm]',
+        translation: 'алгоритм'
+    },
+    {
+        id: 'VFI15',
+        infinitive: 'debugging',
+        transcriptionInf: '[ˈdiːbʌɡɪŋ]',
+        translation: 'відлагодження'
+    },
+    {
+        id: 'VFI16',
+        infinitive: 'declaration',
+        transcriptionInf: '[ˌdɛkləˈreɪʃən]',
+        translation: 'оголошення'
+    },
+    {
+        id: 'VFI17',
+        infinitive: 'encryption',
+        transcriptionInf: '[ɪnˈkrɪpʃən]',
+        translation: 'шифрування'
+    },
+    {
+        id: 'VFI18',
+        infinitive: 'variable',
+        transcriptionInf: '[ˈvɛəriəbl]',
+        translation: 'змінна'
+    },
+    {
+        id: 'VFI19',
+        infinitive: 'iteration',
+        transcriptionInf: '[ˌɪtəˈreɪʃən]',
+        translation: 'ітерація'
+    },
+    {
+        id: 'VFI20',
+        infinitive: 'library',
+        transcriptionInf: '[ˈlɪbrəri]',
+        translation: 'бібліотека'
+    },
+    {
+        id: 'VFI21',
+        infinitive: 'loop',
+        transcriptionInf: '[luːp]',
+        translation: 'цикл'
+    },
+    {
+        id: 'VFI22',
+        infinitive: 'framework',
+        transcriptionInf: '[ˈfreɪmˌwɜːrk]',
+        translation: 'фреймворк'
+    },
+    {
+        id: 'VFI23',
+        infinitive: 'function',
+        transcriptionInf: '[ˈfʌŋkʃən]',
+        translation: 'функція'
+    },
+    {
+        id: 'VFI24',
+        infinitive: 'property',
+        transcriptionInf: '[ˈprɒpərti]',
+        translation: 'властивість'
+    },
+    {
+        id: 'VFI25',
+        infinitive: 'query',
+        transcriptionInf: '[ˈkwɪəri]',
+        translation: 'запит'
+    },
+    {
+        id: 'VFI26',
+        infinitive: 'authentication',
+        transcriptionInf: '[ɔːˌθɛntɪˈkeɪʃən]',
+        translation: 'аутентифікація'
+    },
+    {
+        id: 'VFI27',
+        infinitive: 'deployment',
+        transcriptionInf: '[dɪˈplɔɪmənt]',
+        translation: 'розгортання'
+    },
 ]

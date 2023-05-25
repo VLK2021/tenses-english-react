@@ -1,8 +1,8 @@
-.presentContinuous{
+.presentContinuous {
     padding: 1rem;
 }
 
-.presentContinuous > h1{
+.presentContinuous > h1 {
     color: var(--var-color-h);
     text-transform: uppercase;
     text-shadow: 0.2rem 0.2rem 0.2rem grey;
@@ -10,7 +10,7 @@
     text-decoration: underline;
 }
 
-.presentContinuous-rule{
+.presentContinuous-rule {
     color: var(--var-color-text);
     margin: 0 0 1rem 0;
 }
@@ -19,11 +19,11 @@
 .presentContinuous-formation > h2,
 .presentContinuous-affirmative > h2,
 .presentContinuous-negative > h2,
-.presentContinuous-interrogative > h2{
+.presentContinuous-interrogative > h2 {
     color: var(--var-color-h);
 }
 
-.presentContinuous-markers > ul{
+.presentContinuous-markers > ul {
     display: flex;
     flex-wrap: wrap;
     column-gap: 0.5rem;
@@ -32,7 +32,7 @@
     margin: 0.5rem 0 0 0.5rem;
 }
 
-.presentContinuous-markers > ul > li{
+.presentContinuous-markers > ul > li {
     text-align: center;
     color: var(--var-color-li);
 }

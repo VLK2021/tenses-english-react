@@ -3,11 +3,14 @@ import React, {useState} from 'react';
 import './ForItComponentStyle.css';
 import {vocabularyTitlesForGroups, vocabularyForIt} from "../../../constants";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
+import FormSearchComponent from "../../FormSearchComponent/FormSearchComponent";
 
 
 const ForItComponent = () => {
     const [visible, setVisible] = useState(false);
     const [obj, setObj] = useState({});
+
+
 
     const [newVocabularyForIt, setNewVocabularyForIt] = useState(vocabularyForIt);
 
@@ -28,13 +31,19 @@ const ForItComponent = () => {
         <main className={'forItComponent width flexDirectionColumn'}>
             <h1>words For It</h1>
 
-            <section className={'select'}>
-                <p>sort by:</p>
+            <section className={'select width'}>
+                <article>
+                    <p>sort by:</p>
 
-                <select name="ddd" id="" onChange={handleSelectChange}>
-                    <option value="growth">by growth</option>
-                    <option value="decline">by decline</option>
-                </select>
+                    <select name="ddd" id="" onChange={handleSelectChange}>
+                        <option value="growth">by growth</option>
+                        <option value="decline">by decline</option>
+                    </select>
+                </article>
+
+                <article className={'forItComponent-form'}>
+                    <FormSearchComponent setNewVocabularyForIt={setNewVocabularyForIt}/>
+                </article>
             </section>
 
             <section className={'forItComponent-vocabulary width flexDirectionColumn'}>
