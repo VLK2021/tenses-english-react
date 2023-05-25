@@ -211,59 +211,51 @@ export const tenses = [
         markers: [
             {
                 id: 1,
-                name: ','
+                name: 'at that moment ,'
             },
             {
                 id: 2,
-                name: ','
+                name: 'at the same time ,'
             },
             {
                 id: 3,
-                name: ','
+                name: 'while ,'
             },
             {
                 id: 4,
-                name: ','
+                name: 'when ,'
             },
             {
                 id: 5,
-                name: ','
+                name: 'as,'
             },
             {
                 id: 6,
-                name: ','
+                name: 'all morning / the whole morning ,'
             },
             {
                 id: 7,
-                name: ','
+                name: 'all night (long) / the whole night ,'
             },
             {
                 id: 8,
-                name: ','
+                name: 'all evening / the whole evening ,'
             },
             {
                 id: 9,
-                name: ','
+                name: 'all day (long) / the whole day ,'
             },
             {
                 id: 10,
-                name: ','
+                name: 'last Monday,'
             },
             {
                 id: 11,
-                name: ','
+                name: 'last week,'
             },
             {
                 id: 12,
-                name: ','
-            },
-            {
-                id: 13,
-                name: ','
-            },
-            {
-                id: 14,
-                name: ''
+                name: 'last year ,'
             },
         ]
     },
