@@ -161,4 +161,34 @@ export const vocabularyForIt = [
         transcriptionInf: '[dɪˈplɔɪmənt]',
         translation: 'розгортання'
     },
+    {
+        id: 'VFI28',
+        infinitive: 'binary',
+        transcriptionInf: '[ˈbaɪnəri]',
+        translation: 'двійковий'
+    },
+    {
+        id: 'VFI29',
+        infinitive: 'branch',
+        transcriptionInf: '[bræntʃ]',
+        translation: 'гілка'
+    },
+    {
+        id: 'VFI30',
+        infinitive: 'build',
+        transcriptionInf: '[bɪld]',
+        translation: 'збірка'
+    },
+    {
+        id: 'VFI31',
+        infinitive: 'data',
+        transcriptionInf: '[ˈdeɪtə]',
+        translation: 'дані'
+    },
+    {
+        id: 'VFI32',
+        infinitive: 'DOM',
+        transcriptionInf: '[dɒm]',
+        translation: 'DOM (обєктна модель документу)'
+},
 ]

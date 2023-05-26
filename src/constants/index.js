@@ -5,3 +5,4 @@ export * from './titles';
 export * from '../constants/vocabulary/vocabularyTitle';
 export * from '../constants/vocabulary/vocabularyForIt';
 export * from '../constants/vocabulary/vocabularyTitleForGroups';
+export * from '../constants/vocabulary/alphabet';

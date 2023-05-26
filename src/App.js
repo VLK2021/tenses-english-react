@@ -12,6 +12,7 @@ import FutureContinuous from "./components/FutureContinuous/FutureContinuous";
 import IrregularVerbs from "./components/IrregularVerbs/IrregularVerbs";
 import Vocabulary from "./components/vocabularyArchive/Vocabulary/Vocabulary";
 import ForItComponent from "./components/vocabularyArchive/ForItComponent/ForItComponent";
+import AlphabetComponent from "./components/AlphabetComponent/AlphabetComponent";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
                     <Route path={'5'} element={<PastContinuous/>}/>
                     <Route path={'6'} element={<FutureContinuous/>}/>
                     <Route path={'21'} element={<IrregularVerbs/>}/>
+                    <Route path={'23'} element={<AlphabetComponent/>}/>
                     <Route path={'24'} element={<Vocabulary/>}>
                         <Route path={'VT3'} element={<ForItComponent/>}/>
                     </Route>

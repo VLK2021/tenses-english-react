@@ -47,7 +47,7 @@ const PastContinuous = () => {
                 <article className={'futureSimple-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
                         <strong>Past Continuous (Past Progressive)</strong> утворюється за допомогою допоміжного
-                        дієслова was або were та форми простого дієприкметника теперішнього часу (дієслово з
+                        дієслова <strong>was або were</strong> та форми простого дієприкметника теперішнього часу (дієслово з
                         закінченням <strong>-ing</strong>). <strong>Was та were </strong>– це форми минулого часу
                         допоміжного дієслова <strong>to be</strong>.
                         Вибір необхідної форми залежить від підмета (головного члена речення), його особи та
