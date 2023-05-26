@@ -6,3 +6,4 @@ export * from '../constants/vocabulary/vocabularyTitle';
 export * from '../constants/vocabulary/vocabularyForIt';
 export * from '../constants/vocabulary/vocabularyTitleForGroups';
 export * from '../constants/vocabulary/alphabet';
+export * from '../constants/vocabulary/fruitsAndVegetables';
