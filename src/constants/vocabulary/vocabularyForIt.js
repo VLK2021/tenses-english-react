@@ -78,10 +78,10 @@ export const vocabularyForIt = [
         translation: 'веб-розробка'
     },
     {
-        id: 'VFI14',
-        infinitive: 'algorithm',
-        transcriptionInf: '[ˈælɡəˌrɪðəm]',
-        translation: 'алгоритм'
+        id: 'VFI4',
+        infinitive: 'accelerator',
+        transcriptionInf: '[əkˈsɛləˌreɪtər]',
+        translation: 'прискорювач'
     },
     {
         id: 'VFI15',
@@ -190,5 +190,53 @@ export const vocabularyForIt = [
         infinitive: 'DOM',
         transcriptionInf: '[dɒm]',
         translation: 'DOM (обєктна модель документу)'
-},
+    },
+    {
+        id: 'VF33',
+        infinitive: 'compiler',
+        transcriptionInf: '[kəmˈpaɪlər]',
+        translation: 'компілятор'
+    },
+    {
+        id: 'VFI34',
+        infinitive: 'source code',
+        transcriptionInf: '[sɔːrs koʊd]',
+        translation: 'вихідний код'
+    },
+    {
+        id: 'VFI35',
+        infinitive: 'download',
+        transcriptionInf: '[ˈdaʊnˌloʊd]',
+        translation: 'завантажувати'
+    },
+    {
+        id: 'VFI36',
+        infinitive: 'event',
+        transcriptionInf: '[ɪˈvɛnt]',
+        translation: 'подія'
+    },
+    {
+        id: 'VFI37',
+        infinitive: 'exception',
+        transcriptionInf: '[ɪkˈsɛpʃən]',
+        translation: 'виключення'
+    },
+    {
+        id: 'VFI38',
+        infinitive: 'input',
+        transcriptionInf: '[ˈɪnˌpʊt]',
+        translation: 'введення'
+    },
+    {
+        id: 'VFI39',
+        infinitive: 'keyword',
+        transcriptionInf: '[ˈkiːwɜːrd]',
+        translation: 'ключове слово'
+    },
+    {
+        id: 'VFI40',
+        infinitive: 'pointer',
+        transcriptionInf: '[ˈpɔɪntər]',
+        translation: 'вказівник'
+    },
 ]

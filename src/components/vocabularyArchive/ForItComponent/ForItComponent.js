@@ -10,6 +10,7 @@ const ForItComponent = () => {
     const [visible, setVisible] = useState(false);
     const [obj, setObj] = useState({});
 
+
     const [newVocabularyForIt, setNewVocabularyForIt] = useState(vocabularyForIt);
 
 
@@ -19,10 +20,25 @@ const ForItComponent = () => {
             const sortByGrows = newVocabularyForIt.slice().sort((a, b) => a.infinitive > b.infinitive ? 1 : -1)
             setNewVocabularyForIt(sortByGrows)
         } else {
-                const sortByDecline = newVocabularyForIt.slice().sort((a, b) => b.infinitive > a.infinitive ? 1 : -1)
-                setNewVocabularyForIt(sortByDecline)
+            const sortByDecline = newVocabularyForIt.slice().sort((a, b) => b.infinitive > a.infinitive ? 1 : -1)
+            setNewVocabularyForIt(sortByDecline)
         }
     };
+
+
+    const getNext = () => {
+        const currentIndex = newVocabularyForIt.findIndex(item => item.id === obj.id);
+        for (let i = 0; i < newVocabularyForIt.length; i++) {
+            const element = newVocabularyForIt[i];
+            if (element.id === obj.id) {
+                setObj(newVocabularyForIt[i + 1]);
+            }
+            if (currentIndex === newVocabularyForIt.length - 1) {
+                setObj(newVocabularyForIt[0])
+            }
+        }
+    }
+
 
 
     return (
@@ -68,9 +84,10 @@ const ForItComponent = () => {
 
                 {
                     visible &&
-                    <div className={'trainingPopUp'}>
+                    <div className={'trainingPopUp direction-column'}>
                         <button className={'trainingPopUp-btn'} onClick={() => setVisible(false)}>close</button>
                         <h1>{obj.translation}</h1>
+                        <button className={'trainingPopUp-btn'} onClick={getNext}>next</button>
                     </div>
                 }
             </section>
