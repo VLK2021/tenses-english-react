@@ -78,7 +78,7 @@ export const vocabularyForIt = [
         translation: 'веб-розробка'
     },
     {
-        id: 'VFI4',
+        id: 'VFI14',
         infinitive: 'accelerator',
         transcriptionInf: '[əkˈsɛləˌreɪtər]',
         translation: 'прискорювач'

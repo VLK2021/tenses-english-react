@@ -1,3 +1,39 @@
 .futureContinuous{
+    padding: 1rem;
+}
 
+.futureContinuous > h1{
+    color: var(--var-color-h);
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.2rem 0.2rem grey;
+    margin: 0 0 1rem 0;
+    text-decoration: underline;
+}
+
+
+.futureContinuous-rule {
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.futureContinuous-markers > ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.futureContinuous-markers > ul > li {
+    text-align: center;
+    color: var(--var-color-li);
+}
+
+.futureContinuous-markers > h2,
+.futureContinuous-formation > h2,
+.futureContinuous-affirmative > h2,
+.futureContinuous-negative > h2,
+.futureContinuous-interrogative > h2 {
+    color: var(--var-color-h);
 }

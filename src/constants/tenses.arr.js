@@ -265,59 +265,91 @@ export const tenses = [
         markers: [
             {
                 id: 1,
-                name: ','
+                name: 'at 5 o\'clock ,'
             },
             {
                 id: 2,
-                name: ','
+                name: 'at that moment ,'
             },
             {
                 id: 3,
-                name: ','
+                name: 'this time tomorrow,'
             },
             {
                 id: 4,
-                name: ','
+                name: 'the same time next week,'
             },
             {
                 id: 5,
-                name: ','
+                name: 'from two till three,'
             },
             {
                 id: 6,
-                name: ','
+                name: 'from Monday till Friday,'
             },
             {
                 id: 7,
-                name: ','
+                name: 'from 10 a.m. to 11 a.m. tomorrow,'
             },
             {
                 id: 8,
-                name: ','
+                name: 'from 6 p.m. to 9 p.m. the day after tomorrow,'
             },
             {
                 id: 9,
-                name: ','
+                name: 'meanwhile ,'
             },
             {
                 id: 10,
-                name: ','
+                name: 'meantime ,'
             },
             {
                 id: 11,
-                name: ','
+                name: 'in the meantime,'
             },
             {
                 id: 12,
-                name: ','
+                name: 'during this time ,'
             },
             {
                 id: 13,
-                name: ','
+                name: 'during the morning,'
             },
             {
-                id: 14,
-                name: ''
+                id: 15,
+                name: 'during the day,'
+            },
+            {
+                id: 16,
+                name: 'during the evening,'
+            },
+            {
+                id: 17,
+                name: 'for 2 hours,'
+            },
+            {
+                id: 18,
+                name: 'for a week,'
+            },
+            {
+                id: 19,
+                name: 'for months,'
+            },
+            {
+                id: 20,
+                name: 'the whole evening,'
+            },
+            {
+                id: 21,
+                name: 'the whole year,'
+            },
+            {
+                id: 22,
+                name: 'all day long,'
+            },
+            {
+                id: 23,
+                name: 'all the time'
             },
         ]
     },

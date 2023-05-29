@@ -5,6 +5,7 @@ import {fruitsAndVegetables} from "../../../constants";
 import {vocabularyTitlesForGroups} from "../../../constants";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
 import FormSearchComponent from "../../FormSearchComponent/FormSearchComponent";
+import PopUpComponent from "../PopUpComponent/PopUpComponent";
 
 
 const FruitsAndVegetables = () => {
@@ -23,6 +24,7 @@ const FruitsAndVegetables = () => {
             setNewFruitsAndVegetables(sortByDecline)
         }
     };
+
 
     return (
         <main className={'width fruitsAndVegetables flexDirectionColumn'}>
@@ -66,11 +68,11 @@ const FruitsAndVegetables = () => {
                 </article>
 
                 {
-                    visible &&
-                    <div className={'trainingPopUp'}>
-                        <button className={'trainingPopUp-btn'} onClick={() => setVisible(false)}>close</button>
-                        <h1>{obj.translation}</h1>
-                    </div>
+                    visible && <PopUpComponent setVisible={setVisible}
+                                               newFruitsAndVegetables={newFruitsAndVegetables}
+                                               obj={obj}
+                                               setObj={setObj}
+                    />
                 }
             </section>
         </main>

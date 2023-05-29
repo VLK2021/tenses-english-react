@@ -31,26 +31,6 @@
     margin: 1rem 0 0 0;
 }
 
-.trainingPopUp{
-    width: 69%;
-    min-height: 15rem;
-    background: gainsboro;
-    position: fixed;
-    top: 45%;
-}
-
-.trainingPopUp-btn{
-    background: #4d79ff;
-    text-align: center;
-}
-
-.direction-column{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .select{
     display: flex;
     justify-content: space-between;

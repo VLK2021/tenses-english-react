@@ -8,7 +8,6 @@ import {vocabularyTitle} from "../../../constants";
 
 const Vocabulary = () => {
 
-
     return (
         <main className={'vocabulary width flexDirectionColumn'}>
             <h1 className={''}>Vocabulary</h1>
