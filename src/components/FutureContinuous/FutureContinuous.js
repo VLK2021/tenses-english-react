@@ -38,9 +38,82 @@ const FutureContinuous = () => {
 
                 <article className={'futureContinuous-formation-info fontSizeText width'}>
                     <p>
-                        Форма <strong>Future Continuous</strong> складається з допоміжного дієслова <strong>"will"</strong>
+                        Форма <strong>Future Continuous</strong> складається з допоміжного
+                        дієслова <strong>"will"</strong>
                         (або <strong>"shall"</strong> для першої особи однини) + дієслово <strong>"be"</strong> у
                         формі <strong>Present participle</strong> (дієприкметник з закінченням <strong>-ing</strong>).
+                    </p>
+                </article>
+            </section>
+
+            <section className={'futureContinuous-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Affirmative sentence</h2>
+
+                <article className={'futureContinuous-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        <strong>Future Continuous (Future Progressive)</strong> утворюється за допомогою допоміжного
+                        дієслова <strong>will</strong> (рідше <strong>shall для I та We</strong>) та форми тривалого
+                        інфінітиву (<strong>be</strong> + дієслово з закінченням <strong>-ing</strong>).
+                        <strong>Will</strong> в сучасній англійській мові вживається для всіх осіб однини та множини.
+                        <strong>Shall</strong> використовується з першою особою <strong>I, We</strong>, але його
+                        використання зараз вважається застарілим. В сучасній англійській для всіх осіб будь-якого числа
+                        використовується тільки <strong>will</strong> й це не вважається помилкою.
+                        Але <strong>shall</strong>
+                        ще можна зустріти в газетах, старих або офіційних текстах, в художній літературі.
+                        <span className={'example'}>
+                            <p>I <b>shall be</b> work<b>ing</b> here. – Я буду тут працювати.</p>
+                            <p>He <b>will be</b> drink<b>ing</b> tea with us. – Він буде пити з нами чай.</p>
+                            <p>We <b>will be</b> danc<b>ing</b> all night. – Ми будемо танцювати всю ніч.</p>
+                            <p>I’<b>ll be</b> sitt<b>ing</b> there. – Я буду сидіти там.</p>
+                            <p>She’<b>ll be</b> send<b>ing</b> some letters. – Вона буде відправляти якісь листи.</p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'futureContinuous-negative flexDirectionColumn width fontSizeText'}>
+                <h2 className={'marginTop'}>Negative sentence</h2>
+
+                <article className={'width fontSizeText'}>
+                    <p className={'width'}>
+                        Заперечення в <strong>Future Continuous</strong> утворюється за допомогою додавання частки
+                        <strong>not</strong> після дієслова <strong>will</strong> або <strong>shall</strong>.
+
+                        <span className={'example'}>
+                            <p>I <b>will not be</b> working here. – Я не буду працювати тут.</p>
+                            <p>He <b>will not be</b> drinking tea with us. – Він не буде пити з нами чай.</p>
+                            <p>We <b>will not be</b> dancing all night. – Ми не будемо танцювати всю ніч.</p>
+                            <p>I <b>won’t be</b> working here. – Я не буду працювати тут.</p>
+                            <p>We <b>shan’t be</b> dancing all night. – Ми не будемо танцювати всю ніч.</p>
+                    </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'futureContinuous-interrogative flexDirectionColumn width fontSizeText'}>
+                <h2 className={'marginTop'}>Interrogative sentence</h2>
+
+                <article className={'width fontSizeText'}>
+                    <p className={'width'}>
+                        Загальне питання в <strong>Future Continuous</strong> утворюється за допомогою винесення
+                        допоміжного дієслова <strong>will</strong> (або <strong>shall</strong>) на початок речення перед
+                        підметом.
+                        <span className={'example'}>
+                            <p><b>Will</b> I be working here? – Я буду тут працювати?</p>
+                            <p><b>Will</b> he be drinking tea with us? – Він буде пити з нами чай?</p>
+                            <p><b>Will</b> we be dancing all night? – Ми будемо танцювати всю ніч?</p>
+                    </span>
+                    </p>
+
+                    <p className={'width marginTop'}>
+                        Спеціальне питання в <strong>Future Continuous</strong> утворюється за допомогою питального
+                        слова або фрази, що ставиться в самий початок речення. Подальший порядок слів такий самий,
+                        як і в загальному питанні для <strong>Future Continuous</strong>.
+                        <span className={'example'}>
+                            <p><b>What will</b> I be doing here? – Що я буду тут робити?</p>
+                            <p><b>Whom will</b> he be drinking tea with? – З ким він буде пити чай?</p>
+                            <p><b>How long will</b> we be dancing? – Як довго ми будемо танцювати?</p>
+                    </span>
                     </p>
                 </article>
             </section>

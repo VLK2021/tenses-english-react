@@ -1,8 +1,8 @@
-.futureContinuous{
+.futureContinuous {
     padding: 1rem;
 }
 
-.futureContinuous > h1{
+.futureContinuous > h1 {
     color: var(--var-color-h);
     text-transform: uppercase;
     text-shadow: 0.2rem 0.2rem 0.2rem grey;
