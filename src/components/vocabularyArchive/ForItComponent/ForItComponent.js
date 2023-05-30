@@ -26,7 +26,6 @@ const ForItComponent = () => {
         }
     };
 
-
     // const getNext = () => {
     //     const currentIndex = newVocabularyForIt.findIndex(item => item.id === obj.id);
     //     for (let i = 0; i < newVocabularyForIt.length; i++) {
@@ -54,6 +53,8 @@ const ForItComponent = () => {
                         <option value="decline">by decline</option>
                     </select>
                 </article>
+
+                <div>{vocabularyForIt.length}</div>
 
                 <article className={'forItComponent-form'}>
                     <FormSearchComponent setNewVocabularyForIt={setNewVocabularyForIt}/>

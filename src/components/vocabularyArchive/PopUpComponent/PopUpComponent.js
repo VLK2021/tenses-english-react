@@ -4,17 +4,25 @@ import './PopUpComponentStyle.css';
 
 
 const PopUpComponent = (props) => {
-    const {setVisible, obj, setObj, newFruitsAndVegetables, newVocabularyForIt} = props;
+    const {
+        setVisible, obj, setObj,
+        newFruitsAndVegetables,
+        newVocabularyForIt,
+        newVocabularyHome
+    } = props;
 
     const [arrayWords, setArrayWords] = useState([]);
 
 
-    useEffect(()=>{
-        if (newFruitsAndVegetables){
+    useEffect(() => {
+        if (newFruitsAndVegetables) {
             setArrayWords(newFruitsAndVegetables)
         }
-        if (newVocabularyForIt){
+        if (newVocabularyForIt) {
             setArrayWords(newFruitsAndVegetables)
+        }
+        if (newVocabularyHome) {
+            setArrayWords(newVocabularyHome)
         }
     }, []);
 

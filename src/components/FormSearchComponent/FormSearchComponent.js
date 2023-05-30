@@ -2,12 +2,13 @@ import React, {useEffect, useState} from 'react';
 import {useForm} from "react-hook-form";
 
 import './FormSearchComponentStyle.css';
-import {vocabularyForIt, fruitsAndVegetables} from "../../constants";
+import {vocabularyForIt, fruitsAndVegetables, vocabularyHome} from "../../constants";
 
 
 const FormSearchComponent = ({
                                  setNewVocabularyForIt,
-                                 setNewFruitsAndVegetables
+                                 setNewFruitsAndVegetables,
+                                 setNewVocabularyHome
                              }) => {
     const {register, handleSubmit, setValue} = useForm();
     const [query, setQuery] = useState('');
@@ -25,6 +26,10 @@ const FormSearchComponent = ({
         }
         if (url.includes('VT7')) {
             setNewFruitsAndVegetables(fruitsAndVegetables.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setValue('search', query);
+        }
+        if (url.includes('VT1')) {
+            setNewVocabularyHome(vocabularyHome.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
     }, [query]);

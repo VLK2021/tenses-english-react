@@ -239,4 +239,28 @@ export const vocabularyForIt = [
         transcriptionInf: '[ˈpɔɪntər]',
         translation: 'вказівник'
     },
+    {
+        id: 'VFI41',
+        infinitive: 'return',
+        transcriptionInf: '[rɪˈtɜːrn]',
+        translation: 'повернення'
+    },
+    {
+        id: 'VFI42',
+        infinitive: 'functionality',
+        transcriptionInf: '[ˌfʌŋkʃəˈnæləti]',
+        translation: 'функціональність'
+    },
+    {
+        id: 'VFI43',
+        infinitive: 'error',
+        transcriptionInf: '[ˈɛrər]',
+        translation: 'помилка'
+    },
+    {
+        id: 'VFI44',
+        infinitive: 'cloud computing',
+        transcriptionInf: '[klaʊd kəmˈpjuːtɪŋ]',
+        translation: 'хмарне обчислення'
+    },
 ]
