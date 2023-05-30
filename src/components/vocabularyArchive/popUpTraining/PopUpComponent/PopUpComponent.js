@@ -8,10 +8,12 @@ const PopUpComponent = (props) => {
         setVisible, obj, setObj,
         newFruitsAndVegetables,
         newVocabularyForIt,
-        newVocabularyHome
+        newVocabularyHome,
+        newVocabularyAdverbs
     } = props;
 
     const [arrayWords, setArrayWords] = useState([]);
+    const [visiblePop, setVisiblePop] = useState(true);
 
 
     useEffect(() => {
@@ -19,13 +21,15 @@ const PopUpComponent = (props) => {
             setArrayWords(newFruitsAndVegetables)
         }
         if (newVocabularyForIt) {
-            setArrayWords(newFruitsAndVegetables)
+            setArrayWords(newVocabularyForIt)
         }
         if (newVocabularyHome) {
             setArrayWords(newVocabularyHome)
         }
+        if (newVocabularyAdverbs) {
+            setArrayWords(newVocabularyAdverbs)
+        }
     }, []);
-
 
     const getNext = () => {
         const currentIndex = arrayWords.findIndex(item => item.id === obj.id);
@@ -59,6 +63,11 @@ const PopUpComponent = (props) => {
             <button className={'trainingPopUp-btn'} onClick={() => setVisible(false)}>close</button>
 
             <h1>{obj.translation}</h1>
+            {
+                visiblePop &&
+                <div>{obj.infinitive}</div>
+            }
+            <button className={'popBtn'} onClick={() => setVisiblePop(!visiblePop)}>show / don't Show</button>
 
             <article className={'width nextPrev'}>
                 <button className={'trainingPopUp-btn'} onClick={getPrev}>prev</button>

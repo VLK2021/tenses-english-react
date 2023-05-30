@@ -1,35 +1,35 @@
 import React, {useState} from 'react';
 
-import './ForItComponentStyle.css';
-import {vocabularyTitlesForGroups, vocabularyForIt} from "../../../constants";
-import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
+import './AdverbsVocabularyStyle.css';
 import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
+import {vocabularyAdverbs} from "../../../constants/vocabulary/vocabularyAdverbs";
+import {vocabularyTitlesForGroups} from "../../../constants";
+import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
 import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
 
 
-const ForItComponent = () => {
+const AdverbsVocabulary = () => {
     const [visible, setVisible] = useState(false);
     const [obj, setObj] = useState({});
 
-
-    const [newVocabularyForIt, setNewVocabularyForIt] = useState(vocabularyForIt);
+    const [newVocabularyAdverbs, setNewVocabularyAdverbs] = useState(vocabularyAdverbs);
 
 
     const handleSelectChange = (e) => {
         const current = e.target.value;
         if (current === 'growth') {
-            const sortByGrows = newVocabularyForIt.slice().sort((a, b) => a.infinitive > b.infinitive ? 1 : -1)
-            setNewVocabularyForIt(sortByGrows)
+            const sortByGrows = newVocabularyAdverbs.slice().sort((a, b) => a.infinitive > b.infinitive ? 1 : -1)
+            setNewVocabularyAdverbs(sortByGrows)
         } else {
-            const sortByDecline = newVocabularyForIt.slice().sort((a, b) => b.infinitive > a.infinitive ? 1 : -1)
-            setNewVocabularyForIt(sortByDecline)
+            const sortByDecline = newVocabularyAdverbs.slice().sort((a, b) => b.infinitive > a.infinitive ? 1 : -1)
+            setNewVocabularyAdverbs(sortByDecline)
         }
     };
 
 
     return (
-        <main className={'forItComponent width flexDirectionColumn'}>
-            <h1>words For It</h1>
+        <main className={'adverbsVocabulary width flexDirectionColumn'}>
+            <h1>Adverbs</h1>
 
             <section className={'select width'}>
                 <article>
@@ -41,15 +41,15 @@ const ForItComponent = () => {
                     </select>
                 </article>
 
-                <div>{vocabularyForIt.length}</div>
+                <div>{vocabularyAdverbs.length}</div>
 
-                <article className={'forItComponent-form'}>
-                    <FormSearchComponent setNewVocabularyForIt={setNewVocabularyForIt}/>
+                <article className={'adverbsVocabulary-form'}>
+                    <FormSearchComponent setNewVocabularyAdverbs={setNewVocabularyAdverbs}/>
                 </article>
             </section>
 
-            <section className={'forItComponent-vocabulary width flexDirectionColumn'}>
-                <header className={'width forItComponent-vocabulary-title'}>
+            <section className={'adverbsVocabulary-vocabulary width flexDirectionColumn'}>
+                <header className={'width adverbsVocabulary-vocabulary-title'}>
                     {
                         vocabularyTitlesForGroups.map(value =>
                             <h2 key={value.id} className={'names-one'}>
@@ -61,7 +61,7 @@ const ForItComponent = () => {
 
                 <article className={'width block'}>
                     {
-                        newVocabularyForIt.map(obj => <VocabularySingleComponent
+                        newVocabularyAdverbs.map(obj => <VocabularySingleComponent
                             key={obj.id}
                             obj={obj}
                             setVisible={setVisible}
@@ -74,7 +74,7 @@ const ForItComponent = () => {
                     visible && <PopUpComponent setVisible={setVisible}
                                                obj={obj}
                                                setObj={setObj}
-                                               newVocabularyForIt={newVocabularyForIt}
+                                               newVocabularyAdverbs={newVocabularyAdverbs}
                     />
                 }
             </section>
@@ -82,4 +82,4 @@ const ForItComponent = () => {
     );
 };
 
-export default ForItComponent;
+export default AdverbsVocabulary;

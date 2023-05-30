@@ -16,6 +16,7 @@ import AlphabetComponent from "./components/AlphabetComponent/AlphabetComponent"
 import FruitsAndVegetables from "./components/vocabularyArchive/FruitsAndVegetables/FruitsAndVegetables";
 import PresentPerfect from "./components/tensesInEnglish/PresentPerfect/PresentPerfect";
 import HomeVocabularyComponent from "./components/vocabularyArchive/HomeVocabularyComponent/HomeVocabularyComponent";
+import AdverbsVocabulary from "./components/vocabularyArchive/AdverbsVocabulary/AdverbsVocabulary";
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
                         <Route path={'VT1'} element={<HomeVocabularyComponent/>}/>
                         <Route path={'VT3'} element={<ForItComponent/>}/>
                         <Route path={'VT7'} element={<FruitsAndVegetables/>}/>
+                        <Route path={'VT8'} element={<AdverbsVocabulary/>}/>
                     </Route>
                 </Route>
             </Routes>

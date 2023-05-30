@@ -8,7 +8,8 @@ import {vocabularyForIt, fruitsAndVegetables, vocabularyHome} from "../../../con
 const FormSearchComponent = ({
                                  setNewVocabularyForIt,
                                  setNewFruitsAndVegetables,
-                                 setNewVocabularyHome
+                                 setNewVocabularyHome,
+                                 setNewVocabularyAdverbs
                              }) => {
     const {register, handleSubmit, setValue} = useForm();
     const [query, setQuery] = useState('');
@@ -30,6 +31,10 @@ const FormSearchComponent = ({
         }
         if (url.includes('VT1')) {
             setNewVocabularyHome(vocabularyHome.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setValue('search', query);
+        }
+        if (url.includes('VT8')) {
+            setNewVocabularyAdverbs(vocabularyHome.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
     }, [query]);
