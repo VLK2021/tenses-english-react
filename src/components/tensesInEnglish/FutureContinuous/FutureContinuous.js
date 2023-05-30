@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './FutureContinuousStyle.css';
-import {tenses} from "../../constants";
+import {tenses} from "../../../constants";
 
 
 const FutureContinuous = () => {

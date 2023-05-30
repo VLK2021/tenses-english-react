@@ -3,8 +3,8 @@ import React, {useState} from 'react';
 import './ForItComponentStyle.css';
 import {vocabularyTitlesForGroups, vocabularyForIt} from "../../../constants";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
-import FormSearchComponent from "../../FormSearchComponent/FormSearchComponent";
-import PopUpComponent from "../PopUpComponent/PopUpComponent";
+import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
+import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
 
 
 const ForItComponent = () => {
@@ -25,19 +25,6 @@ const ForItComponent = () => {
             setNewVocabularyForIt(sortByDecline)
         }
     };
-
-    // const getNext = () => {
-    //     const currentIndex = newVocabularyForIt.findIndex(item => item.id === obj.id);
-    //     for (let i = 0; i < newVocabularyForIt.length; i++) {
-    //         const element = newVocabularyForIt[i];
-    //         if (element.id === obj.id) {
-    //             setObj(newVocabularyForIt[i + 1]);
-    //         }
-    //         if (currentIndex === newVocabularyForIt.length - 1) {
-    //             setObj(newVocabularyForIt[0])
-    //         }
-    //     }
-    // }
 
 
     return (

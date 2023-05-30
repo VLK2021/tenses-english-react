@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 
 import './HomeVocabularyComponentStyle.css';
 import {vocabularyHome, vocabularyTitlesForGroups} from "../../../constants";
-import FormSearchComponent from "../../FormSearchComponent/FormSearchComponent";
+import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
-import PopUpComponent from "../PopUpComponent/PopUpComponent";
+import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
 
 
 const HomeVocabularyComponent = () => {

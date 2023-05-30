@@ -359,59 +359,91 @@ export const tenses = [
         markers: [
             {
                 id: 1,
-                name: ','
+                name: 'ever,'
             },
             {
                 id: 2,
-                name: ','
+                name: 'never,'
             },
             {
                 id: 3,
-                name: ','
+                name: 'already,'
             },
             {
                 id: 4,
-                name: ','
+                name: 'yet,'
             },
             {
                 id: 5,
-                name: ','
+                name: 'not yet,'
             },
             {
                 id: 6,
-                name: ','
+                name: 'often,'
             },
             {
                 id: 7,
-                name: ','
+                name: 'so far,'
             },
             {
                 id: 8,
-                name: ','
+                name: 'lately,'
             },
             {
                 id: 9,
-                name: ','
+                name: 'just,'
             },
             {
                 id: 10,
-                name: ','
+                name: 'recently,'
             },
             {
                 id: 11,
-                name: ','
+                name: 'once,'
             },
             {
                 id: 12,
-                name: ','
+                name: 'many times,'
             },
             {
                 id: 13,
-                name: ','
+                name: 'several times,'
             },
             {
                 id: 14,
-                name: ''
+                name: 'before,'
+            },
+            {
+                id: 15,
+                name: 'today,'
+            },
+            {
+                id: 16,
+                name: 'this week,'
+            },
+            {
+                id: 17,
+                name: 'for an hour,'
+            },
+            {
+                id: 18,
+                name: 'for two weeks,'
+            },
+            {
+                id: 19,
+                name: 'or a long time,'
+            },
+            {
+                id: 20,
+                name: 'since twelve o’clock,'
+            },
+            {
+                id: 21,
+                name: 'since 12 April,'
+            },
+            {
+                id: 22,
+                name: 'since May'
             },
         ]
     },
@@ -473,6 +505,34 @@ export const tenses = [
             },
             {
                 id: 14,
+                name: ''
+            },
+            {
+                id: 15,
+                name: ''
+            },
+            {
+                id: 16,
+                name: ''
+            },
+            {
+                id: 17,
+                name: ''
+            },
+            {
+                id: 17,
+                name: ''
+            },
+            {
+                id: 18,
+                name: ''
+            },
+            {
+                id: 19,
+                name: ''
+            },
+            {
+                id: 20,
                 name: ''
             },
         ]

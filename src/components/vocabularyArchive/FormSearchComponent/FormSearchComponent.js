@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {useForm} from "react-hook-form";
 
 import './FormSearchComponentStyle.css';
-import {vocabularyForIt, fruitsAndVegetables, vocabularyHome} from "../../constants";
+import {vocabularyForIt, fruitsAndVegetables, vocabularyHome} from "../../../constants";
 
 
 const FormSearchComponent = ({

@@ -3,18 +3,18 @@ import {Route, Routes} from "react-router-dom";
 import './App.css';
 import Layout from "./Layout/Layout";
 import HomeComponent from "./components/HomeComponent/HomeComponent";
-import PresentSimple from "./components/PresentSimple/PresentSimple";
-import PastSimple from "./components/PastSimple/PastSimple";
-import FutureSimple from "./components/FutureSimple/FutureSimple";
-import PresentContinuous from "./components/PresentContinuous/PresentContinuous";
-import PastContinuous from "./components/PastContinuous/PastContinuous";
-import FutureContinuous from "./components/FutureContinuous/FutureContinuous";
+import PresentSimple from "./components/tensesInEnglish/PresentSimple/PresentSimple";
+import PastSimple from "./components/tensesInEnglish/PastSimple/PastSimple";
+import FutureSimple from "./components/tensesInEnglish/FutureSimple/FutureSimple";
+import PresentContinuous from "./components/tensesInEnglish/PresentContinuous/PresentContinuous";
+import PastContinuous from "./components/tensesInEnglish/PastContinuous/PastContinuous";
+import FutureContinuous from "./components/tensesInEnglish/FutureContinuous/FutureContinuous";
 import IrregularVerbs from "./components/IrregularVerbs/IrregularVerbs";
 import Vocabulary from "./components/vocabularyArchive/Vocabulary/Vocabulary";
 import ForItComponent from "./components/vocabularyArchive/ForItComponent/ForItComponent";
 import AlphabetComponent from "./components/AlphabetComponent/AlphabetComponent";
 import FruitsAndVegetables from "./components/vocabularyArchive/FruitsAndVegetables/FruitsAndVegetables";
-import PresentPerfect from "./components/PresentPerfect/PresentPerfect";
+import PresentPerfect from "./components/tensesInEnglish/PresentPerfect/PresentPerfect";
 import HomeVocabularyComponent from "./components/vocabularyArchive/HomeVocabularyComponent/HomeVocabularyComponent";
 
 

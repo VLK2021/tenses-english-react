@@ -4,8 +4,8 @@ import './FruitsAndVegetablesІеsStyle.css';
 import {fruitsAndVegetables} from "../../../constants";
 import {vocabularyTitlesForGroups} from "../../../constants";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
-import FormSearchComponent from "../../FormSearchComponent/FormSearchComponent";
-import PopUpComponent from "../PopUpComponent/PopUpComponent";
+import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
+import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
 
 
 const FruitsAndVegetables = () => {
