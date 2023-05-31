@@ -15,9 +15,11 @@ const PastPerfect = () => {
                 <strong>Past Perfect Tense (Past Perfect)</strong> є одним із часів в англійській мові, який
                 використовується для вираження дій або станів, які відбулися перед певним моментом в минулому. Він
                 показує послідовність подій у минулому, де одна подія сталася перед іншою. <strong>Past Perfect</strong>
-                використовується для вираження дії, яка передує іншій дії у минулому або ж відбувалася до певного моменту
+                використовується для вираження дії, яка передує іншій дії у минулому або ж відбувалася до певного
+                моменту
                 в минулому. Використовується для вираження дій, що завершилися в минулому й результат цих дій був також
-                спостерігався у минулому. <br/> <strong>Past Perfect</strong> використовується в конструкціях <strong>hardly...when</strong>
+                спостерігався у минулому. <br/> <strong>Past Perfect</strong> використовується в
+                конструкціях <strong>hardly...when</strong>
                 та <strong>no sooner...than</strong>. Ці два вирази перекладаються як «ледь я», «тільки-но я»,
                 «тільки щойно я». В таких реченнях <strong>Past Perfect</strong> також описує минулу дію, що відбулася
                 перед іншою дією. Однак, особливістю є те, що в частині з <strong>Past Perfect</strong> використовується
@@ -40,9 +42,11 @@ const PastPerfect = () => {
 
                 <article className={'pastPerfect-formation-info fontSizeText width'}>
                     <p>
-                        Для утворення <strong>Past Perfect</strong> використовується допоміжне дієслово <strong>"had"</strong>
+                        Для утворення <strong>Past Perfect</strong> використовується допоміжне
+                        дієслово <strong>"had"</strong>
                         у поєднанні з основним дієсловом у формі <strong>Past Participle</strong> (3-я форма дієслова).
-                        Як і у випадку з <strong>Present Perfect</strong>, для утворення <strong>Past Participle</strong> можуть
+                        Як і у випадку з <strong>Present Perfect</strong>, для утворення <strong>Past
+                        Participle</strong> можуть
                         використовуватися різні правила та закінчення, залежно від типу дієслова. Найчастіше
                         <strong>Past Participle</strong> співпадає із 2-ою формою дієслова (Past Simple).
                     </p>
@@ -59,8 +63,10 @@ const PastPerfect = () => {
                         <strong>Had</strong> – це форма минулого часу допоміжного дієслова <strong>have</strong>.
                         <strong>Past Participle</strong> для правильних дієслів утворюється шляхом додавання
                         закінчення <strong>-ed</strong> до словникової форми дієслова. Неправильні дієслова мають свої
-                        окремі треті форми, які можна взяти з таблиці неправильних дієслів. Форми <strong>Past Perfect</strong>,
-                        на відміну від <strong>Past Simple</strong>, завжди утворюються допоміжним дієсловом <strong>had</strong>
+                        окремі треті форми, які можна взяти з таблиці неправильних дієслів. Форми <strong>Past
+                        Perfect</strong>,
+                        на відміну від <strong>Past Simple</strong>, завжди утворюються допоміжним
+                        дієсловом <strong>had</strong>
                         та формою <strong>Past Participle</strong> (третя форма дієслова) від смислового дієслова.
                         <span className={'example'}>
                             <p>I <b>had booked</b> the table. – Я замовила (забронювала) столик</p>
@@ -105,7 +111,8 @@ const PastPerfect = () => {
                     <p className={'width marginTop'}>
                         Спеціальне питання в <strong>Past Perfect</strong> утворюється за допомогою питального слова
                         або фрази, що стоїть на самому початку речення. Подальший порядок слів такий самий, як і в
-                        загальному питанні для <strong>Past Perfect</strong> (<strong>had</strong> + підмет + третя форма дієслова).
+                        загальному питанні для <strong>Past Perfect</strong> (<strong>had</strong> + підмет + третя
+                        форма дієслова).
                         <span className={'example'}>
                             <p><b>What had</b> I done? – Що я зробила?</p>
                             <p><b>Where had</b> she washed this cup? – Де вона мила цю чашку?</p>

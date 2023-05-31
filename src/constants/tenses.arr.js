@@ -578,59 +578,55 @@ export const tenses = [
         markers: [
             {
                 id: 1,
-                name: ','
+                name: 'before,'
             },
             {
                 id: 2,
-                name: ','
+                name: 'till,'
             },
             {
                 id: 3,
-                name: ','
+                name: 'until,'
             },
             {
                 id: 4,
-                name: ','
+                name: 'by then,'
             },
             {
                 id: 5,
-                name: ','
+                name: 'by the time ,'
             },
             {
                 id: 6,
-                name: ','
+                name: 'by 3 p.m. ,'
             },
             {
                 id: 7,
-                name: ','
+                name: 'by 5 o’clock ,'
             },
             {
                 id: 8,
-                name: ','
+                name: 'by 7 a.m.,'
             },
             {
                 id: 9,
-                name: ','
+                name: 'by tomorrow,'
             },
             {
                 id: 10,
-                name: ','
+                name: 'by next week,'
             },
             {
                 id: 11,
-                name: ','
+                name: 'by next month ,'
             },
             {
                 id: 12,
-                name: ','
+                name: 'by next year,'
             },
             {
                 id: 13,
-                name: ','
-            },
-            {
-                id: 14,
-                name: ''
+                name: 'by next century,'
             },
         ]
     },

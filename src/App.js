@@ -18,6 +18,7 @@ import PresentPerfect from "./components/tensesInEnglish/PresentPerfect/PresentP
 import HomeVocabularyComponent from "./components/vocabularyArchive/HomeVocabularyComponent/HomeVocabularyComponent";
 import AdverbsVocabulary from "./components/vocabularyArchive/AdverbsVocabulary/AdverbsVocabulary";
 import PastPerfect from "./components/tensesInEnglish/PastPerfect/PastPerfect";
+import FuturePerfect from "./components/tensesInEnglish/FuturePerfect/FuturePerfect";
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
                     <Route path={'6'} element={<FutureContinuous/>}/>
                     <Route path={'7'} element={<PresentPerfect/>}/>
                     <Route path={'8'} element={<PastPerfect/>}/>
+                    <Route path={'9'} element={<FuturePerfect/>}/>
                     <Route path={'21'} element={<IrregularVerbs/>}/>
                     <Route path={'23'} element={<AlphabetComponent/>}/>
                     <Route path={'24'} element={<Vocabulary/>}>
