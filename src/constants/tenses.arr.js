@@ -3,19 +3,58 @@ export const tenses = [
         id: 1,
         title: 'present simple tense',
         markers: [
-            'always,',
-            'usually/normally,',
-            'often/frequently,',
-            'sometimes,',
-            'occasionally,',
-            'hardly ever/seldom/rarely,',
-            'never,',
-            'every day/week/month,',
-            'on Mondays,',
-            'from time to time,',
-            'at weekends,',
-            'once/twice/three times a week,',
-            'regularly',
+            {
+                id: '1',
+                name: 'always,'
+            },
+            {
+                id: '2,',
+                name: 'usually/normally,'
+            },
+            {
+                id: '3',
+                name: 'often/frequently,'
+            },
+            {
+                id: '4',
+                name: 'sometimes,'
+            },
+            {
+                id: '5',
+                name: 'occasionally,'
+            },
+            {
+                id: '6',
+                name: 'hardly ever/seldom/rarely,'
+            },
+            {
+                id: '7',
+                name: 'never,'
+            },
+            {
+                id: '8',
+                name: 'every day/week/month,'
+            },
+            {
+                id: '9',
+                name: 'on Mondays,'
+            },
+            {
+                id: '10',
+                name: 'from time to time,'
+            },
+            {
+                id: '11',
+                name: 'at weekends,'
+            },
+            {
+                id: '12',
+                name: 'once/twice/three times a week,'
+            },
+            {
+                id: '13',
+                name: 'regularly'
+            },
         ]
     },
     {
@@ -453,87 +492,83 @@ export const tenses = [
         markers: [
             {
                 id: 1,
-                name: ','
+                name: 'before,'
             },
             {
                 id: 2,
-                name: ','
+                name: 'before the moment,'
             },
             {
                 id: 3,
-                name: ','
+                name: 'before the evening,'
             },
             {
                 id: 4,
-                name: ','
+                name: 'before the day,'
             },
             {
                 id: 5,
-                name: ','
+                name: 'before the year ,'
             },
             {
                 id: 6,
-                name: ','
+                name: 'never before ,'
             },
             {
                 id: 7,
-                name: ','
+                name: 'after,'
             },
             {
                 id: 8,
-                name: ','
+                name: 'no sooner… than ,'
             },
             {
                 id: 9,
-                name: ','
+                name: 'hardly… when ,'
             },
             {
                 id: 10,
-                name: ','
+                name: 'by two o’clock,'
             },
             {
                 id: 11,
-                name: ','
+                name: 'by half past six,'
             },
             {
                 id: 12,
-                name: ','
+                name: 'by that time,'
             },
             {
                 id: 13,
-                name: ','
+                name: 'by that morning ,'
             },
             {
                 id: 14,
-                name: ''
+                name: 'by evening,'
             },
             {
                 id: 15,
-                name: ''
+                name: 'by afternoon,'
             },
             {
                 id: 16,
-                name: ''
+                name: 'by the 2nd of july,'
             },
             {
                 id: 17,
-                name: ''
+                name: 'by that day,'
             },
             {
                 id: 17,
-                name: ''
+                name: 'by that month,'
             },
             {
                 id: 18,
-                name: ''
+                name: 'by that year,'
             },
             {
                 id: 19,
-                name: ''
-            },
-            {
-                id: 20,
-                name: ''
+                name: 'by that age,'
             },
         ]
     },

@@ -13,7 +13,7 @@ const PopUpComponent = (props) => {
     } = props;
 
     const [arrayWords, setArrayWords] = useState([]);
-    const [visiblePop, setVisiblePop] = useState(true);
+    const [visiblePop, setVisiblePop] = useState(false);
 
 
     useEffect(() => {

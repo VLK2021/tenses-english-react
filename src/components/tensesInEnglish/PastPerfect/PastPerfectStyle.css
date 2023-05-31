@@ -1,0 +1,38 @@
+.pastPerfect{
+    padding: 1rem;
+}
+
+.pastPerfect > h1{
+    color: var(--var-color-h);
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.2rem 0.2rem grey;
+    margin: 0 0 1rem 0;
+    text-decoration: underline;
+}
+
+.pastPerfect-rule{
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.pastPerfect-markers > h2,
+.pastPerfect-formation > h2,
+.pastPerfect-affirmative > h2,
+.pastPerfect-negative > h2,
+.pastPerfect-interrogative > h2{
+    color: var(--var-color-h);
+}
+
+.pastPerfect-markers > ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.pastPerfect-markers > ul > li{
+    text-align: center;
+    color: var(--var-color-li);
+}

@@ -26,7 +26,7 @@ const PresentSimple = () => {
 
                 <ul className={'fontSizeText width'}>
                     {
-                        markers.map(marker => <li key={new Date().getTime()}>{marker}</li>)
+                        markers.map(marker => <li key={marker.id}>{marker.name}</li>)
                     }
                 </ul>
             </section>
@@ -53,9 +53,9 @@ const PresentSimple = () => {
                         в трьох формах: <strong>am, is, are</strong>. Вибір необхідної форми залежить від особи
                         та числа підмета у реченні.
                         <span className={'example'}>
-                            <p>I → <b>am</b> ( для 1-ї особи однини: я)</p>
-                            <p>He, She, It → <b>is</b> ( для 3-ї особи однини)</p>
-                            <p>We, You, They → <b>are</b>( для 1-ї, 2-ї та 3-ї особи множини)</p>
+                            <div>I → <b>am</b> ( для 1-ї особи однини: я)</div>
+                            <div>He, She, It → <b>is</b> ( для 3-ї особи однини)</div>
+                            <div>We, You, They → <b>are</b>( для 1-ї, 2-ї та 3-ї особи множини)</div>
                         </span>
                     </p>
 
@@ -63,8 +63,8 @@ const PresentSimple = () => {
                         Дієслово <strong>to be</strong> не потребує використання допоміжних дієслів для утворення
                         заперечних або питальних речень.
                         <span className={'example'}>
-                            <p>She <b>is</b> not here. –  Вона не тут.</p>
-                            <p><b>Is</b> this your first application to college? – Це ваша перша заява на вступ до коледжу?</p>
+                            <div>She <b>is</b> not here. –  Вона не тут.</div>
+                            <div><b>Is</b> this your first application to college? – Це ваша перша заява на вступ до коледжу?</div>
                         </span>
                     </p>
                 </article>
@@ -78,9 +78,9 @@ const PresentSimple = () => {
                         Стверджувальне речення в Present Simple (Present Indefinite) утворюється за допомогою
                         підмета (хто? що?) та присудка (здебільшого він виражається смисловим дієсловом в першій формі).
                         <span className={'example'}>
-                            <p>I <b>study</b> French. – Я вчу французьку мову.</p>
-                            <p>Cats <b>like</b> milk. – Коти люблять молоко.</p>
-                            <p>You <b>speak</b> English. – Ти розмовляєш англійською.</p>
+                            <div>I <b>study</b> French. – Я вчу французьку мову.</div>
+                            <div>Cats <b>like</b> milk. – Коти люблять молоко.</div>
+                            <div>You <b>speak</b> English. – Ти розмовляєш англійською.</div>
                         </span>
                     </p>
 
@@ -88,9 +88,9 @@ const PresentSimple = () => {
                         Якщо підмет виражений іменником або займенником в третій особі однини, тоді до дієслова
                         додається закінчення -s або -es.
                         <span className={'example'}>
-                            <p>She <b>speaks</b> English. – Вона розмовляє англійською.</p>
-                            <p>He <b>plays</b> the violin. – Він грає на скрипці.</p>
-                            <p>Simon's cat <b>likes</b> milk. – Кіт Саймона любить молоко.</p>
+                            <div>She <b>speaks</b> English. – Вона розмовляє англійською.</div>
+                            <div>He <b>plays</b> the violin. – Він грає на скрипці.</div>
+                            <div>Simon's cat <b>likes</b> milk. – Кіт Саймона любить молоко.</div>
                         </span>
                     </p>
                 </article>
@@ -105,8 +105,8 @@ const PresentSimple = () => {
                     часткою <strong>not (do not)</strong>, що ставиться після підмета (хто? що?). Після допоміжного
                     дієслова <strong>do</strong> вживається смислове в формі інфінітиву без частки to.
                     <span className={'example'}>
-                            <p>I <b>do not</b> speak English. – Я не розмовляю англійською.</p>
-                            <p>They <b>do not</b> play the violin. – Вони не грають на скрипках.</p>
+                            <div>I <b>do not</b> speak English. – Я не розмовляю англійською.</div>
+                            <div>They <b>do not</b> play the violin. – Вони не грають на скрипках.</div>
                     </span>
                 </p>
 
@@ -116,8 +116,8 @@ const PresentSimple = () => {
                     Після <strong>does</strong> смислове дієслово використовується у формі простого інфінітиву без
                     частки to (перша форма дієслова).
                     <span className={'example'}>
-                            <p>She <b>does not</b> speak English. – Вона не розмовляє англійською.</p>
-                            <p>He <b>does not</b> play the violin. – Він не грає на скрипці.</p>
+                            <div>She <b>does not</b> speak English. – Вона не розмовляє англійською.</div>
+                            <div>He <b>does not</b> play the violin. – Він не грає на скрипці.</div>
                     </span>
                 </p>
 
@@ -126,10 +126,10 @@ const PresentSimple = () => {
                     прислівників. Після них використовується смислове дієслово в стверджувальній формі,
                     так як подвійне заперечення не характерне для англійської мови.
                     <span className={'example'}>
-                            <p><b>None</b> of us <b>are</b> saints. – Ніхто з нас не є святим.</p>
-                            <p><b>Nobody</b> speak<b>s</b> Latin. – Ніхто не розмовляє на латині.</p>
-                            <p><b>No</b> one know<b>s</b> who we are. – Ніхто не знає, хто ми.</p>
-                            <p>We do <b>nothing</b>. – Ми нічого не робимо.</p>
+                            <div><b>None</b> of us <b>are</b> saints. – Ніхто з нас не є святим.</div>
+                            <div><b>Nobody</b> speak<b>s</b> Latin. – Ніхто не розмовляє на латині.</div>
+                            <div><b>No</b> one know<b>s</b> who we are. – Ніхто не знає, хто ми.</div>
+                            <div>We do <b>nothing</b>. – Ми нічого не робимо.</div>
                     </span>
                 </p>
             </section>
@@ -143,8 +143,8 @@ const PresentSimple = () => {
                     he, she, it), що стоїть перед підметом. Після підмета йде смислове дієслово в першій формі тобто
                     основне дієслово для третьої особи втрачає своє закінчення <strong>-s/-es</strong>.
                     <span className={'example'}>
-                            <p><b>Do</b> you speak English? – Ти розмовляєш англійською?</p>
-                            <p><b>Does</b> he speak English? – Він розмовляє англійською?</p>
+                            <div><b>Do</b> you speak English? – Ти розмовляєш англійською?</div>
+                            <div><b>Does</b> he speak English? – Він розмовляє англійською?</div>
                     </span>
                 </p>
 
@@ -153,9 +153,9 @@ const PresentSimple = () => {
                     що ставиться на початок речення. Подальший порядок слів такий самий, як і в загальному питанні
                     з Present Simple.
                     <span className={'example'}>
-                            <p><b>Why do</b> you speak English? – Чому ти розмовляєш англійською?</p>
-                            <p><b>Where does</b> she play the violin? – Де вона грає на скрипці?</p>
-                            <p><b>How long do</b> they play the guitars? – Як давно вони грають на гітарах?</p>
+                            <div><b>Why do</b> you speak English? – Чому ти розмовляєш англійською?</div>
+                            <div><b>Where does</b> she play the violin? – Де вона грає на скрипці?</div>
+                            <div><b>How long do</b> they play the guitars? – Як давно вони грають на гітарах?</div>
                     </span>
                 </p>
             </section>

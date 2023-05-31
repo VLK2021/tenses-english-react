@@ -20,19 +20,43 @@ export const vocabularyAdverbs = [
     {
         id: 'A4',
         infinitive: 'loudly',
-        transcriptionInf: '/ˈlaʊdli/',
+        transcriptionInf: '[ˈlaʊdli]',
         translation: 'голосно'
     },
     {
         id: 'A5',
         infinitive: 'quietly',
-        transcriptionInf: '/ˈkwaɪətli/',
+        transcriptionInf: '[ˈkwaɪətli]',
         translation: 'тихо'
     },
     {
         id: 'A6',
         infinitive: 'easily',
-        transcriptionInf: '/ˈiːzɪli/',
+        transcriptionInf: '[ˈiːzɪli]',
         translation: 'легко'
+    },
+    {
+        id: 'A7',
+        infinitive: 'hard',
+        transcriptionInf: '[hɑːrd]',
+        translation: 'важко'
+    },
+    {
+        id: 'A8',
+        infinitive: 'well',
+        transcriptionInf: '[wɛl]',
+        translation: 'добре'
+    },
+    {
+        id: 'A9',
+        infinitive: 'badly',
+        transcriptionInf: '[ˈbædli]',
+        translation: 'погано'
+    },
+    {
+        id: 'A10',
+        infinitive: 'happily',
+        transcriptionInf: '[ˈhæpɪli]',
+        translation: 'щасливо'
     },
 ];
