@@ -19,16 +19,13 @@ import HomeVocabularyComponent from "./components/vocabularyArchive/HomeVocabula
 import AdverbsVocabulary from "./components/vocabularyArchive/AdverbsVocabulary/AdverbsVocabulary";
 import PastPerfect from "./components/tensesInEnglish/PastPerfect/PastPerfect";
 import FuturePerfect from "./components/tensesInEnglish/FuturePerfect/FuturePerfect";
+import PresentPerfectContinuous from "./components/tensesInEnglish/PresentPerfectContinuous/PresentPerfectContinuous";
+import PastPerfectContinuous from "./components/tensesInEnglish/PastPerfectContinuous/PastPerfectContinuous";
+import FuturePerfectContinuous from "./components/tensesInEnglish/FuturePerfectContinuous/FuturePerfectContinuous";
 
 
 function App() {
 
-    // Layout.js:12 PRESENT PERFECT
-    // Layout.js:12 PAST PERFECT
-    // Layout.js:12 FUTURE PERFECT
-    // Layout.js:12 PRESENT PERFECT CONTINUOUS
-    // Layout.js:12 PAST PERFECT CONTINUOUS
-    // Layout.js:12 FUTURE PERFECT CONTINUOUS
 
     return (
         <div className="App">
@@ -44,6 +41,9 @@ function App() {
                     <Route path={'7'} element={<PresentPerfect/>}/>
                     <Route path={'8'} element={<PastPerfect/>}/>
                     <Route path={'9'} element={<FuturePerfect/>}/>
+                    <Route path={'10'} element={<PresentPerfectContinuous/>}/>
+                    <Route path={'11'} element={<PastPerfectContinuous/>}/>
+                    <Route path={'12'} element={<FuturePerfectContinuous/>}/>
                     <Route path={'21'} element={<IrregularVerbs/>}/>
                     <Route path={'23'} element={<AlphabetComponent/>}/>
                     <Route path={'24'} element={<Vocabulary/>}>

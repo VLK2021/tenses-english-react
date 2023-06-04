@@ -7,13 +7,13 @@ import Button from "../components/Button/Button";
 
 
 const Layout = () => {
-
+    const secondNumberSlice = menu.length / 2;
 
     return (
         <main className={'layout'}>
             <aside className={'layout-left'}>
                 {
-                    menu.slice(0, 12).map(obj => <Button key={obj.id} obj={obj}/>)
+                    menu.slice(0, secondNumberSlice).map(obj => <Button key={obj.id} obj={obj}/>)
                 }
             </aside>
 
@@ -21,7 +21,7 @@ const Layout = () => {
 
             <aside className={'layout-right'}>
                 {
-                    menu.slice(12, 24).map(obj => <Button key={obj.id} obj={obj}/>)
+                    menu.slice(secondNumberSlice, menu.length).map(obj => <Button key={obj.id} obj={obj}/>)
                 }
             </aside>
         </main>
@@ -29,7 +29,6 @@ const Layout = () => {
 };
 
 export default Layout;
-
 
 
 // import React, { Profiler } from 'react';

@@ -636,59 +636,59 @@ export const tenses = [
         markers: [
             {
                 id: 1,
-                name: ','
+                name: 'since 10 o’clock,'
             },
             {
                 id: 2,
-                name: ','
+                name: 'since yesterday,'
             },
             {
                 id: 3,
-                name: ','
+                name: 'since last month,'
             },
             {
                 id: 4,
-                name: ','
+                name: 'since 1991 ,'
             },
             {
                 id: 5,
-                name: ','
+                name: 'since... ,'
             },
             {
                 id: 6,
-                name: ','
+                name: 'all day (long),'
             },
             {
                 id: 7,
-                name: ','
+                name: 'all morning / the whole morning,'
             },
             {
                 id: 8,
-                name: ','
+                name: 'all evening / the whole evening,'
             },
             {
                 id: 9,
-                name: ','
+                name: 'all night long,'
             },
             {
                 id: 10,
-                name: ','
+                name: 'for half an hour ,'
             },
             {
                 id: 11,
-                name: ','
+                name: 'for 2 hours,'
             },
             {
                 id: 12,
-                name: ','
+                name: 'for 3 days ,'
             },
             {
                 id: 13,
-                name: ','
+                name: 'lately,'
             },
             {
                 id: 14,
-                name: ''
+                name: 'recently'
             },
         ]
     },

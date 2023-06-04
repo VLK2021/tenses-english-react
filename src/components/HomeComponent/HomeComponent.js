@@ -3,7 +3,8 @@ import React from 'react';
 const HomeComponent = () => {
     return (
         <div className={'homeComponent'}>
-            HomeComponent
+            На даний час аплікація знаходиться в розробці тому відпрацьовують не усі компоненти!!!!!!!!
+            ІДЕ РОЗРОБКА!!!!!!
         </div>
     );
 };
