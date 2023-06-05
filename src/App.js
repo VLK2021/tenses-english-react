@@ -22,6 +22,7 @@ import FuturePerfect from "./components/tensesInEnglish/FuturePerfect/FuturePerf
 import PresentPerfectContinuous from "./components/tensesInEnglish/PresentPerfectContinuous/PresentPerfectContinuous";
 import PastPerfectContinuous from "./components/tensesInEnglish/PastPerfectContinuous/PastPerfectContinuous";
 import FuturePerfectContinuous from "./components/tensesInEnglish/FuturePerfectContinuous/FuturePerfectContinuous";
+import UsedToComponent from "./components/UsedToComponent/UsedToComponent";
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
                     <Route path={'10'} element={<PresentPerfectContinuous/>}/>
                     <Route path={'11'} element={<PastPerfectContinuous/>}/>
                     <Route path={'12'} element={<FuturePerfectContinuous/>}/>
+                    <Route path={'20'} element={<UsedToComponent/>}/>
                     <Route path={'21'} element={<IrregularVerbs/>}/>
                     <Route path={'23'} element={<AlphabetComponent/>}/>
                     <Route path={'24'} element={<Vocabulary/>}>

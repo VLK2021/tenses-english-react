@@ -1,0 +1,23 @@
+.usedToComponent {
+    padding: 1rem;
+}
+
+.usedToComponent > h1 {
+    color: var(--var-color-h);
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.2rem 0.2rem grey;
+    margin: 0 0 1rem 0;
+    text-decoration: underline;
+}
+
+.usedToComponent-rule {
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.usedToComponent-affirmative > h2,
+.usedToComponent-negative > h2,
+.usedToComponent-interrogative > h2 {
+    color: var(--var-color-h);
+}
+
