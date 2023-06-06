@@ -1,0 +1,26 @@
+.thereIsThereAreComponent{
+    padding: 1rem;
+}
+
+.thereIsThereAreComponent > h1 {
+    color: var(--var-color-h);
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.2rem 0.2rem grey;
+    margin: 0 0 1rem 0;
+    text-decoration: underline;
+}
+
+.thereIsThereAreComponent-rule {
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.thereIsThereAreComponent-affirmative > h2,
+.thereIsThereAreComponent-negative > h2,
+.thereIsThereAreComponent-interrogative > h2 {
+    color: var(--var-color-h);
+}
+
+
+
+

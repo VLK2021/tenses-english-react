@@ -25,10 +25,18 @@
 }
 
 .popBtn{
-    width: 15%;
+    width: 100%;
     background: green;
     border-radius: 0.5rem;
     padding: 2px;
     min-height: 0;
     text-align: center;
+}
+
+.popUpComponent-read-write{
+    justify-content: space-around;
+}
+
+.popUpComponent-read-write > article{
+    width: 25%;
 }

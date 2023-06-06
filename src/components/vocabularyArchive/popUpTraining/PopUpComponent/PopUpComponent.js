@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 
 import './PopUpComponentStyle.css';
+import {useForm} from "react-hook-form";
 
 
 const PopUpComponent = (props) => {
@@ -12,8 +13,11 @@ const PopUpComponent = (props) => {
         newVocabularyAdverbs
     } = props;
 
+    const {register, reset, handleSubmit} = useForm();
+
     const [arrayWords, setArrayWords] = useState([]);
     const [visiblePop, setVisiblePop] = useState(false);
+    const [visiblePop1, setVisiblePop1] = useState(false);
 
 
     useEffect(() => {
@@ -57,22 +61,55 @@ const PopUpComponent = (props) => {
         }
     }
 
+    const submit = (data) => {
+        if (data.write === obj.infinitive) {
+            alert('Good job!!!!')
+        } else {
+            alert('Bad job!!!')
+        }
+
+        reset();
+    }
+
 
     return (
         <main className={'popUpComponent direction-column'}>
             <button className={'trainingPopUp-btn'} onClick={() => setVisible(false)}>close</button>
 
             <h1>{obj.translation}</h1>
-            {
-                visiblePop &&
-                <div>{obj.infinitive}</div>
-            }
-            <button className={'popBtn'} onClick={() => setVisiblePop(!visiblePop)}>show / don't Show</button>
 
-            <article className={'width nextPrev'}>
+            <section className={'flex popUpComponent-read-write width'}>
+                <article className={'flexDirectionColumn'}>
+                    {
+                        visiblePop &&
+                        <div>{obj.infinitive}</div>
+                    }
+
+                    <button className={'popBtn marginTop'} onClick={() => setVisiblePop(!visiblePop)}>read / don't
+                        rear
+                    </button>
+                </article>
+
+                <article className={'flexDirectionColumn'}>
+                    {
+                        visiblePop1 &&
+                        <div>
+                            <form onSubmit={handleSubmit(submit)}>
+                                <input type="text" {...register('write')} placeholder={'...write word'}/>
+                            </form>
+                        </div>
+                    }
+
+                    <button className={'popBtn marginTop'} onClick={() => setVisiblePop1(!visiblePop1)}>write / don't
+                        write
+                    </button>
+                </article>
+            </section>
+
+            <section className={'width nextPrev'}>
                 <button className={'trainingPopUp-btn'} onClick={getPrev}>prev</button>
                 <button className={'trainingPopUp-btn'} onClick={getNext}>next</button>
-            </article>
+            </section>
         </main>
     );
 };

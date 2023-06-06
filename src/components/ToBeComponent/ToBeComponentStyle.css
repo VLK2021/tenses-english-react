@@ -1,0 +1,24 @@
+.toBeComponent{
+    padding: 1rem;
+}
+
+.toBeComponent > h1 {
+    color: var(--var-color-h);
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.2rem 0.2rem grey;
+    margin: 0 0 1rem 0;
+    text-decoration: underline;
+}
+
+.toBeComponent-rule {
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.toBeComponent-affirmative > h2,
+.toBeComponent-negative > h2,
+.toBeComponent-interrogative > h2 {
+    color: var(--var-color-h);
+}
+
+
