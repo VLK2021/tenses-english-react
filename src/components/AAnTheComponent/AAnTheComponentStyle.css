@@ -1,0 +1,20 @@
+.aAnTheComponent{
+    padding: 1rem;
+}
+
+.aAnTheComponent > h1 {
+    color: var(--var-color-h);
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.2rem 0.2rem grey;
+    margin: 0 0 1rem 0;
+    text-decoration: underline;
+}
+
+.aAnTheComponent-rule {
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.aAnTheComponent-a-an > h2{
+    color: var(--var-color-h);
+}

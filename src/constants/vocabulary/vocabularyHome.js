@@ -47,4 +47,58 @@ export const vocabularyHome = [
         transcriptionInf: '[ˈfɜːrnɪʧər]',
         translation: 'меблі'
     },
+    {
+        id: 'H9',
+        infinitive: 'lighting',
+        transcriptionInf: '[ˈlaɪtɪŋ]',
+        translation: 'освітлення'
+    },
+    {
+        id: 'H10',
+        infinitive: 'paint',
+        transcriptionInf: '[peɪnt]',
+        translation: 'фарба'
+    },
+    {
+        id: 'H11',
+        infinitive: 'plumbing',
+        transcriptionInf: '[ˈplʌmɪŋ]',
+        translation: 'сантехніка'
+    },
+    {
+        id: 'H12',
+        infinitive: 'kitchen',
+        transcriptionInf: '[ˈkɪʧɪn]',
+        translation: 'кухня'
+    },
+    {
+        id: 'H13',
+        infinitive: 'roof',
+        transcriptionInf: '[ruːf]',
+        translation: 'дах'
+    },
+    {
+        id: 'H14',
+        infinitive: 'mirror',
+        transcriptionInf: '[ˈmɪrər]',
+        translation: 'дзеркало'
+    },
+    {
+        id: 'H15',
+        infinitive: 'carpet',
+        transcriptionInf: '[ˈkɑːrpɪt]',
+        translation: 'килим'
+    },
+    {
+        id: 'H16',
+        infinitive: 'garage',
+        transcriptionInf: '[ˈɡærɑːʒ]',
+        translation: 'гараж'
+    },
+    {
+        id: 'H17',
+        infinitive: 'laundry',
+        transcriptionInf: '[ˈlɔːndri]',
+        translation: 'прання'
+    },
 ];

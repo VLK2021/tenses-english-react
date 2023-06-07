@@ -27,6 +27,9 @@ import ThereIsThereAreComponent from "./components/ThereIsThereAreComponent/Ther
 import ToBeComponent from "./components/ToBeComponent/ToBeComponent";
 import HaveToComponent from "./components/HaveToComponent/HaveToComponent";
 import ToBeGoingToComponent from "./components/ToBeGoingToComponent/ToBeGoingToComponent";
+import SequenceOfTensesComponent
+    from "./components/tensesInEnglish/SequenceOfTensesComponent/SequenceOfTensesComponent";
+import AAnTheComponent from "./components/AAnTheComponent/AAnTheComponent";
 
 
 function App() {
@@ -49,12 +52,14 @@ function App() {
                     <Route path={'10'} element={<PresentPerfectContinuous/>}/>
                     <Route path={'11'} element={<PastPerfectContinuous/>}/>
                     <Route path={'12'} element={<FuturePerfectContinuous/>}/>
+                    <Route path={'13'} element={<AAnTheComponent/>}/>
                     <Route path={'14'} element={<ThereIsThereAreComponent/>}/>
                     <Route path={'15'} element={<ToBeComponent/>}/>
                     <Route path={'16'} element={<HaveToComponent/>}/>
                     <Route path={'17'} element={<ToBeGoingToComponent/>}/>
                     <Route path={'20'} element={<UsedToComponent/>}/>
                     <Route path={'21'} element={<IrregularVerbs/>}/>
+                    <Route path={'22'} element={<SequenceOfTensesComponent/>}/>
                     <Route path={'23'} element={<AlphabetComponent/>}/>
                     <Route path={'24'} element={<Vocabulary/>}>
                         <Route path={'VT1'} element={<HomeVocabularyComponent/>}/>
