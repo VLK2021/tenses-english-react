@@ -119,4 +119,34 @@ export const vocabularyAdverbs = [
         transcriptionInf: '[ˈpeɪʃəntli]',
         translation: 'терпляче'
     },
+    {
+        id: 'A21',
+        infinitive: 'suddenly',
+        transcriptionInf: '[ˈsʌd(ə)nli]',
+        translation: 'раптово'
+    },
+    {
+        id: 'A22',
+        infinitive: 'naturally',
+        transcriptionInf: '[ˈnætʃ(ə)rəli]',
+        translation: 'природньо'
+    },
+    {
+        id: 'A23',
+        infinitive: 'frequently',
+        transcriptionInf: '[ˈfriːkwəntli]',
+        translation: 'часто'
+    },
+    {
+        id: 'A24',
+        infinitive: 'intensely',
+        transcriptionInf: '[ɪnˈtɛnsli]',
+        translation: 'інтенсивно'
+    },
+    {
+        id: 'A25',
+        infinitive: 'firmly',
+        transcriptionInf: '[ˈfɜːrmli]',
+        translation: 'твердо'
+    },
 ];

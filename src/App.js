@@ -34,7 +34,6 @@ import AAnTheComponent from "./components/AAnTheComponent/AAnTheComponent";
 
 function App() {
 
-
     return (
         <div className="App">
             <Routes>

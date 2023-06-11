@@ -15,6 +15,7 @@
     margin: 0 0 1rem 0;
 }
 
-.aAnTheComponent-a-an > h2{
+.aAnTheComponent-a-an > h2,
+.aAnTheComponent-a-an-info > h2{
     color: var(--var-color-h);
 }
