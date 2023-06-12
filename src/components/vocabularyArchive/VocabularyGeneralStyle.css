@@ -1,9 +1,9 @@
-.fruitsAndVegetables {
+.wrapper{
     padding: 1rem;
     margin-top: 2rem;
 }
 
-.fruitsAndVegetables > h1 {
+.wrapper > h1{
     color: var(--var-color-li);
     text-transform: uppercase;
     text-shadow: 0.2rem 0.2rem 0.2rem grey;
@@ -12,11 +12,11 @@
     font-size: 2.5rem;
 }
 
-.fruitsAndVegetables-vocabulary {
+.wrapper-vocabulary{
     color: var(--var-color-h);
 }
 
-.fruitsAndVegetables-vocabulary-title {
+.wrapper-vocabulary-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@
     margin: 1rem 0 0 0;
 }
 
-.select {
+.select{
     display: flex;
     justify-content: space-between;
     align-items: center;

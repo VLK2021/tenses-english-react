@@ -1,35 +1,33 @@
 import React, {useState} from 'react';
 
 import '../VocabularyGeneralStyle.css';
-import {vocabularyTitlesForGroups, vocabularyForIt} from "../../../constants";
-import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
+import {vocabularyForFamily, vocabularyTitlesForGroups} from "../../../constants";
 import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
+import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
 import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
 
 
-const ForItComponent = () => {
+const FamilyVocabularyComponent = () => {
     const [visible, setVisible] = useState(false);
     const [obj, setObj] = useState({});
 
-
-    const [newVocabularyForIt, setNewVocabularyForIt] = useState(vocabularyForIt);
-
+    const [newVocabularyForFamily, setNewVocabularyForFamily] = useState(vocabularyForFamily);
 
     const handleSelectChange = (e) => {
         const current = e.target.value;
         if (current === 'growth') {
-            const sortByGrows = newVocabularyForIt.slice().sort((a, b) => a.infinitive > b.infinitive ? 1 : -1)
-            setNewVocabularyForIt(sortByGrows)
+            const sortByGrows = newVocabularyForFamily.slice().sort((a, b) => a.infinitive > b.infinitive ? 1 : -1)
+            setNewVocabularyForFamily(sortByGrows)
         } else {
-            const sortByDecline = newVocabularyForIt.slice().sort((a, b) => b.infinitive > a.infinitive ? 1 : -1)
-            setNewVocabularyForIt(sortByDecline)
+            const sortByDecline = newVocabularyForFamily.slice().sort((a, b) => b.infinitive > a.infinitive ? 1 : -1)
+            setNewVocabularyForFamily(sortByDecline)
         }
     };
 
 
     return (
-        <main className={'width flexDirectionColumn wrapper'}>
-            <h1>words For It</h1>
+        <main className={'wrapper width flexDirectionColumn'}>
+            <h1>Family</h1>
 
             <section className={'select width'}>
                 <article>
@@ -41,10 +39,10 @@ const ForItComponent = () => {
                     </select>
                 </article>
 
-                <div>{vocabularyForIt.length}</div>
+                <div>{vocabularyForFamily.length}</div>
 
                 <article className={'forItComponent-form'}>
-                    <FormSearchComponent setNewVocabularyForIt={setNewVocabularyForIt}/>
+                    <FormSearchComponent setNewVocabularyForFamily={setNewVocabularyForFamily}/>
                 </article>
             </section>
 
@@ -61,7 +59,7 @@ const ForItComponent = () => {
 
                 <article className={'width block'}>
                     {
-                        newVocabularyForIt.map(obj => <VocabularySingleComponent
+                        newVocabularyForFamily.map(obj => <VocabularySingleComponent
                             key={obj.id}
                             obj={obj}
                             setVisible={setVisible}
@@ -74,12 +72,13 @@ const ForItComponent = () => {
                     visible && <PopUpComponent setVisible={setVisible}
                                                obj={obj}
                                                setObj={setObj}
-                                               newVocabularyForIt={newVocabularyForIt}
+                                               newVocabularyForFamily={newVocabularyForFamily}
                     />
                 }
             </section>
+
         </main>
     );
 };
 
-export default ForItComponent;
+export default FamilyVocabularyComponent;

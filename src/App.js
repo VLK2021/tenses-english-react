@@ -30,6 +30,8 @@ import ToBeGoingToComponent from "./components/ToBeGoingToComponent/ToBeGoingToC
 import SequenceOfTensesComponent
     from "./components/tensesInEnglish/SequenceOfTensesComponent/SequenceOfTensesComponent";
 import AAnTheComponent from "./components/AAnTheComponent/AAnTheComponent";
+import FamilyVocabularyComponent
+    from "./components/vocabularyArchive/FamilyVocabularyComponent/FamilyVocabularyComponent";
 
 
 function App() {
@@ -62,6 +64,7 @@ function App() {
                     <Route path={'23'} element={<AlphabetComponent/>}/>
                     <Route path={'24'} element={<Vocabulary/>}>
                         <Route path={'VT1'} element={<HomeVocabularyComponent/>}/>
+                        <Route path={'VT2'} element={<FamilyVocabularyComponent/>}/>
                         <Route path={'VT3'} element={<ForItComponent/>}/>
                         <Route path={'VT7'} element={<FruitsAndVegetables/>}/>
                         <Route path={'VT8'} element={<AdverbsVocabulary/>}/>

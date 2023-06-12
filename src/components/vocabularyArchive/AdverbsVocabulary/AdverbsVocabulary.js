@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 
-import './AdverbsVocabularyStyle.css';
+import '../VocabularyGeneralStyle.css';
 import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
-import {vocabularyAdverbs} from "../../../constants/vocabulary/vocabularyAdverbs";
+import {vocabularyAdverbs} from "../../../constants";
 import {vocabularyTitlesForGroups} from "../../../constants";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
 import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
@@ -28,7 +28,7 @@ const AdverbsVocabulary = () => {
 
 
     return (
-        <main className={'adverbsVocabulary width flexDirectionColumn'}>
+        <main className={'wrapper width flexDirectionColumn'}>
             <h1>Adverbs</h1>
 
             <section className={'select width'}>
@@ -48,8 +48,8 @@ const AdverbsVocabulary = () => {
                 </article>
             </section>
 
-            <section className={'adverbsVocabulary-vocabulary width flexDirectionColumn'}>
-                <header className={'width adverbsVocabulary-vocabulary-title'}>
+            <section className={'wrapper-vocabulary width flexDirectionColumn'}>
+                <header className={'width wrapper-vocabulary-title'}>
                     {
                         vocabularyTitlesForGroups.map(value =>
                             <h2 key={value.id} className={'names-one'}>

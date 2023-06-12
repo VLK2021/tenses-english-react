@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import './HomeVocabularyComponentStyle.css';
+import '../VocabularyGeneralStyle.css';
 import {vocabularyHome, vocabularyTitlesForGroups} from "../../../constants";
 import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
@@ -26,7 +26,7 @@ const HomeVocabularyComponent = () => {
 
 
     return (
-        <main className={'homeVocabularyComponent width flexDirectionColumn'}>
+        <main className={'wrapper width flexDirectionColumn'}>
             <h1>words For Home</h1>
 
             <section className={'select width'}>
@@ -46,8 +46,8 @@ const HomeVocabularyComponent = () => {
                 </article>
             </section>
 
-            <section className={'homeVocabularyComponent-vocabulary width flexDirectionColumn'}>
-                <header className={'width homeVocabularyComponent-vocabulary-title'}>
+            <section className={'wrapper-vocabulary width flexDirectionColumn'}>
+                <header className={'width wrapper-vocabulary-title'}>
                     {
                         vocabularyTitlesForGroups.map(value =>
                             <h2 key={value.id} className={'names-one'}>

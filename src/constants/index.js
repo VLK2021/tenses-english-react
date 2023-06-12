@@ -9,3 +9,4 @@ export * from '../constants/vocabulary/alphabet';
 export * from '../constants/vocabulary/fruitsAndVegetables';
 export * from '../constants/vocabulary/vocabularyHome';
 export * from '../constants/vocabulary/vocabularyAdverbs';
+export * from '../constants/vocabulary/vocabularyForFamily';

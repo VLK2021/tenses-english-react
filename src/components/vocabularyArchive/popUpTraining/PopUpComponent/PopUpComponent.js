@@ -10,7 +10,8 @@ const PopUpComponent = (props) => {
         newFruitsAndVegetables,
         newVocabularyForIt,
         newVocabularyHome,
-        newVocabularyAdverbs
+        newVocabularyAdverbs,
+        newVocabularyForFamily
     } = props;
 
     const {register, reset, handleSubmit} = useForm();
@@ -32,6 +33,9 @@ const PopUpComponent = (props) => {
         }
         if (newVocabularyAdverbs) {
             setArrayWords(newVocabularyAdverbs)
+        }
+        if (newVocabularyForFamily) {
+            setArrayWords(newVocabularyForFamily)
         }
     }, []);
 

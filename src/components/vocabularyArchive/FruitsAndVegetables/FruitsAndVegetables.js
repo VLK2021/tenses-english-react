@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import './FruitsAndVegetablesІеsStyle.css';
+import '../VocabularyGeneralStyle.css';
 import {fruitsAndVegetables} from "../../../constants";
 import {vocabularyTitlesForGroups} from "../../../constants";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
@@ -27,7 +27,7 @@ const FruitsAndVegetables = () => {
 
 
     return (
-        <main className={'width fruitsAndVegetables flexDirectionColumn'}>
+        <main className={'width wrapper flexDirectionColumn'}>
             <h1>Fruits and Vegetables</h1>
 
             <section className={'select width'}>
@@ -47,8 +47,8 @@ const FruitsAndVegetables = () => {
                 </article>
             </section>
 
-            <section className={'fruitsAndVegetables-vocabulary width flexDirectionColumn'}>
-                <header className={'width fruitsAndVegetables-vocabulary-title'}>
+            <section className={'wrapper-vocabulary width flexDirectionColumn'}>
+                <header className={'width wrapper-vocabulary-title'}>
                     {
                         vocabularyTitlesForGroups.map(value =>
                             <h2 key={value.id} className={'names-one'}>
