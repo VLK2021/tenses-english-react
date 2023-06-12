@@ -2,7 +2,7 @@ import React from 'react';
 
 import './AlphabetComponentStyle.css';
 import {alphabet} from '../../constants';
-import AlphabetSingleComponent from "../AlphabetSingleComponent/AlphabetSingleComponent";
+import {AlphabetSingleComponent} from "../AlphabetSingleComponent/AlphabetSingleComponent";
 
 
 const AlphabetComponent = () => {
@@ -29,4 +29,4 @@ const AlphabetComponent = () => {
     );
 };
 
-export default AlphabetComponent;
+export {AlphabetComponent};

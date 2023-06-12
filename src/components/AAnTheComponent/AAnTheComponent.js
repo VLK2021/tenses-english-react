@@ -503,4 +503,4 @@ const AAnTheComponent = () => {
     );
 };
 
-export default AAnTheComponent;
+export {AAnTheComponent};

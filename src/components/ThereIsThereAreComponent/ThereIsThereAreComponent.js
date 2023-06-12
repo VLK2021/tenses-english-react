@@ -13,4 +13,4 @@ const ThereIsThereAreComponent = () => {
     );
 };
 
-export default ThereIsThereAreComponent;
+export {ThereIsThereAreComponent};

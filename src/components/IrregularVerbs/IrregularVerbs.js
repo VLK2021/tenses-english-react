@@ -51,4 +51,4 @@ const IrregularVerbs = () => {
     );
 };
 
-export default IrregularVerbs;
+export {IrregularVerbs};

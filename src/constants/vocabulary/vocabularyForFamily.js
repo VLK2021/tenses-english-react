@@ -119,4 +119,40 @@ export const vocabularyForFamily = [
         transcriptionInf: '[ˈrelətɪvz]',
         translation: 'родичі'
     },
+    {
+        id: 'F21',
+        infinitive: 'ancestor',
+        transcriptionInf: '[ˈænsestər]',
+        translation: 'предок'
+    },
+    {
+        id: 'F22',
+        infinitive: 'descendant',
+        transcriptionInf: '[dɪˈsendənt]',
+        translation: 'нащадок'
+    },
+    {
+        id: 'F23',
+        infinitive: 'stepmother',
+        transcriptionInf: '[ˈstɛpˌmʌðər]',
+        translation: 'мачуха'
+    },
+    {
+        id: 'F24',
+        infinitive: 'stepfather',
+        transcriptionInf: '[ˈstɛpˌfɑːðər]',
+        translation: 'отчим'
+    },
+    {
+        id: 'F25',
+        infinitive: 'stepbrother',
+        transcriptionInf: '[ˈstɛpˌbrʌðər]',
+        translation: 'сводний брат'
+    },
+    {
+        id: 'F26',
+        infinitive: 'stepsister',
+        transcriptionInf: '[ˈstɛpˌsɪstər]',
+        translation: 'сводна сестра'
+    },
 ];

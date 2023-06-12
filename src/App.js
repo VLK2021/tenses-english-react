@@ -2,17 +2,14 @@ import {Route, Routes} from "react-router-dom";
 
 import './App.css';
 import Layout from "./Layout/Layout";
-import HomeComponent from "./components/HomeComponent/HomeComponent";
 import PresentSimple from "./components/tensesInEnglish/PresentSimple/PresentSimple";
 import PastSimple from "./components/tensesInEnglish/PastSimple/PastSimple";
 import FutureSimple from "./components/tensesInEnglish/FutureSimple/FutureSimple";
 import PresentContinuous from "./components/tensesInEnglish/PresentContinuous/PresentContinuous";
 import PastContinuous from "./components/tensesInEnglish/PastContinuous/PastContinuous";
 import FutureContinuous from "./components/tensesInEnglish/FutureContinuous/FutureContinuous";
-import IrregularVerbs from "./components/IrregularVerbs/IrregularVerbs";
 import Vocabulary from "./components/vocabularyArchive/Vocabulary/Vocabulary";
 import ForItComponent from "./components/vocabularyArchive/ForItComponent/ForItComponent";
-import AlphabetComponent from "./components/AlphabetComponent/AlphabetComponent";
 import FruitsAndVegetables from "./components/vocabularyArchive/FruitsAndVegetables/FruitsAndVegetables";
 import PresentPerfect from "./components/tensesInEnglish/PresentPerfect/PresentPerfect";
 import HomeVocabularyComponent from "./components/vocabularyArchive/HomeVocabularyComponent/HomeVocabularyComponent";
@@ -22,16 +19,14 @@ import FuturePerfect from "./components/tensesInEnglish/FuturePerfect/FuturePerf
 import PresentPerfectContinuous from "./components/tensesInEnglish/PresentPerfectContinuous/PresentPerfectContinuous";
 import PastPerfectContinuous from "./components/tensesInEnglish/PastPerfectContinuous/PastPerfectContinuous";
 import FuturePerfectContinuous from "./components/tensesInEnglish/FuturePerfectContinuous/FuturePerfectContinuous";
-import UsedToComponent from "./components/UsedToComponent/UsedToComponent";
-import ThereIsThereAreComponent from "./components/ThereIsThereAreComponent/ThereIsThereAreComponent";
-import ToBeComponent from "./components/ToBeComponent/ToBeComponent";
-import HaveToComponent from "./components/HaveToComponent/HaveToComponent";
-import ToBeGoingToComponent from "./components/ToBeGoingToComponent/ToBeGoingToComponent";
 import SequenceOfTensesComponent
     from "./components/tensesInEnglish/SequenceOfTensesComponent/SequenceOfTensesComponent";
-import AAnTheComponent from "./components/AAnTheComponent/AAnTheComponent";
 import FamilyVocabularyComponent
     from "./components/vocabularyArchive/FamilyVocabularyComponent/FamilyVocabularyComponent";
+import {
+    AAnTheComponent, AlphabetComponent, HaveToComponent, HomeComponent, IrregularVerbs,
+    ThereIsThereAreComponent, ToBeComponent, ToBeGoingToComponent, UsedToComponent
+} from "./components";
 
 
 function App() {

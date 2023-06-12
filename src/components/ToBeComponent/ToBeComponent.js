@@ -12,4 +12,4 @@ const ToBeComponent = () => {
     );
 };
 
-export default ToBeComponent;
+export {ToBeComponent};

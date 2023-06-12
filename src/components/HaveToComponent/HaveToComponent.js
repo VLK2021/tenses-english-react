@@ -12,4 +12,4 @@ const HaveToComponent = () => {
     );
 };
 
-export default HaveToComponent;
+export {HaveToComponent};

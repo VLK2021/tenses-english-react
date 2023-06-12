@@ -9,4 +9,4 @@ const HomeComponent = () => {
     );
 };
 
-export default HomeComponent;
+export {HomeComponent};

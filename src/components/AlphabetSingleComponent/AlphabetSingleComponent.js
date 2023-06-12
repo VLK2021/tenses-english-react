@@ -33,4 +33,4 @@ const AlphabetSingleComponent = ({obj}) => {
     );
 };
 
-export default AlphabetSingleComponent;
+export {AlphabetSingleComponent};

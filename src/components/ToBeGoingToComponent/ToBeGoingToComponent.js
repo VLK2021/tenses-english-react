@@ -12,4 +12,4 @@ const ToBeGoingToComponent = () => {
     );
 };
 
-export default ToBeGoingToComponent;
+export {ToBeGoingToComponent};

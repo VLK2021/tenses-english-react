@@ -128,4 +128,4 @@ const UsedToComponent = () => {
     );
 };
 
-export default UsedToComponent;
+export {UsedToComponent};
