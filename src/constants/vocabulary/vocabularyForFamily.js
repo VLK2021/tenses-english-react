@@ -155,4 +155,70 @@ export const vocabularyForFamily = [
         transcriptionInf: '[ˈstɛpˌsɪstər]',
         translation: 'сводна сестра'
     },
+    {
+        id: 'F27',
+        infinitive: 'father-in-law',
+        transcriptionInf: '[ˈfɑːðər ɪn ˌlɔː]',
+        translation: 'тесть (батько партнера)'
+    },
+    {
+        id: 'F28',
+        infinitive: 'mother-in-law',
+        transcriptionInf: '[ˈmʌðər ɪn ˌlɔː]',
+        translation: 'свекруха (мати партнера)'
+    },
+    {
+        id: 'F29',
+        infinitive: 'brother-in-law',
+        transcriptionInf: '[ˈbrʌðər ɪn ˌlɔː]',
+        translation: 'шурин (брат партнера)'
+    },
+    {
+        id: 'F30',
+        infinitive: 'sister-in-law',
+        transcriptionInf: '[ˈsɪstər ɪn ˌlɔː]',
+        translation: 'сестра партнера'
+    },
+    {
+        id: 'F31',
+        infinitive: 'son-in-law',
+        transcriptionInf: '[sʌn ɪn ˌlɔː]',
+        translation: 'зять'
+    },
+    {
+        id: 'F32',
+        infinitive: 'daughter-in-law',
+        transcriptionInf: '[ˈdɔːtər ɪn ˌlɔː]',
+        translation: 'невістка'
+    },
+    {
+        id: 'F33',
+        infinitive: 'nephew-in-law',
+        transcriptionInf: '[ˈnefjuː ɪn ˌlɔː]',
+        translation: 'племінник (чоловік племінниці)'
+    },
+    {
+        id: 'F34',
+        infinitive: 'niece-in-law',
+        transcriptionInf: '[niːs ɪn ˌlɔː]',
+        translation: 'племінниця (дружина племінника)'
+    },
+    {
+        id: 'F35',
+        infinitive: 'godmother',
+        transcriptionInf: '[ˈɡɒdmʌðər]',
+        translation: 'хрещена мати'
+    },
+    {
+        id: 'F36',
+        infinitive: 'godfather',
+        transcriptionInf: '[ˈɡɒdfɑːðər]',
+        translation: 'хрещений батько'
+    },
+    {
+        id: 'F37',
+        infinitive: 'godchild',
+        transcriptionInf: '[ˈɡɒdʧaɪld]',
+        translation: 'хрещенець/хрещениця'
+    },
 ];

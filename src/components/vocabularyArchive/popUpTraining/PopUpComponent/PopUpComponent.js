@@ -11,7 +11,8 @@ const PopUpComponent = (props) => {
         newVocabularyForIt,
         newVocabularyHome,
         newVocabularyAdverbs,
-        newVocabularyForFamily
+        newVocabularyForFamily,
+        newVocabularyArray
     } = props;
 
     const {register, reset, handleSubmit} = useForm();
@@ -36,6 +37,9 @@ const PopUpComponent = (props) => {
         }
         if (newVocabularyForFamily) {
             setArrayWords(newVocabularyForFamily)
+        }
+        if (newVocabularyArray) {
+            setArrayWords(newVocabularyArray)
         }
     }, []);
 
@@ -63,7 +67,13 @@ const PopUpComponent = (props) => {
                 setObj(arrayWords[arrayWords.length - 1])
             }
         }
-    }
+    };
+
+    const getRandom = () => {
+        let randomIndex = Math.floor(Math.random() * arrayWords.length);
+        const randomObj = arrayWords[randomIndex];
+        setObj(randomObj);
+    };
 
     const submit = (data) => {
         if (data.write === obj.infinitive) {
@@ -73,7 +83,7 @@ const PopUpComponent = (props) => {
         }
 
         reset();
-    }
+    };
 
 
     return (
@@ -90,7 +100,7 @@ const PopUpComponent = (props) => {
                     }
 
                     <button className={'popBtn marginTop'} onClick={() => setVisiblePop(!visiblePop)}>read / don't
-                        rear
+                        read
                     </button>
                 </article>
 
@@ -112,6 +122,7 @@ const PopUpComponent = (props) => {
 
             <section className={'width nextPrev'}>
                 <button className={'trainingPopUp-btn'} onClick={getPrev}>prev</button>
+                <button className={'trainingPopUp-btn'} onClick={getRandom}>random</button>
                 <button className={'trainingPopUp-btn'} onClick={getNext}>next</button>
             </section>
         </main>

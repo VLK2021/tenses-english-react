@@ -11,6 +11,7 @@ const Layout = () => {
 
     return (
         <main className={'layout'}>
+
             <aside className={'layout-left'}>
                 {
                     menu.slice(0, secondNumberSlice).map(obj => <Button key={obj.id} obj={obj}/>)

@@ -5,41 +5,34 @@ import './FormSearchComponentStyle.css';
 import {vocabularyForIt, fruitsAndVegetables, vocabularyHome, vocabularyAdverbs, vocabularyForFamily} from "../../../constants";
 
 
-const FormSearchComponent = ({
-                                 setNewVocabularyForIt,
-                                 setNewFruitsAndVegetables,
-                                 setNewVocabularyHome,
-                                 setNewVocabularyAdverbs,
-                                 setNewVocabularyForFamily
-                             }) => {
+const FormSearchComponent = ({setNewVocabularyArray, id}) => {
     const {register, handleSubmit, setValue} = useForm();
     const [query, setQuery] = useState('');
-    const [url, setUrl] = useState('');
 
-    const submit = (data, e) => {
-        setUrl(e.target.baseURI)
+    const submit = (data) => {
         setQuery(data.search);
     }
 
     useEffect(() => {
-        if (url.includes('VT3')) {
-            setNewVocabularyForIt(vocabularyForIt.filter(current => current.infinitive.toLowerCase().includes(query)))
+        if (id ==='VT1') {
+            setNewVocabularyArray(vocabularyHome.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
-        if (url.includes('VT7')) {
-            setNewFruitsAndVegetables(fruitsAndVegetables.filter(current => current.infinitive.toLowerCase().includes(query)))
+        if (id ==='VT2') {
+            setNewVocabularyArray(vocabularyForFamily.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
-        if (url.includes('VT1')) {
-            setNewVocabularyHome(vocabularyHome.filter(current => current.infinitive.toLowerCase().includes(query)))
+        if (id ==='VT3') {
+            setNewVocabularyArray(vocabularyForIt.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
-        if (url.includes('VT8')) {
-            setNewVocabularyAdverbs(vocabularyAdverbs.filter(current => current.infinitive.toLowerCase().includes(query)))
+        if (id ==='VT7') {
+            setNewVocabularyArray(fruitsAndVegetables.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
-        if (url.includes('VT2')) {
-            setNewVocabularyForFamily(vocabularyForFamily.filter(current => current.infinitive.toLowerCase().includes(query)))
+
+        if (id ==='VT8') {
+            setNewVocabularyArray(vocabularyAdverbs.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
     }, [query]);

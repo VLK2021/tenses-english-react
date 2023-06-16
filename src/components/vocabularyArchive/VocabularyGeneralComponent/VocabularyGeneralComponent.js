@@ -1,35 +1,68 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
+import {useParams} from "react-router-dom";
 
 import '../VocabularyGeneralStyle.css';
+import {
+    fruitsAndVegetables,
+    vocabularyAdverbs,
+    vocabularyForFamily,
+    vocabularyForIt,
+    vocabularyHome,
+    vocabularyTitlesForGroups
+} from "../../../constants";
 import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
-import {vocabularyAdverbs} from "../../../constants";
-import {vocabularyTitlesForGroups} from "../../../constants";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
 import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
 
 
-const AdverbsVocabulary = () => {
+const VocabularyGeneralComponent = () => {
+    const {id} = useParams();
+
     const [visible, setVisible] = useState(false);
     const [obj, setObj] = useState({});
+    const [title, setTitle] = useState('');
 
-    const [newVocabularyAdverbs, setNewVocabularyAdverbs] = useState(vocabularyAdverbs);
+    const [newVocabularyArray, setNewVocabularyArray] = useState([]);
+
+    useEffect(()=>{
+        if (id === 'VT1') {
+            setNewVocabularyArray(vocabularyHome);
+            setTitle('Home')
+        }
+        if (id === 'VT2') {
+            setNewVocabularyArray(vocabularyForFamily);
+            setTitle('Family')
+        }
+        if (id === 'VT3') {
+            setNewVocabularyArray(vocabularyForIt);
+            setTitle('Fot IT')
+        }
+        if (id === 'VT7') {
+            setNewVocabularyArray(fruitsAndVegetables);
+            setTitle('fruits and vegetables')
+        }
+        if (id === 'VT8') {
+            setNewVocabularyArray(vocabularyAdverbs);
+            setTitle('adverbs')
+        }
+    }, [id]);
 
 
     const handleSelectChange = (e) => {
         const current = e.target.value;
         if (current === 'growth') {
-            const sortByGrows = newVocabularyAdverbs.slice().sort((a, b) => a.infinitive > b.infinitive ? 1 : -1)
-            setNewVocabularyAdverbs(sortByGrows)
+            const sortByGrows = newVocabularyArray.slice().sort((a, b) => a.infinitive > b.infinitive ? 1 : -1)
+            setNewVocabularyArray(sortByGrows)
         } else {
-            const sortByDecline = newVocabularyAdverbs.slice().sort((a, b) => b.infinitive > a.infinitive ? 1 : -1)
-            setNewVocabularyAdverbs(sortByDecline)
+            const sortByDecline = newVocabularyArray.slice().sort((a, b) => b.infinitive > a.infinitive ? 1 : -1)
+            setNewVocabularyArray(sortByDecline)
         }
     };
 
 
     return (
         <main className={'wrapper width flexDirectionColumn'}>
-            <h1>Adverbs</h1>
+            <h1>{title}</h1>
 
             <section className={'select width'}>
                 <article>
@@ -41,10 +74,10 @@ const AdverbsVocabulary = () => {
                     </select>
                 </article>
 
-                <div>{vocabularyAdverbs.length}</div>
+                <div>{newVocabularyArray.length}</div>
 
                 <article className={'adverbsVocabulary-form'}>
-                    <FormSearchComponent setNewVocabularyAdverbs={setNewVocabularyAdverbs}/>
+                    <FormSearchComponent setNewVocabularyArray={setNewVocabularyArray} id={id}/>
                 </article>
             </section>
 
@@ -61,7 +94,7 @@ const AdverbsVocabulary = () => {
 
                 <article className={'width block'}>
                     {
-                        newVocabularyAdverbs.map(obj => <VocabularySingleComponent
+                        newVocabularyArray.map(obj => <VocabularySingleComponent
                             key={obj.id}
                             obj={obj}
                             setVisible={setVisible}
@@ -74,7 +107,7 @@ const AdverbsVocabulary = () => {
                     visible && <PopUpComponent setVisible={setVisible}
                                                obj={obj}
                                                setObj={setObj}
-                                               newVocabularyAdverbs={newVocabularyAdverbs}
+                                               newVocabularyArray={newVocabularyArray}
                     />
                 }
             </section>
@@ -82,4 +115,4 @@ const AdverbsVocabulary = () => {
     );
 };
 
-export default AdverbsVocabulary;
+export {VocabularyGeneralComponent};

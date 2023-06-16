@@ -35,4 +35,12 @@ export const vocabularyTitle = [
         id: 'VT8',
         name: 'adverbs'
     },
+    {
+        id: 'VT9',
+        name: 'adjectives'
+    },
+    {
+        id: 'VT10',
+        name: 'prepositions'
+    },
 ];

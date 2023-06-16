@@ -8,3 +8,4 @@ export * from './ThereIsThereAreComponent/ThereIsThereAreComponent';
 export * from './ToBeComponent/ToBeComponent';
 export * from './ToBeGoingToComponent/ToBeGoingToComponent';
 export * from './UsedToComponent/UsedToComponent';
+export * from './vocabularyArchive/VocabularyGeneralComponent/VocabularyGeneralComponent';

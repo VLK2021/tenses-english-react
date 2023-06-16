@@ -9,11 +9,7 @@ import PresentContinuous from "./components/tensesInEnglish/PresentContinuous/Pr
 import PastContinuous from "./components/tensesInEnglish/PastContinuous/PastContinuous";
 import FutureContinuous from "./components/tensesInEnglish/FutureContinuous/FutureContinuous";
 import Vocabulary from "./components/vocabularyArchive/Vocabulary/Vocabulary";
-import ForItComponent from "./components/vocabularyArchive/ForItComponent/ForItComponent";
-import FruitsAndVegetables from "./components/vocabularyArchive/FruitsAndVegetables/FruitsAndVegetables";
 import PresentPerfect from "./components/tensesInEnglish/PresentPerfect/PresentPerfect";
-import HomeVocabularyComponent from "./components/vocabularyArchive/HomeVocabularyComponent/HomeVocabularyComponent";
-import AdverbsVocabulary from "./components/vocabularyArchive/AdverbsVocabulary/AdverbsVocabulary";
 import PastPerfect from "./components/tensesInEnglish/PastPerfect/PastPerfect";
 import FuturePerfect from "./components/tensesInEnglish/FuturePerfect/FuturePerfect";
 import PresentPerfectContinuous from "./components/tensesInEnglish/PresentPerfectContinuous/PresentPerfectContinuous";
@@ -21,11 +17,9 @@ import PastPerfectContinuous from "./components/tensesInEnglish/PastPerfectConti
 import FuturePerfectContinuous from "./components/tensesInEnglish/FuturePerfectContinuous/FuturePerfectContinuous";
 import SequenceOfTensesComponent
     from "./components/tensesInEnglish/SequenceOfTensesComponent/SequenceOfTensesComponent";
-import FamilyVocabularyComponent
-    from "./components/vocabularyArchive/FamilyVocabularyComponent/FamilyVocabularyComponent";
 import {
     AAnTheComponent, AlphabetComponent, HaveToComponent, HomeComponent, IrregularVerbs,
-    ThereIsThereAreComponent, ToBeComponent, ToBeGoingToComponent, UsedToComponent
+    ThereIsThereAreComponent, ToBeComponent, ToBeGoingToComponent, UsedToComponent,VocabularyGeneralComponent
 } from "./components";
 
 
@@ -58,11 +52,7 @@ function App() {
                     <Route path={'22'} element={<SequenceOfTensesComponent/>}/>
                     <Route path={'23'} element={<AlphabetComponent/>}/>
                     <Route path={'24'} element={<Vocabulary/>}>
-                        <Route path={'VT1'} element={<HomeVocabularyComponent/>}/>
-                        <Route path={'VT2'} element={<FamilyVocabularyComponent/>}/>
-                        <Route path={'VT3'} element={<ForItComponent/>}/>
-                        <Route path={'VT7'} element={<FruitsAndVegetables/>}/>
-                        <Route path={'VT8'} element={<AdverbsVocabulary/>}/>
+                        <Route path={':id'} element={<VocabularyGeneralComponent/>}/>
                     </Route>
                 </Route>
             </Routes>
