@@ -2,7 +2,14 @@ import React, {useEffect, useState} from 'react';
 import {useForm} from "react-hook-form";
 
 import './FormSearchComponentStyle.css';
-import {vocabularyForIt, fruitsAndVegetables, vocabularyHome, vocabularyAdverbs, vocabularyForFamily} from "../../../constants";
+import {
+    vocabularyForIt,
+    fruitsAndVegetables,
+    vocabularyHome,
+    vocabularyAdverbs,
+    vocabularyForFamily,
+    vocabularyAdjectives
+} from "../../../constants";
 
 
 const FormSearchComponent = ({setNewVocabularyArray, id}) => {
@@ -33,6 +40,10 @@ const FormSearchComponent = ({setNewVocabularyArray, id}) => {
 
         if (id ==='VT8') {
             setNewVocabularyArray(vocabularyAdverbs.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setValue('search', query);
+        }
+        if (id ==='VT9') {
+            setNewVocabularyArray(vocabularyAdjectives.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
     }, [query]);

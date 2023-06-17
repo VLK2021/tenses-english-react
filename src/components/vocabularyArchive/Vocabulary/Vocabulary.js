@@ -14,7 +14,7 @@ const Vocabulary = () => {
 
             <section className={'width vocabulary-btn marginTop'}>
                 {
-                    vocabularyTitle.map(obj => <ButtonVocabularyTitle obj={obj}/>)
+                    vocabularyTitle.map(obj => <ButtonVocabularyTitle key={obj.id} obj={obj}/>)
                 }
             </section>
 

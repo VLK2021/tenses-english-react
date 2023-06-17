@@ -8,6 +8,7 @@ import {
     vocabularyForFamily,
     vocabularyForIt,
     vocabularyHome,
+    vocabularyAdjectives,
     vocabularyTitlesForGroups
 } from "../../../constants";
 import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
@@ -44,6 +45,10 @@ const VocabularyGeneralComponent = () => {
         if (id === 'VT8') {
             setNewVocabularyArray(vocabularyAdverbs);
             setTitle('adverbs')
+        }
+        if (id === 'VT9') {
+            setNewVocabularyArray(vocabularyAdjectives);
+            setTitle('adjectives')
         }
     }, [id]);
 

@@ -4,6 +4,8 @@
 
 .btnVocabularyTitle-btn{
     border-radius: 0.5rem;
+    min-height: 2.2rem;
+    font-size: 0.75rem;
     transition: 2s;
 }
 

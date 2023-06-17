@@ -10,3 +10,4 @@ export * from '../constants/vocabulary/fruitsAndVegetables';
 export * from '../constants/vocabulary/vocabularyHome';
 export * from '../constants/vocabulary/vocabularyAdverbs';
 export * from '../constants/vocabulary/vocabularyForFamily';
+export * from '../constants/vocabulary/vocabularyAdjectives';

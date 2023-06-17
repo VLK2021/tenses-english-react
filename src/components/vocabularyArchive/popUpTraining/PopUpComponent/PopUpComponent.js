@@ -1,19 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, {useCallback, useEffect, useState} from 'react';
+import {useForm} from "react-hook-form";
 
 import './PopUpComponentStyle.css';
-import {useForm} from "react-hook-form";
 
 
 const PopUpComponent = (props) => {
-    const {
-        setVisible, obj, setObj,
-        newFruitsAndVegetables,
-        newVocabularyForIt,
-        newVocabularyHome,
-        newVocabularyAdverbs,
-        newVocabularyForFamily,
-        newVocabularyArray
-    } = props;
+    const {setVisible, obj, setObj, newVocabularyArray} = props;
 
     const {register, reset, handleSubmit} = useForm();
 
@@ -23,27 +15,12 @@ const PopUpComponent = (props) => {
 
 
     useEffect(() => {
-        if (newFruitsAndVegetables) {
-            setArrayWords(newFruitsAndVegetables)
-        }
-        if (newVocabularyForIt) {
-            setArrayWords(newVocabularyForIt)
-        }
-        if (newVocabularyHome) {
-            setArrayWords(newVocabularyHome)
-        }
-        if (newVocabularyAdverbs) {
-            setArrayWords(newVocabularyAdverbs)
-        }
-        if (newVocabularyForFamily) {
-            setArrayWords(newVocabularyForFamily)
-        }
         if (newVocabularyArray) {
             setArrayWords(newVocabularyArray)
         }
-    }, []);
+    }, [newVocabularyArray]);
 
-    const getNext = () => {
+    const getNext = useCallback(() => {
         const currentIndex = arrayWords.findIndex(item => item.id === obj.id);
         for (let i = 0; i < arrayWords.length; i++) {
             const element = arrayWords[i];
@@ -54,9 +31,9 @@ const PopUpComponent = (props) => {
                 setObj(arrayWords[0])
             }
         }
-    };
+    }, [arrayWords, obj.id, setObj]);
 
-    const getPrev = () => {
+    const getPrev = useCallback(() => {
         const currentIndex = arrayWords.findIndex(item => item.id === obj.id);
         for (let i = 0; i < arrayWords.length; i++) {
             const element = arrayWords[i];
@@ -67,13 +44,15 @@ const PopUpComponent = (props) => {
                 setObj(arrayWords[arrayWords.length - 1])
             }
         }
-    };
+    }, [arrayWords, obj.id, setObj]);
 
-    const getRandom = () => {
+
+    const getRandom = useCallback(() => {
         let randomIndex = Math.floor(Math.random() * arrayWords.length);
         const randomObj = arrayWords[randomIndex];
         setObj(randomObj);
-    };
+    }, [arrayWords, setObj])
+
 
     const submit = (data) => {
         if (data.write === obj.infinitive) {
