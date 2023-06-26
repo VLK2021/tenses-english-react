@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    /*padding: 5rem 0;*/
 }
 
 .layout-left, .layout-right{
@@ -14,16 +13,8 @@
     justify-content: start;
 }
 
-/*.btn-left{*/
-/*    border-radius: 0.5rem 0 0 0.5rem;*/
-/*}*/
-
-/*.btn-right{*/
-/*    border-radius: 0 0.5rem 0.5rem 0;*/
-/*}*/
-
 .outlet{
     width: 100%;
-    min-height: 55vh;
+    min-height: 60vh;
     background: snow;
 }

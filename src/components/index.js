@@ -9,3 +9,5 @@ export * from './ToBeComponent/ToBeComponent';
 export * from './ToBeGoingToComponent/ToBeGoingToComponent';
 export * from './UsedToComponent/UsedToComponent';
 export * from './vocabularyArchive/VocabularyGeneralComponent/VocabularyGeneralComponent';
+export * from './CanCouldComponent/CanCouldComponent';
+export * from './WillWouldComponent/WillWouldComponent';

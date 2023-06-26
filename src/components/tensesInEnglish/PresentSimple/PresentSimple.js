@@ -37,7 +37,7 @@ const PresentSimple = () => {
                 <article className={'presentSimple-formation-info fontSizeText width'}>
                     <p>Від інфінітива смислового дієслова. (<i>без to</i>) (I read, you read, we read, they read)</p>
                     <p>У третій особі однини має закінчення. <strong>-s</strong> (<i>he reads, she reads</i>)</p>
-                    <p>Дієслова <strong>to have</strong> і <strong>to be</strong> мають особливі форми відмінювання.</p>
+                    <p>Дієслова <a href={'/16'}><strong>to have</strong></a> і <a href={'/15'}><strong>to be</strong></a> мають особливі форми відмінювання.</p>
                     <p>Питальні та заперечні речення утворюються за допомогою допоміжного
                         дієслова <strong>do</strong> і <strong>does</strong>.</p>
                 </article>

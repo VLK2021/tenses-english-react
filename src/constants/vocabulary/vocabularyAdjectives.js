@@ -101,104 +101,98 @@ export const vocabularyAdjectives = [
         transcriptionInf: '[ˈfrɛndli]',
         translation: 'дружній'
     },
-    // {
-    //     id: 'AJ18',
-    //     infinitive: 'smart',
-    //     transcriptionInf: '[smɑːrt]',
-    //     translation: 'розумний'
-    // },
-    // {
-    //     id: 'AJ19',
-    //     infinitive: 'gentle',
-    //     transcriptionInf: '[ˈʤɛntl]',
-    //     translation: 'лагідний'
-    // },
-    // {
-    //     id: 'AJ20',
-    //     infinitive: 'loving',
-    //     transcriptionInf: '[ˈlʌvɪŋ]',
-    //     translation: 'люблячий'
-    // },
-    // {
-    //     id: 'AJ21',
-    //     infinitive: 'positive',
-    //     transcriptionInf: '[ˈpɒzɪtɪv]',
-    //     translation: 'позитивний'
-    // },
-    // {
-    //     id: 'AJ22',
-    //     infinitive: 'optimistic',
-    //     transcriptionInf: '[ˌɒptɪˈmɪstɪk]',
-    //     translation: 'оптимістичний'
-    // },
-    // {
-    //     id: 'AJ23',
-    //     infinitive: 'respectful',
-    //     transcriptionInf: '[rɪsˈpɛktfəl]',
-    //     translation: 'шанобливий'
-    // },
-    // {
-    //     id: 'AJ24',
-    //     infinitive: 'talented',
-    //     transcriptionInf: '[ˈtæləntɪd]',
-    //     translation: 'талановитий'
-    // },
-    // {
-    //     id: 'AJ25',
-    //     infinitive: 'successful',
-    //     transcriptionInf: '[səkˈsɛsfʊl]',
-    //     translation: 'успішний'
-    // },
+    {
+        id: 'AJ18',
+        infinitive: 'smart',
+        transcriptionInf: '[smɑːrt]',
+        translation: 'розумний'
+    },
+    {
+        id: 'AJ19',
+        infinitive: 'gentle',
+        transcriptionInf: '[ˈʤɛntl]',
+        translation: 'лагідний'
+    },
+    {
+        id: 'AJ20',
+        infinitive: 'loving',
+        transcriptionInf: '[ˈlʌvɪŋ]',
+        translation: 'люблячий'
+    },
+    {
+        id: 'AJ21',
+        infinitive: 'positive',
+        transcriptionInf: '[ˈpɒzɪtɪv]',
+        translation: 'позитивний'
+    },
+    {
+        id: 'AJ22',
+        infinitive: 'optimistic',
+        transcriptionInf: '[ˌɒptɪˈmɪstɪk]',
+        translation: 'оптимістичний'
+    },
+    {
+        id: 'AJ23',
+        infinitive: 'respectful',
+        transcriptionInf: '[rɪsˈpɛktfəl]',
+        translation: 'шанобливий'
+    },
+    {
+        id: 'AJ24',
+        infinitive: 'talented',
+        transcriptionInf: '[ˈtæləntɪd]',
+        translation: 'талановитий'
+    },
+    {
+        id: 'AJ25',
+        infinitive: 'successful',
+        transcriptionInf: '[səkˈsɛsfʊl]',
+        translation: 'успішний'
+    },
     // {
     //     id: 'AJ26',
-    //     infinitive: 'patient',
-    //     transcriptionInf: '[ˈpeɪʃənt]',
-    //     translation: 'терплячий'
-    // },
-    // {
-    //     id: 'AJ27',
     //     infinitive: 'humble',
     //     transcriptionInf: '[ˈhʌmbəl]',
     //     translation: 'скромний'
     // },
     // {
-    //     id: 'AJ28',
+    //     id: 'AJ27',
     //     infinitive: 'careful',
     //     transcriptionInf: '[ˈkɛərfʊl]',
     //     translation: 'обережний'
     // },
     // {
-    //     id: 'AJ29',
+    //     id: 'AJ28',
     //     infinitive: 'sincere',
     //     transcriptionInf: '[sɪnˈsɪər]',
     //     translation: 'щирий'
     // },
     // {
-    //     id: 'AJ30',
+    //     id: 'AJ29',
     //     infinitive: 'modest',
     //     transcriptionInf: '[ˈmɒdɪst]',
     //     translation: 'скромний'
     // },
     // {
-    //     id: 'AJ31',
+    //     id: 'AJ30',
     //     infinitive: 'grateful',
     //     transcriptionInf: '[ˈgreɪtfʊl]',
     //     translation: 'вдячний'
     // },
     // {
-    //     id: 'AJ32',
+    //     id: 'AJ31',
     //     infinitive: 'open-minded',
     //     transcriptionInf: '[ˈəʊpən ˈmaɪndɪd]',
     //     translation: 'розумний'
     // },
     // {
-    //     id: 'AJ33',
+    //     id: 'AJ32',
     //     infinitive: 'adventurous',
     //     transcriptionInf: '[ədˈvɛnʧərəs]',
     //     translation: 'авантюрний'
     // },
     // {
-    //     id: 'AJ34',
+    //     id: 'AJ33',
     //     infinitive: 'ambitious',
     //     transcriptionInf: '[æmˈbɪʃəs]',
     //     translation: 'амбітний'

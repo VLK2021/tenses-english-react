@@ -18,8 +18,9 @@ import FuturePerfectContinuous from "./components/tensesInEnglish/FuturePerfectC
 import SequenceOfTensesComponent
     from "./components/tensesInEnglish/SequenceOfTensesComponent/SequenceOfTensesComponent";
 import {
-    AAnTheComponent, AlphabetComponent, HaveToComponent, HomeComponent, IrregularVerbs,
-    ThereIsThereAreComponent, ToBeComponent, ToBeGoingToComponent, UsedToComponent,VocabularyGeneralComponent
+    AAnTheComponent, AlphabetComponent, CanCouldComponent, HaveToComponent, HomeComponent, IrregularVerbs,
+    ThereIsThereAreComponent, ToBeComponent, ToBeGoingToComponent, UsedToComponent, VocabularyGeneralComponent,
+    WillWouldComponent
 } from "./components";
 
 
@@ -47,6 +48,8 @@ function App() {
                     <Route path={'15'} element={<ToBeComponent/>}/>
                     <Route path={'16'} element={<HaveToComponent/>}/>
                     <Route path={'17'} element={<ToBeGoingToComponent/>}/>
+                    <Route path={'18'} element={<CanCouldComponent/>}/>
+                    <Route path={'19'} element={<WillWouldComponent/>}/>
                     <Route path={'20'} element={<UsedToComponent/>}/>
                     <Route path={'21'} element={<IrregularVerbs/>}/>
                     <Route path={'22'} element={<SequenceOfTensesComponent/>}/>

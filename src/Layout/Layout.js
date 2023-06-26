@@ -18,7 +18,7 @@ const Layout = () => {
                 }
             </aside>
 
-            <article className={'outlet'}><Outlet/></article>
+            <section className={'outlet'}><Outlet/></section>
 
             <aside className={'layout-right'}>
                 {
