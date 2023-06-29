@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
 
+import './VocabularyGeneralComponentStyle.css';
 import '../VocabularyGeneralStyle.css';
 import {
     fruitsAndVegetables,
@@ -9,23 +10,25 @@ import {
     vocabularyForIt,
     vocabularyHome,
     vocabularyAdjectives,
-    vocabularyTitlesForGroups
+    vocabularyTitlesForGroups,
 } from "../../../constants";
 import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
 import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
+import {PopUpQuizComponent} from "../popUpTraining/PopUpQuizComponent/PopUpQuizComponent";
 
 
 const VocabularyGeneralComponent = () => {
     const {id} = useParams();
 
     const [visible, setVisible] = useState(false);
+    const [visibleQuiz, setVisibleQuiz] = useState(false);
     const [obj, setObj] = useState({});
     const [title, setTitle] = useState('');
 
     const [newVocabularyArray, setNewVocabularyArray] = useState([]);
 
-    useEffect(()=>{
+    useEffect(() => {
         if (id === 'VT1') {
             setNewVocabularyArray(vocabularyHome);
             setTitle('Home')
@@ -48,7 +51,7 @@ const VocabularyGeneralComponent = () => {
         }
         if (id === 'VT9') {
             setNewVocabularyArray(vocabularyAdjectives);
-            setTitle('adjectives')
+            setTitle('adjectives');
         }
     }, [id]);
 
@@ -80,6 +83,12 @@ const VocabularyGeneralComponent = () => {
                 </article>
 
                 <div>{newVocabularyArray.length}</div>
+
+                <div>
+                    <button className={'btn-quiz flex'}
+                            onClick={() => setVisibleQuiz(true)}
+                    >Quiz {`${title}`}</button>
+                </div>
 
                 <article className={'adverbsVocabulary-form'}>
                     <FormSearchComponent setNewVocabularyArray={setNewVocabularyArray} id={id}/>
@@ -113,6 +122,14 @@ const VocabularyGeneralComponent = () => {
                                                obj={obj}
                                                setObj={setObj}
                                                newVocabularyArray={newVocabularyArray}
+                    />
+                }
+
+                {
+                    visibleQuiz && <PopUpQuizComponent setVisibleQuiz={setVisibleQuiz}
+                                                       newVocabularyArray={newVocabularyArray}
+                                                       obj={obj}
+                                                       setObj={setObj}
                     />
                 }
             </section>

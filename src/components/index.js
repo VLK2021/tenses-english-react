@@ -11,3 +11,4 @@ export * from './UsedToComponent/UsedToComponent';
 export * from './vocabularyArchive/VocabularyGeneralComponent/VocabularyGeneralComponent';
 export * from './CanCouldComponent/CanCouldComponent';
 export * from './WillWouldComponent/WillWouldComponent';
+export * from './vocabularyArchive/popUpTraining/PopUpQuizComponent/PopUpQuizComponent';

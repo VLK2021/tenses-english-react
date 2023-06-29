@@ -1,0 +1,25 @@
+.popUpQuizComponent {
+    width: 68%;
+    min-height: 15rem;
+    background: gainsboro;
+    position: fixed;
+    top: 45%;
+}
+
+.direction-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainingPopUp-btn{
+    background: #4d79ff;
+    text-align: center;
+}
+
+.nextPrev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

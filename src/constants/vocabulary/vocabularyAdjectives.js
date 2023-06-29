@@ -3,19 +3,34 @@ export const vocabularyAdjectives = [
         id: 'AJ1',
         infinitive: 'happy',
         transcriptionInf: '[ˈhæpi]',
-        translation: 'щасливий'
+        translation: 'щасливий',
+        incorrect_answers: [
+            "brave",
+            "calm",
+            "charming"
+        ]
     },
     {
         id: 'AJ2',
         infinitive: 'brave',
         transcriptionInf: '[breɪv]',
-        translation: 'хоробрий'
+        translation: 'хоробрий',
+        incorrect_answers: [
+            "clever",
+            "happy",
+            "beautiful"
+        ]
     },
     {
         id: 'AJ3',
         infinitive: 'beautiful',
         transcriptionInf: '[ˈbjuːtɪfəl]',
-        translation: 'красивий'
+        translation: 'красивий',
+        incorrect_answers: [
+            "talented",
+            "optimistic",
+            "humble"
+        ]
     },
     {
         id: 'AJ4',
@@ -149,98 +164,86 @@ export const vocabularyAdjectives = [
         transcriptionInf: '[səkˈsɛsfʊl]',
         translation: 'успішний'
     },
-    // {
-    //     id: 'AJ26',
-    //     infinitive: 'humble',
-    //     transcriptionInf: '[ˈhʌmbəl]',
-    //     translation: 'скромний'
-    // },
-    // {
-    //     id: 'AJ27',
-    //     infinitive: 'careful',
-    //     transcriptionInf: '[ˈkɛərfʊl]',
-    //     translation: 'обережний'
-    // },
-    // {
-    //     id: 'AJ28',
-    //     infinitive: 'sincere',
-    //     transcriptionInf: '[sɪnˈsɪər]',
-    //     translation: 'щирий'
-    // },
-    // {
-    //     id: 'AJ29',
-    //     infinitive: 'modest',
-    //     transcriptionInf: '[ˈmɒdɪst]',
-    //     translation: 'скромний'
-    // },
+    {
+        id: 'AJ26',
+        infinitive: 'humble',
+        transcriptionInf: '[ˈhʌmbəl]',
+        translation: 'скромний'
+    },
+    {
+        id: 'AJ27',
+        infinitive: 'careful',
+        transcriptionInf: '[ˈkɛərfʊl]',
+        translation: 'обережний'
+    },
+    {
+        id: 'AJ28',
+        infinitive: 'sincere',
+        transcriptionInf: '[sɪnˈsɪər]',
+        translation: 'щирий'
+    },
+    {
+        id: 'AJ29',
+        infinitive: 'grateful',
+        transcriptionInf: '[ˈgreɪtfʊl]',
+        translation: 'вдячний'
+    },
     // {
     //     id: 'AJ30',
-    //     infinitive: 'grateful',
-    //     transcriptionInf: '[ˈgreɪtfʊl]',
-    //     translation: 'вдячний'
-    // },
-    // {
-    //     id: 'AJ31',
-    //     infinitive: 'open-minded',
-    //     transcriptionInf: '[ˈəʊpən ˈmaɪndɪd]',
-    //     translation: 'розумний'
-    // },
-    // {
-    //     id: 'AJ32',
     //     infinitive: 'adventurous',
     //     transcriptionInf: '[ədˈvɛnʧərəs]',
     //     translation: 'авантюрний'
     // },
     // {
-    //     id: 'AJ33',
+    //     id: 'AJ31',
     //     infinitive: 'ambitious',
     //     transcriptionInf: '[æmˈbɪʃəs]',
     //     translation: 'амбітний'
     // },
     // {
-    //     id: 'AJ35',
+    //     id: 'AJ32',
     //     infinitive: 'carefree',
     //     transcriptionInf: '[ˈkɛərfriː]',
     //     translation: 'безтурботний'
     // },
     // {
-    //     id: 'AJ36',
+    //     id: 'AJ33',
     //     infinitive: 'charming',
     //     transcriptionInf: '[ˈtʃɑːrmɪŋ]',
     //     translation: 'чарівний'
     // },
     // {
-    //     id: 'AJ37',
+    //     id: 'AJ35',
     //     infinitive: 'cooperative',
     //     transcriptionInf: '[kəʊˈɒpərətɪv]',
     //     translation: 'співробітничий'
     // },
     // {
-    //     id: 'AJ38',
+    //     id: 'AJ36',
     //     infinitive: 'dedicated',
     //     transcriptionInf: '[ˈdɛdɪkeɪtɪd]',
     //     translation: 'присвячений'
     // },
     // {
-    //     id: 'AJ39',
+    //     id: 'AJ37',
     //     infinitive: 'energetic',
     //     transcriptionInf: '[ˌɛnərˈʤɛtɪk]',
     //     translation: 'енергійний'
     // },
     // {
-    //     id: 'AJ40',
+    //     id: 'AJ38',
     //     infinitive: 'forgiving',
     //     transcriptionInf: '[fərˈgɪvɪŋ]',
     //     translation: 'прощаючий'
     // },
     // {
-    //     id: 'AJ41',
+    //     id: 'AJ39',
     //     infinitive: 'graceful',
     //     transcriptionInf: '[ˈgreɪsfl]',
     //     translation: 'граціозний'
     // },
     // {
-    //     id: 'AJ42',
+    //     id: 'AJ40',
     //     infinitive: 'helpful',
     //     transcriptionInf: '[ˈhɛlpfʊl]',
     //     translation: 'корисний'

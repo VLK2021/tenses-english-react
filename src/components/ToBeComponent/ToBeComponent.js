@@ -165,6 +165,55 @@ const ToBeComponent = () => {
                 </article>
             </section>
 
+            <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>To be в майбутньому часі</h2>
+
+                <article className={'usedToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        В майбутньому часі (граматичні часи Future Simple, Future Continuous) дієслово <strong>to
+                        be</strong> не має особливих форм, а вживається за загальними правилами з допоміжними дієсловами
+                        <strong>shall</strong> та <strong>will</strong>.
+                        <span className={'example'}>
+                            <p>I <b>shall be</b> a doctor. – Я буду лікарем.</p>
+                            <p>She <b>will be</b> working at 8 tomorrow. – Вона буде працювати завтра о 8-й.</p>
+                            <p>
+                                My parents <b>will be</b> 60 next year. – Моїм батьками виповниться по 60 років в наступному році.
+                            </p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>To be не змінюється</h2>
+
+                <article className={'usedToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Дієслово <strong>to be</strong> не змінюється в наказовому способі, що виражає наказ, прохання,
+                        побажання. В цьому випадку частка <strong>to</strong> не використовується.
+                        <span className={'example'}>
+                            <p><b>Be</b> happy! – Будь щасливим!</p>
+                            <p><b>Be</b> careful! – Будь обережним!</p>
+                            <p><b>Be</b> yourself. – Будь собою.</p>
+                            <p><b>Be</b> a man! – Будь мужиком!</p>
+                        </span>
+                    </p>
+                    <p className={'width marginTop'}>
+                        Дієслово <strong>to be</strong> не змінює своєї форми, коли перед ним йде інше смислове або
+                        модальне дієслово. В цьому випадку, в залежності від дієслова, з яким поєднане <strong>to
+                        be</strong>, частка <strong>to</strong> може залишатися або опускатися (голий інфінітив).
+                        <span className={'example'}>
+                            <p>I want <b>to be</b> with you. – Я хочу бути з тобою.</p>
+                            <p>I do<b>n’t</b> want <b>to be</b> angry. – Мені не хочеться бути злим.</p>
+                            <p>It might <b>not be</b> true. – Можливо, це неправда.</p>
+                            <p>It might <b>be</b> true. – Це може бути правдою.</p>
+                            <p>You should <b>not be</b> here. – Ви не повинні бути тут.</p>
+                            <p>Could it <b>be</b> here? – Чи може це бути тут?</p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
 
         </main>
     );

@@ -6,6 +6,7 @@ import './PopUpComponentStyle.css';
 
 const PopUpComponent = (props) => {
     const {setVisible, obj, setObj, newVocabularyArray} = props;
+    console.log(obj);
 
     const {register, reset, handleSubmit} = useForm();
 
@@ -66,45 +67,46 @@ const PopUpComponent = (props) => {
 
 
     return (
-        <main className={'popUpComponent direction-column'}>
-            <button className={'trainingPopUp-btn'} onClick={() => setVisible(false)}>close</button>
+            <main className={'popUpComponent direction-column'}>
+                <button className={'trainingPopUp-btn'} onClick={() => setVisible(false)}>close</button>
 
-            <h1>{obj.translation}</h1>
+                <h1>{obj.translation}</h1>
 
-            <section className={'flex popUpComponent-read-write width'}>
-                <article className={'flexDirectionColumn'}>
-                    {
-                        visiblePop &&
-                        <div>{obj.infinitive}</div>
-                    }
+                <section className={'flex popUpComponent-read-write width'}>
+                    <article className={'flexDirectionColumn'}>
+                        {
+                            visiblePop &&
+                            <div>{obj.infinitive}</div>
+                        }
 
-                    <button className={'popBtn marginTop'} onClick={() => setVisiblePop(!visiblePop)}>read / don't
-                        read
-                    </button>
-                </article>
+                        <button className={'popBtn marginTop'} onClick={() => setVisiblePop(!visiblePop)}>read / don't
+                            read
+                        </button>
+                    </article>
 
-                <article className={'flexDirectionColumn'}>
-                    {
-                        visiblePop1 &&
-                        <div>
-                            <form onSubmit={handleSubmit(submit)}>
-                                <input type="text" {...register('write')} placeholder={'...write word'}/>
-                            </form>
-                        </div>
-                    }
+                    <article className={'flexDirectionColumn'}>
+                        {
+                            visiblePop1 &&
+                            <div>
+                                <form onSubmit={handleSubmit(submit)}>
+                                    <input type="text" {...register('write')} placeholder={'...write word'}/>
+                                </form>
+                            </div>
+                        }
 
-                    <button className={'popBtn marginTop'} onClick={() => setVisiblePop1(!visiblePop1)}>write / don't
-                        write
-                    </button>
-                </article>
-            </section>
+                        <button className={'popBtn marginTop'} onClick={() => setVisiblePop1(!visiblePop1)}>write /
+                            don't
+                            write
+                        </button>
+                    </article>
+                </section>
 
-            <section className={'width nextPrev'}>
-                <button className={'trainingPopUp-btn'} onClick={getPrev}>prev</button>
-                <button className={'trainingPopUp-btn'} onClick={getRandom}>random</button>
-                <button className={'trainingPopUp-btn'} onClick={getNext}>next</button>
-            </section>
-        </main>
+                <section className={'width nextPrev'}>
+                    <button className={'trainingPopUp-btn'} onClick={getPrev}>prev</button>
+                    <button className={'trainingPopUp-btn'} onClick={getRandom}>random</button>
+                    <button className={'trainingPopUp-btn'} onClick={getNext}>next</button>
+                </section>
+            </main>
     );
 };
 
