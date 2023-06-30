@@ -6,7 +6,6 @@ import './PopUpComponentStyle.css';
 
 const PopUpComponent = (props) => {
     const {setVisible, obj, setObj, newVocabularyArray} = props;
-    console.log(obj);
 
     const {register, reset, handleSubmit} = useForm();
 

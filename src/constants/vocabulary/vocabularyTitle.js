@@ -28,19 +28,19 @@ export const vocabularyTitle = [
         name: 'food and drink'
     },
     {
-        id: 'VT7',
+        id: 'VT8',
         name: 'fruits and vegetables'
     },
     {
-        id: 'VT8',
+        id: 'VT9',
         name: 'adverbs'
     },
     {
-        id: 'VT9',
+        id: 'VT10',
         name: 'adjectives'
     },
     {
-        id: 'VT10',
+        id: 'VT11',
         name: 'prepositions'
     },
 ];
