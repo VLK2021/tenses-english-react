@@ -7,10 +7,12 @@ import './AnswerComponentStyle.css';
 const AnswerComponent = ({answerArray, infinitive}) => {
     const {register, setValue} = useForm();
 
+    //обнуляю інпут
     useEffect(() => {
         setValue('radioOption', '');
     }, [infinitive]);
 
+    //перемішую масив щоб кожен раз міняти розташування правильного слова
     const shuffleArray = useCallback((array) => {
         const newArray = [...array];
         for (let i = newArray.length - 1; i > 0; i--) {
@@ -19,7 +21,6 @@ const AnswerComponent = ({answerArray, infinitive}) => {
         }
         return newArray;
     }, []);
-
 
 
     const submit = (data) => {
@@ -37,8 +38,9 @@ const AnswerComponent = ({answerArray, infinitive}) => {
         submit({radioOption: selectedOption});
     };
 
+    //отримую перемішаний новий масив для рендеру
     const shuffledAnswerArray = shuffleArray(answerArray);
-    console.log(shuffledAnswerArray);
+
 
     return (
         <main className={'width answerComponent marginTop'}>
