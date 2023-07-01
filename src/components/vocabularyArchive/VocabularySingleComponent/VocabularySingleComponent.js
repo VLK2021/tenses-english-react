@@ -3,7 +3,7 @@ import React from 'react';
 import './VocabularySingleComponentStyle.css';
 
 
-const VocabularySingleComponent = ({obj, setVisible, setObj}) => {
+const VocabularySingleComponent = ({obj, setVisible, setObj, setVisibleQuiz}) => {
     const {infinitive, transcriptionInf, translation} = obj;
 
 
@@ -25,7 +25,8 @@ const VocabularySingleComponent = ({obj, setVisible, setObj}) => {
                 <button
                     className={'vocabularySingleComponent-btn'}
                     onClick={(e)=> {
-                        setVisible(true)
+                        setVisible(true);
+                        setVisibleQuiz(false);
                         setObj(obj);
                     } }
                 >training</button>

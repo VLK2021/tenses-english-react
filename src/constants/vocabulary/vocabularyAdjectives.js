@@ -69,139 +69,254 @@ export const vocabularyAdjectives = [
         id: 'AJ7',
         infinitive: 'charming',
         transcriptionInf: '[ˈtʃɑːrmɪŋ]',
-        translation: 'чарівний'
+        translation: 'чарівний',
+        incorrect_answers: [
+            "hello",
+            "brave",
+            "apple"
+        ]
     },
     {
         id: 'AJ8',
         infinitive: 'curious',
         transcriptionInf: '[ˈkjʊəriəs]',
-        translation: 'допитливий'
+        translation: 'допитливий',
+        incorrect_answers: [
+            "grapefruit",
+            "son",
+            "generally"
+        ]
     },
     {
         id: 'AJ9',
         infinitive: 'kind',
         transcriptionInf: '[kaɪnd]',
-        translation: 'добрий'
+        translation: 'добрий',
+        incorrect_answers: [
+            "gently",
+            "calmly",
+            "firmly"
+        ]
     },
     {
         id: 'AJ10',
         infinitive: 'honest',
         transcriptionInf: '[ˈɒnɪst]',
-        translation: 'чесний'
+        translation: 'чесний',
+        incorrect_answers: [
+            "patiently",
+            "happy",
+            "wise"
+        ]
     },
     {
         id: 'AJ11',
         infinitive: 'funny',
         transcriptionInf: '[ˈfʌni]',
-        translation: 'смішний'
+        translation: 'смішний',
+        incorrect_answers: [
+            "honest",
+            "generous",
+            "charming"
+        ]
     },
     {
         id: 'AJ12',
         infinitive: 'generous',
         transcriptionInf: '[ˈʤɛnərəs]',
-        translation: 'щедрий'
+        translation: 'щедрий',
+        incorrect_answers: [
+            "optimistic",
+            "talented",
+            "loving"
+        ]
     },
     {
         id: 'AJ13',
         infinitive: 'wise',
         transcriptionInf: '[waɪz]',
-        translation: 'мудрий'
+        translation: 'мудрий',
+        incorrect_answers: [
+            "careful",
+            "sincere",
+            "firmly"
+        ]
     },
     {
         id: 'AJ14',
         infinitive: 'patient',
         transcriptionInf: '[ˈpeɪʃənt]',
-        translation: 'терплячий'
+        translation: 'терплячий',
+        incorrect_answers: [
+            "humble",
+            "successful",
+            "firmly"
+        ]
     },
     {
         id: 'AJ15',
         infinitive: 'polite',
         transcriptionInf: '[pəˈlaɪt]',
-        translation: 'ввічливий'
+        translation: 'ввічливий',
+        incorrect_answers: [
+            "positive",
+            "calmly",
+            "sincere"
+        ]
     },
     {
         id: 'AJ16',
         infinitive: 'strong',
         transcriptionInf: '[strɒŋ]',
-        translation: 'сильний'
+        translation: 'сильний',
+        incorrect_answers: [
+            "curious",
+            "kind",
+            "funny"
+        ]
     },
     {
         id: 'AJ17',
         infinitive: 'friendly',
         transcriptionInf: '[ˈfrɛndli]',
-        translation: 'дружній'
+        translation: 'дружній',
+        incorrect_answers: [
+            "beautiful",
+            "brave",
+            "clever"
+        ]
     },
     {
         id: 'AJ18',
         infinitive: 'smart',
         transcriptionInf: '[smɑːrt]',
-        translation: 'розумний'
+        translation: 'розумний',
+        incorrect_answers: [
+            "quickly",
+            "kind",
+            "loudly"
+        ]
     },
     {
         id: 'AJ19',
         infinitive: 'gentle',
         transcriptionInf: '[ˈʤɛntl]',
-        translation: 'лагідний'
+        translation: 'лагідний',
+        incorrect_answers: [
+            "adware",
+            "analysis",
+            "byte"
+        ]
     },
     {
         id: 'AJ20',
         infinitive: 'loving',
         transcriptionInf: '[ˈlʌvɪŋ]',
-        translation: 'люблячий'
+        translation: 'люблячий',
+        incorrect_answers: [
+            "optimistic",
+            "talented",
+            "happy"
+        ]
     },
     {
         id: 'AJ21',
         infinitive: 'positive',
         transcriptionInf: '[ˈpɒzɪtɪv]',
-        translation: 'позитивний'
+        translation: 'позитивний',
+        incorrect_answers: [
+            "algorithm",
+            "query",
+            "binary"
+        ]
     },
     {
         id: 'AJ22',
         infinitive: 'optimistic',
         transcriptionInf: '[ˌɒptɪˈmɪstɪk]',
-        translation: 'оптимістичний'
+        translation: 'оптимістичний',
+        incorrect_answers: [
+            "successful",
+            "grateful",
+            "sincere"
+        ]
     },
     {
         id: 'AJ23',
         infinitive: 'respectful',
         transcriptionInf: '[rɪsˈpɛktfəl]',
-        translation: 'шанобливий'
+        translation: 'шанобливий',
+        incorrect_answers: [
+            "algorithm",
+            "query",
+            "binary"
+        ]
     },
     {
         id: 'AJ24',
         infinitive: 'talented',
         transcriptionInf: '[ˈtæləntɪd]',
-        translation: 'талановитий'
+        translation: 'талановитий',
+        incorrect_answers: [
+            "honest",
+            "generous",
+            "charming"
+        ]
     },
     {
         id: 'AJ25',
         infinitive: 'successful',
         transcriptionInf: '[səkˈsɛsfʊl]',
-        translation: 'успішний'
+        translation: 'успішний',
+        incorrect_answers: [
+            "account",
+            "variable",
+            "encryption"
+        ]
     },
     {
         id: 'AJ26',
         infinitive: 'humble',
         transcriptionInf: '[ˈhʌmbəl]',
-        translation: 'скромний'
+        translation: 'скромний',
+        incorrect_answers: [
+            "patiently",
+            "happy",
+            "patient"
+        ]
     },
     {
         id: 'AJ27',
         infinitive: 'careful',
         transcriptionInf: '[ˈkɛərfʊl]',
-        translation: 'обережний'
+        translation: 'обережний',
+        incorrect_answers: [
+            "brave",
+            "generous",
+            "wise"
+        ]
     },
     {
         id: 'AJ28',
         infinitive: 'sincere',
         transcriptionInf: '[sɪnˈsɪər]',
-        translation: 'щирий'
+        translation: 'щирий',
+        incorrect_answers: [
+            "adware",
+            "analysis",
+            "byte"
+        ]
     },
     {
         id: 'AJ29',
         infinitive: 'grateful',
         transcriptionInf: '[ˈgreɪtfʊl]',
-        translation: 'вдячний'
+        translation: 'вдячний',
+        incorrect_answers: [
+            "smart",
+            "loving",
+            "optimistic"
+        ]
     },
     // {
     //     id: 'AJ30',

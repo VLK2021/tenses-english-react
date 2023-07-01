@@ -69,6 +69,11 @@ const VocabularyGeneralComponent = () => {
         }
     };
 
+    const quizFunction = () => {
+        setVisibleQuiz(true);
+        setVisible(false);
+    }
+
 
     return (
         <main className={'wrapper width flexDirectionColumn'}>
@@ -88,7 +93,7 @@ const VocabularyGeneralComponent = () => {
 
                 <div>
                     <button className={'btn-quiz flex'}
-                            onClick={() => setVisibleQuiz(true)}
+                            onClick={quizFunction}
                     >Quiz {`${title}`}</button>
                 </div>
 
@@ -114,6 +119,7 @@ const VocabularyGeneralComponent = () => {
                             key={obj.id}
                             obj={obj}
                             setVisible={setVisible}
+                            setVisibleQuiz={setVisibleQuiz}
                             setObj={setObj}
                         />)
                     }
