@@ -1,0 +1,12 @@
+.quizSingleComponent {
+    padding: 1rem;
+}
+
+.quizSingleComponent-title{
+    text-align: center;
+    text-transform: uppercase;
+    color: midnightblue;
+    text-shadow: 0.2rem 0.2rem 0.2rem skyblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

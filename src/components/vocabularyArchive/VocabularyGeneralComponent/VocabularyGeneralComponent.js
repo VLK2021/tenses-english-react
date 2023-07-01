@@ -23,15 +23,17 @@ const VocabularyGeneralComponent = () => {
 
     const [visible, setVisible] = useState(false);
     const [visibleQuiz, setVisibleQuiz] = useState(false);
+
+    const [newVocabularyArray, setNewVocabularyArray] = useState([]);
+
     const [obj, setObj] = useState({});
     const [title, setTitle] = useState('');
 
-    const [newVocabularyArray, setNewVocabularyArray] = useState([]);
 
     useEffect(() => {
         if (id === 'VT1') {
             setNewVocabularyArray(vocabularyHome);
-            setTitle('Home')
+            setTitle('Home');
         }
         if (id === 'VT2') {
             setNewVocabularyArray(vocabularyForFamily);
@@ -39,17 +41,17 @@ const VocabularyGeneralComponent = () => {
         }
         if (id === 'VT3') {
             setNewVocabularyArray(vocabularyForIt);
-            setTitle('Fot IT')
-        }
-        if (id === 'VT7') {
-            setNewVocabularyArray(fruitsAndVegetables);
-            setTitle('fruits and vegetables')
+            setTitle('Fot IT');
         }
         if (id === 'VT8') {
-            setNewVocabularyArray(vocabularyAdverbs);
-            setTitle('adverbs')
+            setNewVocabularyArray(fruitsAndVegetables);
+            setTitle('fruits and vegetables');
         }
         if (id === 'VT9') {
+            setNewVocabularyArray(vocabularyAdverbs);
+            setTitle('adverbs');
+        }
+        if (id === 'VT10') {
             setNewVocabularyArray(vocabularyAdjectives);
             setTitle('adjectives');
         }

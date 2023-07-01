@@ -1,0 +1,25 @@
+.answerComponent{
+    padding: 1rem;
+}
+
+.answersComponent-block {
+    padding: 0 3rem 1rem 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.answersComponent-block-name, .answersComponent-block-input{
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+.correct{
+    color: green;
+}
+
+.wrong {
+    color: red;
+}

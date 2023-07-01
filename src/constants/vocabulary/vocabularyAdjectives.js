@@ -18,7 +18,7 @@ export const vocabularyAdjectives = [
         incorrect_answers: [
             "clever",
             "happy",
-            "beautiful"
+            "bug"
         ]
     },
     {
@@ -27,28 +27,43 @@ export const vocabularyAdjectives = [
         transcriptionInf: '[ˈbjuːtɪfəl]',
         translation: 'красивий',
         incorrect_answers: [
-            "talented",
-            "optimistic",
-            "humble"
+            "algorithm",
+            "query",
+            "binary"
         ]
     },
     {
         id: 'AJ4',
         infinitive: 'clever',
         transcriptionInf: '[ˈklɛvər]',
-        translation: 'розумний'
+        translation: 'розумний',
+        incorrect_answers: [
+            "successful",
+            "grateful",
+            "sincere"
+        ]
     },
     {
         id: 'AJ5',
         infinitive: 'creative',
         transcriptionInf: '[kriːˈeɪtɪv]',
-        translation: 'творчий'
+        translation: 'творчий',
+        incorrect_answers: [
+            "slowly",
+            "suddenly",
+            "sincere"
+        ]
     },
     {
         id: 'AJ6',
         infinitive: 'calm',
         transcriptionInf: '[kɑːm]',
-        translation: 'спокійний'
+        translation: 'спокійний',
+        incorrect_answers: [
+            "successful",
+            "grateful",
+            "sincere"
+        ]
     },
     {
         id: 'AJ7',
