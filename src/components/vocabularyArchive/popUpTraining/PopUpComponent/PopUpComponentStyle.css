@@ -6,6 +6,15 @@
     top: 45%;
 }
 
+.popUpComponent > h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: midnightblue;
+    text-shadow: 0.2rem 0.2rem 0.2rem skyblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 .trainingPopUp-btn{
     background: #4d79ff;
     text-align: center;

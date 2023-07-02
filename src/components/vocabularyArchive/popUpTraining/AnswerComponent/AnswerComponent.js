@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect} from 'react';
+import React, {useCallback, useEffect, useState} from 'react';
 import {useForm} from "react-hook-form";
 
 import './AnswerComponentStyle.css';
@@ -25,9 +25,9 @@ const AnswerComponent = ({answerArray, infinitive}) => {
 
     const submit = (data) => {
         if(data.radioOption === infinitive) {
-            alert('good!!!')
+            alert('good!!!');
         } else {
-            alert('bad!!!')
+            alert('bad!!!');
         }
     };
 

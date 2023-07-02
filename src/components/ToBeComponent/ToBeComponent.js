@@ -91,7 +91,8 @@ const ToBeComponent = () => {
                     <p className={'width marginTop'}>
                         Питальні речення з дієсловом <strong>to be</strong> (в якості присудка) утворюються за допомогою
                         переносу <strong>to be</strong> в необхідній формі на початок речення перед підметом. В
-                        спеціальних питаннях, коли питання має питальні слова, дієслово <strong>to be</strong> ставиться після них.
+                        спеціальних питаннях, коли питання має питальні слова, дієслово <strong>to be</strong> ставиться
+                        після них.
                         <span className={'example'}>
                             <p><b>Am</b> I sleeping? – Я сплю? (Це сон?)</p>
                             <p><b>Is</b> it dangerous? – Це небезпечно?</p>
@@ -152,7 +153,9 @@ const ToBeComponent = () => {
                         </span>
                     </p>
                     <p className={'width marginTop'}>
-                        Питальні речення з дієсловом to be у якості присудка утворюються за допомогою переносу to be в потрібній формі на початок речення перед підметом. В спеціальних питаннях, коли використовуються питальні слова, дієслово to be стоїть після них.
+                        Питальні речення з дієсловом to be у якості присудка утворюються за допомогою переносу to be в
+                        потрібній формі на початок речення перед підметом. В спеціальних питаннях, коли використовуються
+                        питальні слова, дієслово to be стоїть після них.
                         <span className={'example'}>
                             <p><b>Was</b> I sleeping? – Я спав? (Це був сон?)</p>
                             <p><b>Was</b> it dangerous? – Це було небезпечно?</p>
@@ -214,7 +217,109 @@ const ToBeComponent = () => {
                 </article>
             </section>
 
+            <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Функції дієслова to be</h2>
 
+                <article className={'usedToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Дієслово <strong>to be</strong> вживається для вираження присутності, наявності,
+                        місцезнаходження,
+                        опису якостей та властивостей предметів, а також для утворення граматичних конструкцій на
+                        позначення часу та пасивного стану з іншими дієсловами.
+                        В українській мові дієслово to be часто оминається на відміну від англійської мови, в якій
+                        <strong>to be</strong> ніколи не опускається, адже в цьому випадку речення стане граматично
+                        неправильним та може загубити своє значення. В реченні дієслово <strong>to be</strong> може
+                        вживатися в якості смислового дієслова, дієслова-зв'язки, допоміжного дієслова або ж у
+                        модальній конструкції <strong>to be to</strong>.
+                        <span className={'example'}>
+                            <p>Ann <b>is</b> here. – Енн (присутня) тут. (смислове дієслово)</p>
+                            <p>I <b>am</b> tall. – Я (є) високий. (дієслово-зв'язка)</p>
+                            <p>Jack <b>is</b> reading now. – Джек зараз читає. (допоміжне дієслово)</p>
+                            <p>We <b>are</b> to be there at 6. – Ми повинні бути там о 6-й. (модальне дієслово)</p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Смислове дієслово to be</h2>
+
+                <article className={'usedToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        <strong>To be</strong> в якості смислового дієслова передає значення «знаходитися»,
+                        «бути присутнім», «бути у наявності». В реченні він виступає в якості простого присудка.
+                        <span className={'example'}>
+                            <p>Mark <b>is</b> on the meeting. – Марк (присутній) на нараді.</p>
+                            <p>Our cars <b>are</b> near the house. – Наші машини (стоять) біля будинку.</p>
+                            <p>There <b>are</b> some eggs in the fridge. – В холодильнику є декілька яєць.</p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Дієслово-зв'язка to be</h2>
+
+                <article className={'usedToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Дієслово <strong>to be</strong> в якості дієслова-зв'язки у реченні виступає частиною іменного
+                        присудка і передає значення «є», «виявляється» для вказівки на ознаки предметів. Як
+                        дієслово-зв'язка to be зазвичай не перекладається на українську мову.
+                        <span className={'example'}>
+                            <p>I <b>am</b> very <b>happy</b>! – Я дуже щасливий.</p>
+                            <p>Ann <b>isn’t</b> a <b>student</b>. – Енн не студентка.</p>
+                            <p><b>Are</b> they <b>Italians</b>? – Вони італійці?</p>
+                            <p>She <b>was 20</b> when I met her for the first time. – Їй було 20, коли я вперше зустрів її.</p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>To be як допоміжне дієслово</h2>
+
+                <article className={'usedToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        В якості допоміжного дієслова <strong>to be</strong> не має свого власного лексичного значення,
+                        тому він не перекладається українською мовою. Форми дієслова <strong>to be</strong> (а також
+                        його третя форма been) використовуються для утворення певних граматичних конструкцій та форм:
+                        утворення пасивного стану та тривалих часів (Present Continuous, Present Perfect Continuous,
+                        Past Continuous, Past Perfect Continuous, Future Continuous, Future Perfect Continuous).
+                        <span className={'example'}>
+                            <p>I<b>’m</b> working now. – Я зараз працюю.</p>
+                            <p>I <b>was</b> working when Jack came. – Я працювала, коли прийшов Джек.</p>
+                            <p>I have <b>been</b> working here for 6 months. – Я працюю тут 6 місяців.</p>
+                            <p>I will <b>be</b> working at 8 tomorrow. – Завтра о 8-й я буду працювати.</p>
+                            <p>My cup <b>is</b> broken. Who touched it? – Моя чашка розбита. Хто її торкався?</p>
+                            <p>The cup <b>was</b> broken long time ago. – Чашка була розбита дуже давно.</p>
+                            <p>
+                                If you don’t put your cup in the drawer, it will <b>be</b> broken. – Якщо ти не покладеш свою
+                                чашку в ящик, її розіб'ють.
+                            </p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Модальна конструкція to be to</h2>
+
+                <article className={'usedToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Дієслово <strong>to be</strong> вживається в модальній конструкції <strong>to be to</strong> з
+                        інфінітивом дієслова для вираження планів, домовленостей, наказу, інструкцій, заборони та
+                        вираження того, що повинно статись.
+                        <span className={'example'}>
+                            <p>You <b>were to</b> work! – Ти повинен був працювати!</p>
+                            <p>We <b>are to</b> meet Chris at 8 near the station. – Ми зустрінемо Кріса о 8-й біля станції.</p>
+                            <p>What <b>am I to</b> do without you now? – Що мені без тебе тепер робити?</p>
+                            <p>
+                                They were going to get married but it <b>was not to</b> be. – Вони збиралися одружитися, але цього не сталося.
+                            </p>
+                        </span>
+                    </p>
+                </article>
+            </section>
         </main>
     );
 };

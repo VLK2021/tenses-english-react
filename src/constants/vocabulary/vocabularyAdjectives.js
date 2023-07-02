@@ -318,18 +318,28 @@ export const vocabularyAdjectives = [
             "optimistic"
         ]
     },
-    // {
-    //     id: 'AJ30',
-    //     infinitive: 'adventurous',
-    //     transcriptionInf: '[ədˈvɛnʧərəs]',
-    //     translation: 'авантюрний'
-    // },
-    // {
-    //     id: 'AJ31',
-    //     infinitive: 'ambitious',
-    //     transcriptionInf: '[æmˈbɪʃəs]',
-    //     translation: 'амбітний'
-    // },
+    {
+        id: 'AJ30',
+        infinitive: 'adventurous',
+        transcriptionInf: '[ədˈvɛnʧərəs]',
+        translation: 'авантюрний',
+        incorrect_answers: [
+            "carpet",
+            "lettuce",
+            "radish"
+        ]
+    },
+    {
+        id: 'AJ31',
+        infinitive: 'ambitious',
+        transcriptionInf: '[æmˈbɪʃəs]',
+        translation: 'амбітний',
+        incorrect_answers: [
+            "pear",
+            "mango",
+            "watermelon"
+        ]
+    },
     // {
     //     id: 'AJ32',
     //     infinitive: 'carefree',
