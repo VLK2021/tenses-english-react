@@ -340,62 +340,76 @@ export const vocabularyAdjectives = [
             "watermelon"
         ]
     },
-    // {
-    //     id: 'AJ32',
-    //     infinitive: 'carefree',
-    //     transcriptionInf: '[ˈkɛərfriː]',
-    //     translation: 'безтурботний'
-    // },
-    // {
-    //     id: 'AJ33',
-    //     infinitive: 'charming',
-    //     transcriptionInf: '[ˈtʃɑːrmɪŋ]',
-    //     translation: 'чарівний'
-    // },
-    // {
-    //     id: 'AJ35',
-    //     infinitive: 'cooperative',
-    //     transcriptionInf: '[kəʊˈɒpərətɪv]',
-    //     translation: 'співробітничий'
-    // },
+    {
+        id: 'AJ32',
+        infinitive: 'carefree',
+        transcriptionInf: '[ˈkɛərfriː]',
+        translation: 'безтурботний',
+        incorrect_answers: [
+            "sister-in-law",
+            "abbreviation",
+            "generally"
+        ]
+    },
+    {
+        id: 'AJ33',
+        infinitive: 'cooperative',
+        transcriptionInf: '[kəʊˈɒpərətɪv]',
+        translation: 'співробітничий',
+        incorrect_answers: [
+            "iteration",
+            "gently",
+            "uncle"
+        ]
+    },
+    {
+        id: 'AJ34',
+        infinitive: 'dedicated',
+        transcriptionInf: '[ˈdɛdɪkeɪtɪd]',
+        translation: 'присвячений',
+        incorrect_answers: [
+            "grandfather",
+            "godchild",
+            "curious"
+        ]
+    },
+    {
+        id: 'AJ35',
+        infinitive: 'energetic',
+        transcriptionInf: '[ˌɛnərˈʤɛtɪk]',
+        translation: 'енергійний',
+        incorrect_answers: [
+            "creative",
+            "sincere",
+            "friendly"
+        ]
+    },
     // {
     //     id: 'AJ36',
-    //     infinitive: 'dedicated',
-    //     transcriptionInf: '[ˈdɛdɪkeɪtɪd]',
-    //     translation: 'присвячений'
-    // },
-    // {
-    //     id: 'AJ37',
-    //     infinitive: 'energetic',
-    //     transcriptionInf: '[ˌɛnərˈʤɛtɪk]',
-    //     translation: 'енергійний'
-    // },
-    // {
-    //     id: 'AJ38',
     //     infinitive: 'forgiving',
     //     transcriptionInf: '[fərˈgɪvɪŋ]',
     //     translation: 'прощаючий'
     // },
     // {
-    //     id: 'AJ39',
+    //     id: 'AJ37',
     //     infinitive: 'graceful',
     //     transcriptionInf: '[ˈgreɪsfl]',
     //     translation: 'граціозний'
     // },
     // {
-    //     id: 'AJ40',
+    //     id: 'AJ38',
     //     infinitive: 'helpful',
     //     transcriptionInf: '[ˈhɛlpfʊl]',
     //     translation: 'корисний'
     // },
     // {
-    //     id: 'AJ43',
+    //     id: 'AJ39',
     //     infinitive: 'inspiring',
     //     transcriptionInf: '[ɪnˈspaɪərɪŋ]',
     //     translation: 'надихаючий'
     // },
     // {
-    //     id: 'AJ44',
+    //     id: 'AJ40',
     //     infinitive: 'loyal',
     //     transcriptionInf: '[ˈlɔɪəl]',
     //     translation: 'вірний'
