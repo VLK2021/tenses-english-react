@@ -346,7 +346,7 @@ export const vocabularyAdjectives = [
         transcriptionInf: '[ˈkɛərfriː]',
         translation: 'безтурботний',
         incorrect_answers: [
-            "sister-in-law",
+            "cucumber",
             "abbreviation",
             "generally"
         ]
@@ -384,30 +384,50 @@ export const vocabularyAdjectives = [
             "friendly"
         ]
     },
-    // {
-    //     id: 'AJ36',
-    //     infinitive: 'forgiving',
-    //     transcriptionInf: '[fərˈgɪvɪŋ]',
-    //     translation: 'прощаючий'
-    // },
-    // {
-    //     id: 'AJ37',
-    //     infinitive: 'graceful',
-    //     transcriptionInf: '[ˈgreɪsfl]',
-    //     translation: 'граціозний'
-    // },
-    // {
-    //     id: 'AJ38',
-    //     infinitive: 'helpful',
-    //     transcriptionInf: '[ˈhɛlpfʊl]',
-    //     translation: 'корисний'
-    // },
-    // {
-    //     id: 'AJ39',
-    //     infinitive: 'inspiring',
-    //     transcriptionInf: '[ɪnˈspaɪərɪŋ]',
-    //     translation: 'надихаючий'
-    // },
+    {
+        id: 'AJ36',
+        infinitive: 'forgiving',
+        transcriptionInf: '[fərˈgɪvɪŋ]',
+        translation: 'прощаючий',
+        incorrect_answers: [
+            "plumbing",
+            "cooperative",
+            "authentication"
+        ]
+    },
+    {
+        id: 'AJ37',
+        infinitive: 'graceful',
+        transcriptionInf: '[ˈgreɪsfl]',
+        translation: 'граціозний',
+        incorrect_answers: [
+            "clever",
+            "happy",
+            "bug"
+        ]
+    },
+    {
+        id: 'AJ38',
+        infinitive: 'helpful',
+        transcriptionInf: '[ˈhɛlpfʊl]',
+        translation: 'корисний',
+        incorrect_answers: [
+            "framework",
+            "analysis",
+            "honestly"
+        ]
+    },
+    {
+        id: 'AJ39',
+        infinitive: 'inspiring',
+        transcriptionInf: '[ɪnˈspaɪərɪŋ]',
+        translation: 'надихаючий',
+        incorrect_answers: [
+            "kindly",
+            "adventurous",
+            "forgiving"
+        ]
+    },
     // {
     //     id: 'AJ40',
     //     infinitive: 'loyal',
