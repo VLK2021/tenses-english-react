@@ -428,59 +428,77 @@ export const vocabularyAdjectives = [
             "forgiving"
         ]
     },
-    // {
-    //     id: 'AJ40',
-    //     infinitive: 'loyal',
-    //     transcriptionInf: '[ˈlɔɪəl]',
-    //     translation: 'вірний'
-    // },
-    // {
-    //     id: 'AJ45',
-    //     infinitive: 'patient',
-    //     transcriptionInf: '[ˈpeɪʃənt]',
-    //     translation: 'терплячий'
-    // },
-    // {
-    //     id: 'AJ46',
-    //     infinitive: 'persuasive',
-    //     transcriptionInf: '[pərˈsweɪsɪv]',
-    //     translation: 'переконливий'
-    // },
-    // {
-    //     id: 'AJ47',
-    //     infinitive: 'practical',
-    //     transcriptionInf: '[ˈpræktɪkəl]',
-    //     translation: 'практичний'
-    // },
-    // {
-    //     id: 'AJ48',
-    //     infinitive: 'reliable',
-    //     transcriptionInf: '[rɪˈlaɪəbl]',
-    //     translation: 'надійний'
-    // },
+    {
+        id: 'AJ40',
+        infinitive: 'loyal',
+        transcriptionInf: '[ˈlɔɪəl]',
+        translation: 'вірний',
+        incorrect_answers: [
+            "dedicated",
+            "creative",
+            "curious"
+        ]
+    },
+    {
+        id: 'AJ41',
+        infinitive: 'practical',
+        transcriptionInf: '[ˈpræktɪkəl]',
+        translation: 'практичний',
+        incorrect_answers: [
+            "functionality",
+            "exception",
+            "build"
+        ]
+    },
+    {
+        id: 'AJ42',
+        infinitive: 'persuasive',
+        transcriptionInf: '[pərˈsweɪsɪv]',
+        translation: 'переконливий',
+        incorrect_answers: [
+            "forgiving",
+            "practical",
+            "ambitious"
+        ]
+    },
+    {
+        id: 'AJ43',
+        infinitive: 'elegant',
+        transcriptionInf: '[ˈɛlɪgənt]',
+        translation: 'елегантний',
+        incorrect_answers: [
+            "helpful",
+            "persuasive",
+            "dedicated"
+        ]
+    },
+    {
+        id: 'AJ44',
+        infinitive: 'youthful',
+        transcriptionInf: '[ˈjuːθfʊl]',
+        translation: 'молодіжний',
+        incorrect_answers: [
+            "friendly",
+            "respectful",
+            "inspiring"
+        ]
+    },
+    {
+        id: 'AJ45',
+        infinitive: 'reliable',
+        transcriptionInf: '[rɪˈlaɪəbl]',
+        translation: 'надійний',
+        incorrect_answers: [
+            "elegant",
+            "positive",
+            "humble"
+        ]
+    },
     // {
     //     id: 'AJ49',
     //     infinitive: 'resourceful',
     //     transcriptionInf: '[rɪˈsɔːrsfʊl]',
     //     translation: 'винахідливий'
-    // },
-    // {
-    //     id: 'AJ50',
-    //     infinitive: 'sensible',
-    //     transcriptionInf: '[ˈsɛnsəbl]',
-    //     translation: 'розумний'
-    // },
-    // {
-    //     id: 'AJ51',
-    //     infinitive: 'thoughtful',
-    //     transcriptionInf: '[ˈθɔːtfʊl]',
-    //     translation: 'розумний'
-    // },
-    // {
-    //     id: 'AJ52',
-    //     infinitive: 'understanding',
-    //     transcriptionInf: '[ˌʌndərˈstændɪŋ]',
-    //     translation: 'розумний'
     // },
     // {
     //     id: 'AJ53',
@@ -493,18 +511,6 @@ export const vocabularyAdjectives = [
     //     infinitive: 'witty',
     //     transcriptionInf: '[ˈwɪti]',
     //     translation: 'дотепний'
-    // },
-    // {
-    //     id: 'AJ55',
-    //     infinitive: 'youthful',
-    //     transcriptionInf: '[ˈjuːθfʊl]',
-    //     translation: 'молодіжний'
-    // },
-    // {
-    //     id: 'AJ56',
-    //     infinitive: 'zealous',
-    //     transcriptionInf: '[ˈzɛləs]',
-    //     translation: 'ревнощі'
     // },
     // {
     //     id: 'AJ57',
@@ -530,23 +536,12 @@ export const vocabularyAdjectives = [
     //     transcriptionInf: '[ˈdɪlɪʤənt]',
     //     translation: 'старанний'
     // },
-    // {
-    //     id: 'AJ61',
-    //     infinitive: 'elegant',
-    //     transcriptionInf: '[ˈɛlɪgənt]',
-    //     translation: 'елегантний'
-    // },
+
     // {
     //     id: 'AJ62',
     //     infinitive: 'fierce',
     //     transcriptionInf: '[fɪrs]',
     //     translation: 'жорстокий'
-    // },
-    // {
-    //     id: 'AJ63',
-    //     infinitive: 'gentle',
-    //     transcriptionInf: '[ˈʤɛntl]',
-    //     translation: 'лагідний'
     // },
     // {
     //     id: 'AJ64',

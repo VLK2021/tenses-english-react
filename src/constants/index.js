@@ -11,3 +11,7 @@ export * from '../constants/vocabulary/vocabularyHome';
 export * from '../constants/vocabulary/vocabularyAdverbs';
 export * from '../constants/vocabulary/vocabularyForFamily';
 export * from '../constants/vocabulary/vocabularyAdjectives';
+export * from '../constants/vocabulary/vocabularyClothes';
+export * from '../constants/vocabulary/vocabularyTravel';
+export * from '../constants/vocabulary/vocabularyBody';
+

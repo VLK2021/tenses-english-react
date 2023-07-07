@@ -9,3 +9,16 @@
     margin: 0 0 1rem 0;
     text-decoration: underline;
 }
+
+.sequenceOfTensesComponent-rule{
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.sequenceOfTensesComponent-markers > h2,
+.sequenceOfTensesComponent-formation > h2,
+.sequenceOfTensesComponent-affirmative > h2,
+.sequenceOfTensesComponent-negative > h2,
+.sequenceOfTensesComponent-interrogative > h2{
+    color: var(--var-color-h);
+}

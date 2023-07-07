@@ -11,6 +11,9 @@ import {
     vocabularyHome,
     vocabularyAdjectives,
     vocabularyTitlesForGroups,
+    vocabularyClothes,
+    vocabularyTravel,
+    vocabularyBody,
 } from "../../../constants";
 import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
@@ -42,6 +45,18 @@ const VocabularyGeneralComponent = () => {
         if (id === 'VT3') {
             setNewVocabularyArray(vocabularyForIt);
             setTitle('Fot IT');
+        }
+        if (id === 'VT4') {
+            setNewVocabularyArray(vocabularyClothes);
+            setTitle('Clothes');
+        }
+        if (id === 'VT5') {
+            setNewVocabularyArray(vocabularyTravel);
+            setTitle('Travel');
+        }
+        if (id === 'VT6') {
+            setNewVocabularyArray(vocabularyBody);
+            setTitle('Body');
         }
         if (id === 'VT8') {
             setNewVocabularyArray(fruitsAndVegetables);

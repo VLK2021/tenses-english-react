@@ -9,7 +9,6 @@ const PopUpQuizComponent = (props) => {
 
     const [arrayWords, setArrayWords] = useState([]);
 
-
     useEffect(() => {
         if (newVocabularyArray) {
             setArrayWords(newVocabularyArray);
