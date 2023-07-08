@@ -139,13 +139,16 @@ const SequenceOfTensesComponent = () => {
 
                 <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
-
+                        Якщо дія в підрядному реченні відбувається після дії в головній частині (тобто мається на
+                        увазі дія у майбутньому), то в підрядній частині використовується один з часів групи
+                        <strong>Future in the Past</strong> в залежності від характеру дії.
                         <span className={'example'}>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
+                            <p>I <b>felt</b> you <b>would say</b> this to me. – Я відчував, що ти скажеш мені це.</p>
+                            <p>You <b>said</b> you <b>would be waiting</b> for me. – Ти сказав, що будеш чекати на мене.</p>
+                            <p>
+                                We <b>didn’t expect</b> we <b>would have finished</b> this project by the end of the
+                                week. – Ми не очікували, що закінчимо цей проект до кінця тижня.
+                            </p>
                         </span>
                     </p>
                 </article>
@@ -156,13 +159,94 @@ const SequenceOfTensesComponent = () => {
 
                 <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
-
+                        Якщо в одному складнопідрядному реченні є підрядні речення, що залежать від іншого підрядного
+                        речення в минулому часі, то вони також узгоджуються за часами.
                         <span className={'example'}>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
+                            <p>
+                                She knows you <b>said</b> that you <b>would</b> never <b>be</b> together again. – Вона
+                                знає, що ти сказав, що ви ніколи знову не будете разом.
+                            </p>
+                            <p>
+                                Kate thinks you <b>didn’t know</b> she <b>had spent</b> all your money. – Кейт вважає,
+                                що ти не знав, що вона витратила всі твої гроші.
+                            </p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <h1 className={'h1-second'}>Відсутність узгодження</h1>
+
+            <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Теперішній та майбутній часи</h2>
+
+                <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Якщо в складнопідрядному реченні у головній частині вживається одне з теперішніх або майбутніх
+                        часів, що в підрядній частині дієслово може вживатися в будь-якому часі, і часові форми не
+                        узгоджуються між собою
+                        <span className={'example'}>
+                            <p>I <b>don’t think</b> it <b>will rain</b> tomorrow. – Я не думаю, що завтра буде дощ.</p>
+                            <p>Ann <b>knows</b> you <b>are</b> a nice guy. – Енн знає, що ти хороший хлопець.</p>
+                            <p>She <b>says</b> she <b>went</b> shopping yesterday. – Вона каже, що вона пішла вчора по магазинам.</p>
+                            <p>I <b>have heard</b> Jane <b>will be</b> at the party. – Я чув, що Джейн буде на вечірці.</p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
+            <h2 className={'marginTop'}>Особливі підрядні речення</h2>
+
+            <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
+                <p className={'width'}>
+                    Узгодження часів не відбувається, якщо в складнопідрядному реченні використовуються означальні
+                    підрядні речення, або підрядні речення причини, результату, порівняння.
+                        <span className={'example'}>
+                            <p>
+                                Yesterday i <b>bought</b> a book which <b>is</b> believed to be a bestseller. – Вчора
+                                я придбав книгу, що вважається бестселером. (означення)
+                            </p>
+                            <p>
+                                Paul <b>didn’t go</b> to the party last night because he <b>will have</b> exams in two
+                                days. – Пол не пішов на вечірку минулого вечора, тому що через два дні у нього будуть
+                                екзамени. (причина)
+                            </p>
+                            <p>
+                                He <b>studied</b> so much last week that he still <b>has</b> a headache. – Він так
+                                багато вчився минулого тижня, що в нього до сих під болить голова. (результат)
+                            </p>
+                            <p>
+                                Charles <b>traveled</b> more last year than he <b>does</b> this year. – Чарльз мандрував
+                                минулого року більше, ніж в цьому році. (порівняння)
+                            </p>
+                        </span>
+                </p>
+            </article>
+        </section>
+
+            <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Загальновідома інформація</h2>
+
+                <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Узгодження часів не відбувається, якщо в складнопідрядному реченні виражається певна
+                        загальновідома інформація, певні факти або закони природи. Також узгодження не відбувається,
+                        коли зображується часто повторювана дія, чиїсь звички, характеристика або ж в політичній мові.
+                        <span className={'example'}>
+                            <p>
+                                The students <b>knew</b> that water <b>consists</b> of oxygen and hydrogen. – Студенти
+                                знали, що вода складається з кисню та водню.
+                            </p>
+                            <p>The delegate <b>said</b> that people <b>want</b> peace. – Делегат сказав, що люди хочуть миру.</p>
+                            <p>
+                                I <b>asked</b> when the first train usually <b>leaves</b>. – Я спитав, коли звичайно
+                                відправляється перший потяг.
+                            </p>
+                            <p>
+                                We <b>didn’t know</b> hummingbirds <b>can fly</b> backwards. – Ми не знали, що колібрі
+                                можуть літати назад.
+                            </p>
                         </span>
                     </p>
                 </article>

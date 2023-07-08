@@ -109,61 +109,61 @@ export const vocabularyClothes = [
             "gloves"
         ]
     },
-    // {
-    //     id: 'С11',
-    //     infinitive: 'coat',
-    //     transcriptionInf: '[koʊt]',
-    //     translation: 'пальто',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "pants",
-    //         "dress"
-    //     ]
-    // },
-    // {
-    //     id: 'С12',
-    //     infinitive: 'sweater',
-    //     transcriptionInf: '[ˈswɛtər]',
-    //     translation: 'светр',
-    //     incorrect_answers: [
-    //         "skirt",
-    //         "jacket",
-    //         "shorts"
-    //     ]
-    // },
-    // {
-    //     id: 'С13',
-    //     infinitive: 'boots',
-    //     transcriptionInf: '[buːts]',
-    //     translation: 'черевики',
-    //     incorrect_answers: [
-    //         "shoes",
-    //         "socks",
-    //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С14',
-    //     infinitive: 'jeans',
-    //     transcriptionInf: '[dʒiːnz]',
-    //     translation: 'джинси',
-    //     incorrect_answers: [
-    //         "hat",
-    //         "dress",
-    //         "scarf"
-    //     ]
-    // },
-    // {
-    //     id: 'С15',
-    //     infinitive: 'blouse',
-    //     transcriptionInf: '[blaʊz]',
-    //     translation: 'блузка',
-    //     incorrect_answers: [
-    //         "pants",
-    //         "jacket",
-    //         "gloves"
-    //     ]
-    // },
+    {
+        id: 'С11',
+        infinitive: 'coat',
+        transcriptionInf: '[koʊt]',
+        translation: 'пальто',
+        incorrect_answers: [
+            "shirt",
+            "pants",
+            "dress"
+        ]
+    },
+    {
+        id: 'С12',
+        infinitive: 'sweater',
+        transcriptionInf: '[ˈswɛtər]',
+        translation: 'светр',
+        incorrect_answers: [
+            "skirt",
+            "jacket",
+            "shorts"
+        ]
+    },
+    {
+        id: 'С13',
+        infinitive: 'boots',
+        transcriptionInf: '[buːts]',
+        translation: 'черевики',
+        incorrect_answers: [
+            "shoes",
+            "socks",
+            "gloves"
+        ]
+    },
+    {
+        id: 'С14',
+        infinitive: 'jeans',
+        transcriptionInf: '[dʒiːnz]',
+        translation: 'джинси',
+        incorrect_answers: [
+            "hat",
+            "dress",
+            "scarf"
+        ]
+    },
+    {
+        id: 'С15',
+        infinitive: 'blouse',
+        transcriptionInf: '[blaʊz]',
+        translation: 'блузка',
+        incorrect_answers: [
+            "pants",
+            "jacket",
+            "gloves"
+        ]
+    },
     // {
     //     id: 'С16',
     //     infinitive: 'tie',

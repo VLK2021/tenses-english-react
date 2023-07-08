@@ -494,23 +494,66 @@ export const vocabularyAdjectives = [
             "humble"
         ]
     },
-    // {
-    //     id: 'AJ49',
-    //     infinitive: 'resourceful',
-    //     transcriptionInf: '[rɪˈsɔːrsfʊl]',
-    //     translation: 'винахідливий'
-    // },
+    {
+        id: 'AJ46',
+        infinitive: 'resourceful',
+        transcriptionInf: '[rɪˈsɔːrsfʊl]',
+        translation: 'винахідливий',
+        incorrect_answers: [
+            "persuasive",
+            "inspiring",
+            "dedicated"
+        ]
+    },
+    {
+        id: 'AJ47',
+        infinitive: 'cozy',
+        transcriptionInf: '[ˈkoʊzi]',
+        translation: 'затишний',
+        incorrect_answers: [
+            "resourceful",
+            "reliable",
+            "positive"
+        ]
+    },
+    {
+        id: 'AJ48',
+        infinitive: 'independent',
+        transcriptionInf: '[ˌɪndɪˈpɛndənt]',
+        translation: 'незалежний',
+        incorrect_answers: [
+            "beautiful",
+            "creative",
+            "calm"
+        ]
+    },
+    {
+        id: 'AJ49',
+        infinitive: 'witty',
+        transcriptionInf: '[ˈwɪti]',
+        translation: 'дотепний',
+        incorrect_answers: [
+            "wise",
+            "friendly",
+            "humble"
+        ]
+    },
+    {
+        id: 'AJ50',
+        infinitive: 'bitter',
+        transcriptionInf: '[ˈbɪtər]',
+        translation: 'гіркий',
+        incorrect_answers: [
+            "positive",
+            "independent",
+            "youthful"
+        ]
+    },
     // {
     //     id: 'AJ53',
     //     infinitive: 'versatile',
     //     transcriptionInf: '[ˈvɜːrsətl]',
     //     translation: 'універсальний'
-    // },
-    // {
-    //     id: 'AJ54',
-    //     infinitive: 'witty',
-    //     transcriptionInf: '[ˈwɪti]',
-    //     translation: 'дотепний'
     // },
     // {
     //     id: 'AJ57',
@@ -519,24 +562,11 @@ export const vocabularyAdjectives = [
     //     translation: 'турботливий'
     // },
     // {
-    //     id: 'AJ58',
-    //     infinitive: 'bitter',
-    //     transcriptionInf: '[ˈbɪtər]',
-    //     translation: 'гіркий'
-    // },
-    // {
-    //     id: 'AJ59',
-    //     infinitive: 'cozy',
-    //     transcriptionInf: '[ˈkoʊzi]',
-    //     translation: 'затишний'
-    // },
-    // {
     //     id: 'AJ60',
     //     infinitive: 'diligent',
     //     transcriptionInf: '[ˈdɪlɪʤənt]',
     //     translation: 'старанний'
     // },
-
     // {
     //     id: 'AJ62',
     //     infinitive: 'fierce',
@@ -550,16 +580,9 @@ export const vocabularyAdjectives = [
     //     translation: 'безпомічний'
     // },
     // {
-    //     id: 'AJ65',
-    //     infinitive: 'independent',
-    //     transcriptionInf: '[ˌɪndɪˈpɛndənt]',
-    //     translation: 'незалежний'
-    // },
-    // {
     //     id: 'AJ66',
     //     infinitive: 'jealous',
     //     transcriptionInf: '[ˈʤɛləs]',
     //     translation: 'заздрісний'
     // },
-
 ];
