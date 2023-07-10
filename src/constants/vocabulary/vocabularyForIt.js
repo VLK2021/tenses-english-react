@@ -483,4 +483,70 @@ export const vocabularyForIt = [
             "sincere"
         ]
     },
+    {
+        id: 'VFI45',
+        infinitive: 'protocol ',
+        transcriptionInf: '[ˈproʊtəˌkɔl]',
+        translation: 'протокол',
+        incorrect_answers: [
+            "pear",
+            "mango",
+            "inspiring"
+        ]
+    },
+    {
+        id: 'VFI46',
+        infinitive: 'syntax',
+        transcriptionInf: '[ˈsɪntæks]',
+        translation: 'синтаксис',
+        incorrect_answers: [
+            "architecture",
+            "decor",
+            "curtain"
+        ]
+    },
+    {
+        id: 'VFI47',
+        infinitive: 'network ',
+        transcriptionInf: '[ˈnɛtˌwɜrk]',
+        translation: 'мережа',
+        incorrect_answers: [
+            "algorithm",
+            "compiler",
+            "mango"
+        ]
+    },
+    {
+        id: 'VFI48',
+        infinitive: 'responsive ',
+        transcriptionInf: '[rɪˈspɑnsɪv]',
+        translation: 'адаптивний',
+        incorrect_answers: [
+            "network",
+            "keyword",
+            "sincere"
+        ]
+    },
+    {
+        id: 'VFI49',
+        infinitive: 'testing ',
+        transcriptionInf: '[ˈtɛstɪŋ]',
+        translation: 'тестування',
+        incorrect_answers: [
+            "algorithm",
+            "hello",
+            "binary"
+        ]
+    },
+    {
+        id: 'VFI50',
+        infinitive: 'script',
+        transcriptionInf: '[skrɪpt]',
+        translation: 'скрипт',
+        incorrect_answers: [
+            "object",
+            "syntax",
+            "loop"
+        ]
+    },
 ]
