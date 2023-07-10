@@ -14,4 +14,6 @@ export * from '../constants/vocabulary/vocabularyAdjectives';
 export * from '../constants/vocabulary/vocabularyClothes';
 export * from '../constants/vocabulary/vocabularyTravel';
 export * from '../constants/vocabulary/vocabularyBody';
+export * from '../constants/vocabulary/vocabularyFodDrink';
+export * from '../constants/vocabulary/vocabularyPrepositions';
 

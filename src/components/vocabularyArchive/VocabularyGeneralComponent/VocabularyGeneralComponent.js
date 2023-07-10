@@ -14,6 +14,8 @@ import {
     vocabularyClothes,
     vocabularyTravel,
     vocabularyBody,
+    vocabularyFodDrink,
+    vocabularyPrepositions
 } from "../../../constants";
 import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
@@ -44,19 +46,23 @@ const VocabularyGeneralComponent = () => {
         }
         if (id === 'VT3') {
             setNewVocabularyArray(vocabularyForIt);
-            setTitle('Fot IT');
+            setTitle('fot IT');
         }
         if (id === 'VT4') {
             setNewVocabularyArray(vocabularyClothes);
-            setTitle('Clothes');
+            setTitle('clothes');
         }
         if (id === 'VT5') {
             setNewVocabularyArray(vocabularyTravel);
-            setTitle('Travel');
+            setTitle('travel');
         }
         if (id === 'VT6') {
             setNewVocabularyArray(vocabularyBody);
-            setTitle('Body');
+            setTitle('body');
+        }
+        if (id === 'VT7') {
+            setNewVocabularyArray(vocabularyFodDrink);
+            setTitle('fod and Drink');
         }
         if (id === 'VT8') {
             setNewVocabularyArray(fruitsAndVegetables);
@@ -69,6 +75,10 @@ const VocabularyGeneralComponent = () => {
         if (id === 'VT10') {
             setNewVocabularyArray(vocabularyAdjectives);
             setTitle('adjectives');
+        }
+        if (id === 'VT11') {
+            setNewVocabularyArray(vocabularyPrepositions);
+            setTitle('prepositions');
         }
     }, [id]);
 
