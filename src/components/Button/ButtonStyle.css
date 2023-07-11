@@ -10,3 +10,7 @@ button:hover{
     opacity: 50%;
 }
 
+.active > button{
+    background: var(--var-color-li);
+}
+

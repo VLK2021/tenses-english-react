@@ -4,27 +4,33 @@ import {Outlet} from 'react-router-dom';
 import './LayoutStyle.css';
 import {menu} from '../constants';
 import Button from "../components/Button/Button";
+import {Footer} from "../components";
 
 
 const Layout = () => {
     const secondNumberSlice = menu.length / 2;
 
     return (
-        <main className={'layout'}>
+        <main className={'main width'}>
+            <section className={'width layout'}>
+                <aside className={'layout-left'}>
+                    {
+                        menu.slice(0, secondNumberSlice).map(obj => <Button key={obj.id} obj={obj}/>)
+                    }
+                </aside>
 
-            <aside className={'layout-left'}>
-                {
-                    menu.slice(0, secondNumberSlice).map(obj => <Button key={obj.id} obj={obj}/>)
-                }
-            </aside>
+                <article className={'outlet'}><Outlet/></article>
 
-            <section className={'outlet'}><Outlet/></section>
+                <aside className={'layout-right'}>
+                    {
+                        menu.slice(secondNumberSlice, menu.length).map(obj => <Button key={obj.id} obj={obj}/>)
+                    }
+                </aside>
+            </section>
 
-            <aside className={'layout-right'}>
-                {
-                    menu.slice(secondNumberSlice, menu.length).map(obj => <Button key={obj.id} obj={obj}/>)
-                }
-            </aside>
+            <footer className={'width'}>
+                <Footer/>
+            </footer>
         </main>
     );
 };

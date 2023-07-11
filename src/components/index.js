@@ -15,3 +15,4 @@ export * from './vocabularyArchive/popUpTraining/PopUpQuizComponent/PopUpQuizCom
 export * from './vocabularyArchive/popUpTraining/AnswerComponent/AnswerComponent';
 export * from './vocabularyArchive/popUpTraining/QuizSingleComponent/QuizSingleComponent';
 export * from './vocabularyArchive/popUpTraining/PopUpComponent/PopUpComponent';
+export * from './Footer/Footer';
