@@ -1,0 +1,12 @@
+.header {
+    margin-bottom: 1rem;
+}
+
+.header-title {
+    width: 50%;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 0.2rem 0.2rem 0.2rem black;
+    text-transform: uppercase;
+}

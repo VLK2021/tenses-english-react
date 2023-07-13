@@ -4,7 +4,7 @@ import {Outlet} from 'react-router-dom';
 import './LayoutStyle.css';
 import {menu} from '../constants';
 import Button from "../components/Button/Button";
-import {Footer} from "../components";
+import {Footer, Header} from "../components";
 
 
 const Layout = () => {
@@ -12,6 +12,10 @@ const Layout = () => {
 
     return (
         <main className={'main width'}>
+            <header className={'width'}>
+                <Header/>
+            </header>
+
             <section className={'width layout'}>
                 <aside className={'layout-left'}>
                     {
