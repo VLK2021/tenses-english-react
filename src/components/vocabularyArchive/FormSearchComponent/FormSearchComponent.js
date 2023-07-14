@@ -8,7 +8,12 @@ import {
     vocabularyHome,
     vocabularyAdverbs,
     vocabularyForFamily,
-    vocabularyAdjectives
+    vocabularyAdjectives,
+    vocabularyClothes,
+    vocabularyTravel,
+    vocabularyBody,
+    vocabularyFodDrink,
+    vocabularyPrepositions
 } from "../../../constants";
 
 
@@ -33,17 +38,37 @@ const FormSearchComponent = ({setNewVocabularyArray, id}) => {
             setNewVocabularyArray(vocabularyForIt.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
+        if (id ==='VT4') {
+            setNewVocabularyArray(vocabularyClothes.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setValue('search', query);
+        }
+        if (id ==='VT5') {
+            setNewVocabularyArray(vocabularyTravel.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setValue('search', query);
+        }
+        if (id ==='VT6') {
+            setNewVocabularyArray(vocabularyBody.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setValue('search', query);
+        }
         if (id ==='VT7') {
-            setNewVocabularyArray(fruitsAndVegetables.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setNewVocabularyArray(vocabularyFodDrink.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
 
         if (id ==='VT8') {
-            setNewVocabularyArray(vocabularyAdverbs.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setNewVocabularyArray(fruitsAndVegetables.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
         if (id ==='VT9') {
+            setNewVocabularyArray(vocabularyAdverbs.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setValue('search', query);
+        }
+        if (id ==='VT10') {
             setNewVocabularyArray(vocabularyAdjectives.filter(current => current.infinitive.toLowerCase().includes(query)))
+            setValue('search', query);
+        }
+        if (id ==='VT11') {
+            setNewVocabularyArray(vocabularyPrepositions.filter(current => current.infinitive.toLowerCase().includes(query)))
             setValue('search', query);
         }
     }, [query]);

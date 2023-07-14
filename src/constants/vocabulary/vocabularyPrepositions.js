@@ -127,7 +127,7 @@ export const vocabularyPrepositions = [
         translation: 'під',
         incorrect_answers: [
             "at",
-            "under",
+            "opposite",
             "over"
         ]
     },

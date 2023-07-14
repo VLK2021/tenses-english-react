@@ -219,8 +219,195 @@ export const vocabularyTravel = [
             "Adventure "
         ]
     },
+    {
+        id: 'T21',
+        infinitive: 'Mountain',
+        transcriptionInf: '[`maʊntɪn]',
+        translation: 'Гора',
+        incorrect_answers: [
+            "Bicycle",
+            "Adventure",
+            "Cultural"
+        ]
+    },
+    {
+        id: 'T22',
+        infinitive: 'Ocean',
+        transcriptionInf: '[`oʊʃən]',
+        translation: 'Океан',
+        incorrect_answers: [
+            "Experience",
+            "Beach",
+            "Camera"
+        ]
+    },
+    {
+        id: 'T23',
+        infinitive: 'River',
+        transcriptionInf: '[`rɪvər]',
+        translation: 'Річка',
+        incorrect_answers: [
+            "Ocean",
+            "Backpacking",
+            "Guidebook"
+        ]
+    },
+    {
+        id: 'T24',
+        infinitive: 'Island',
+        transcriptionInf: '[`aɪlənd]',
+        translation: 'Острів',
+        incorrect_answers: [
+            "Museum",
+            "Passport",
+            "Explore"
+        ]
+    },
+    {
+        id: 'T25',
+        infinitive: 'Monument',
+        transcriptionInf: '[`mɑːnjumənt]',
+        translation: 'Пам`ятник',
+        incorrect_answers: [
+            "Journey",
+            "Destination",
+            "Passport"
+        ]
+    },
+    {
+        id: 'T26',
+        infinitive: 'Museum',
+        transcriptionInf: '[mjuːˈziːəm]',
+        translation: 'Музей',
+        incorrect_answers: [
+            "Vacation",
+            "Ocean",
+            "Explore"
+        ]
+    },
+    {
+        id: 'T27',
+        infinitive: 'Souvenir ',
+        transcriptionInf: '[ˌsuːvəˈnɪr]',
+        translation: 'Сувенір',
+        incorrect_answers: [
+            "Hike",
+            "Museum",
+            "Bicycle"
+        ]
+    },
+    {
+        id: 'T28',
+        infinitive: 'Camera',
+        transcriptionInf: '[`kæmərə]',
+        translation: 'Камера',
+        incorrect_answers: [
+            "Tourist",
+            "Itinerary",
+            "Guidebook"
+        ]
+    },
+    {
+        id: 'T29',
+        infinitive: 'Tourist',
+        transcriptionInf: '[`tʊrɪst]',
+        translation: 'Турист',
+        incorrect_answers: [
+            "Itinerary",
+            "Camera",
+            "Hostel"
+        ]
+    },
+    {
+        id: 'T30',
+        infinitive: 'Itinerary',
+        transcriptionInf: '[aɪˈtɪnəˌrɛri]',
+        translation: 'Маршрут',
+        incorrect_answers: [
+            "Sightseeing",
+            "Beach",
+            "Wanderlust"
+        ]
+    },
+    {
+        id: 'T31',
+        infinitive: 'Landmark',
+        transcriptionInf: '[`lændˌmɑːrk]',
+        translation: 'Визначна пам\'ятка',
+        incorrect_answers: [
+            "Museum",
+            "Luggage",
+            "Camping"
+        ]
+    },
+    {
+        id: 'T32',
+        infinitive: 'Guidebook',
+        transcriptionInf: '[`ɡaɪdˌbʊk]',
+        translation: 'Путівник',
+        incorrect_answers: [
+            "Hike",
+            "Museum",
+            "Bicycle"
+        ]
+    },
+    {
+        id: 'T33',
+        infinitive: 'Hostel',
+        transcriptionInf: '[`hɑːstəl]',
+        translation: 'Хостел',
+        incorrect_answers: [
+            "Museum",
+            "Luggage",
+            "Camping"
+        ]
+    },
+    {
+        id: 'T34',
+        infinitive: 'Luggage',
+        transcriptionInf: '[`lʌɡɪdʒ]',
+        translation: 'Багаж',
+        incorrect_answers: [
+            "Adventure",
+            "Tourist",
+            "Landmark"
+        ]
+    },
+    {
+        id: 'T35',
+        infinitive: 'Vacation',
+        transcriptionInf: '[veɪˈkeɪʃən]',
+        translation: 'Відпустка',
+        incorrect_answers: [
+            "Experience",
+            "Language",
+            "Cultural"
+        ]
+    },
+    {
+        id: 'T36',
+        infinitive: 'Cultural',
+        transcriptionInf: '[`kʌlʧərəl]',
+        translation: 'Культурний',
+        incorrect_answers: [
+            "Adventure",
+            "Tourist",
+            "Landmark"
+        ]
+    },
+    {
+        id: 'T37',
+        infinitive: 'Traveler',
+        transcriptionInf: '[`trævələr]',
+        translation: 'Мандрівник',
+        incorrect_answers: [
+            "Backpack",
+            "Destination",
+            "Adventure"
+        ]
+    },
     // {
-    //     id: 'T',
+    //     id: 'T38',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -231,7 +418,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T39',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -242,7 +429,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T40',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -253,7 +440,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T41',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -264,7 +451,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T42',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -275,7 +462,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T43',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -286,7 +473,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T44',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -297,7 +484,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T45',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -308,7 +495,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T46',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -319,7 +506,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T47',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -330,7 +517,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T48',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -341,7 +528,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
+    //     id: 'T49',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
@@ -352,194 +539,7 @@ export const vocabularyTravel = [
     //     ]
     // },
     // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T',
+    //     id: 'T50',
     //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
