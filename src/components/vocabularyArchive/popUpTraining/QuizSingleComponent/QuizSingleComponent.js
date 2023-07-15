@@ -4,7 +4,7 @@ import './QuizSingleComponentStyle.css';
 import {AnswerComponent} from "../AnswerComponent/AnswerComponent";
 
 
-const QuizSingleComponent = ({obj}) => {
+const QuizSingleComponent = ({obj, setIsSelected}) => {
     const {infinitive, translation, incorrect_answers} = obj;
 
     const [answerArray, setAnswerArray] = useState([]);
@@ -27,6 +27,7 @@ const QuizSingleComponent = ({obj}) => {
                 {
                     answerArray.length > 0 && <AnswerComponent answerArray={answerArray}
                                                                infinitive={infinitive}
+                                                               setIsSelected={setIsSelected}
                     />
                 }
             </div>

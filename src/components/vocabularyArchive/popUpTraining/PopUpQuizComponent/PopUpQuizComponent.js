@@ -8,6 +8,7 @@ const PopUpQuizComponent = (props) => {
     const {newVocabularyArray, setVisibleQuiz, obj, setObj} = props;
 
     const [arrayWords, setArrayWords] = useState([]);
+    const [isSelected, setIsSelected] = useState(false);
 
     useEffect(() => {
         if (newVocabularyArray) {
@@ -28,6 +29,8 @@ const PopUpQuizComponent = (props) => {
                 setObj(arrayWords[0])
             }
         }
+        //після натискання на некст дізейблить кнопку допоки не виберуть один з варіантів відповіді
+        setIsSelected(false);
 
     }, [arrayWords, obj.id, setObj]);
 
@@ -42,6 +45,8 @@ const PopUpQuizComponent = (props) => {
                 setObj(arrayWords[arrayWords.length - 1])
             }
         }
+        //після натискання на некст дізейблить кнопку допоки не виберуть один з варіантів відповіді
+        setIsSelected(false);
 
     }, [arrayWords, obj.id, setObj]);
 
@@ -49,6 +54,9 @@ const PopUpQuizComponent = (props) => {
         let randomIndex = Math.floor(Math.random() * arrayWords.length);
         const randomObj = arrayWords[randomIndex];
         setObj(randomObj);
+
+        //після натискання на некст дізейблить кнопку допоки не виберуть один з варіантів відповіді
+        setIsSelected(false);
     }, [arrayWords, setObj])
 
 
@@ -58,14 +66,14 @@ const PopUpQuizComponent = (props) => {
 
             <div className={'width'}>
                 {
-                    obj && <QuizSingleComponent obj={obj}/>
+                    obj && <QuizSingleComponent obj={obj} setIsSelected={setIsSelected}/>
                 }
             </div>
 
             <section className={'width nextPrev'}>
-                <button className={'trainingPopUp-btn'} onClick={getPrev}>prev</button>
-                <button className={'trainingPopUp-btn'} onClick={getRandom}>random</button>
-                <button className={'trainingPopUp-btn'} onClick={getNext}>next</button>
+                <button className={'trainingPopUp-btn'} onClick={getPrev} disabled={!isSelected}>prev</button>
+                <button className={'trainingPopUp-btn'} onClick={getRandom} disabled={!isSelected}>random</button>
+                <button className={'trainingPopUp-btn'} onClick={getNext} disabled={!isSelected}>next</button>
             </section>
         </main>
     );

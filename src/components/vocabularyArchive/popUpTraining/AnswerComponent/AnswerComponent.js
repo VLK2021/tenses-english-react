@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import './AnswerComponentStyle.css';
 
 
-const AnswerComponent = ({ answerArray, infinitive }) => {
+const AnswerComponent = ({ answerArray, infinitive, setIsSelected }) => {
     const { register, setValue } = useForm();
 
     const [selectedOption, setSelectedOption] = useState('');
@@ -47,6 +47,9 @@ const AnswerComponent = ({ answerArray, infinitive }) => {
         setSelectedOption(option);
         setChangeColor({ [obj]: option === infinitive ? 'green' : 'red' });
         submit({ radioOption: option });
+        if (option.length > 0) {
+            setIsSelected(true);
+        }
     };
 
     return (

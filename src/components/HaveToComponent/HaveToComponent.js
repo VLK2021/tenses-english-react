@@ -92,6 +92,104 @@ const HaveToComponent = () => {
                     </p>
                 </article>
             </section>
+
+            <section className={'haveToComponent-negative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Заперечне речення</h2>
+
+                <article className={'haveToComponent-negative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Заперечне речення з <strong>have to</strong> в теперішньому та минулому часі утворюється за
+                        допомогою допоміжного дієслова do в необхідній заперечній формі (<strong>do not, does not, did
+                        not</strong>) або допоміжного дієслова <strong>will</strong> для майбутнього часу (<strong>will
+                        not</strong>). Такі речення перекладаються як «нема необхідності», «не треба»,
+                        «необов'язково робити щось».
+                        <span className={'example'}>
+                            <p>
+                                We <b>do not have to</b> be in a hurry. We still have plenty of time. – Нам нема
+                                необхідності поспішати. В нас ще сповна часу.
+                            </p>
+                            <p>
+                                You <b>don't have to</b> wear a suit to work but if you like it you can. – Ти не повинен
+                                носити костюм на роботі, та якщо тобі подобається, ти можеш це робити.
+                            </p>
+                            <p>
+                                She <b>didn't have to</b> tell the whole story. We had already heard it. – Їй не
+                                обов'язково було розповідати всю історію. Ми вже її чули
+                            </p>
+                            <p>
+                                You <b>won't have to</b> pay for that broken vase. – Тобі не треба буде платити за
+                                ту розбиту вазу.
+                            </p>
+                        </span>
+                    </p>
+
+                    <p className={'width marginTop'}>
+                        Для вираження заборони в теперішньому часі замість <strong>have to</strong> завжди
+                        використовується модальний <strong>must</strong> в заперечній формі (<strong>must not</strong>).
+                        <span className={'example'}>
+                            <p>You <b>don’t</b> have to come here. – Тобі не обов'язково сюди приходити.</p>
+                            <p>You <b>mustn’t</b> come here. – Тобі заборонено сюди приходити.</p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'haveToComponent-interrogative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Заперечне речення</h2>
+
+                <article className={'haveToComponent-interrogative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Питальні речення з <strong>have to</strong> утворюються за допомогою допоміжного дієслова
+                        <strong>do</strong> (або ж <strong>will</strong> для майбутнього часу) в необхідній формі, що
+                        ставиться на початок речення перед підметом або після питальних слів (<strong>Who, Why, When,
+                        Where, How</strong> тощо).
+                        <span className={'example'}>
+                            <p>You <b>have to</b> go. – Тобі не треба йти. (ствердження)</p>
+                            <p><b>Do</b> you <b>have to</b> go? – Тобі треба йти?</p>
+                            <p><b>Does</b> Michael <b>have to</b> work on Sunday? – Чи повинен Майкл працювати у неділю?</p>
+                            <p><b>When</b> do you <b>have to</b> go there? – Коли тобі потрібно туди піти?</p>
+                            <p><b>Did</b> he <b>have to</b> call you? – Чи повинен був він подзвонити тобі?</p>
+                            <p><b>Will</b> I <b>have to</b> pay for the broken vase? – Мені необхідно буде заплатити за розбиту вазу?</p>
+                        </span>
+                    </p>
+
+                </article>
+            </section>
+
+            <h1 className={'haveToComponent-h1-second'}>Особливості вживання</h1>
+
+            <section className={'haveToComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Вираження ступеня впевненості, можливості</h2>
+
+                <article className={'haveToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Конструкція <strong>have to</strong> також виражає можливість, впевненість в чомусь мовця та
+                        українською перекладається як «напевно», «мабуть», «точно». В такому значенні <strong>have
+                        to</strong> використовується тільки в теперішньому часі (в формах <strong>have to be</strong> або
+                        <strong>has to be</strong>) та може замінятись на модальний <strong>must</strong>.
+                        <span className={'example'}>
+                            <p>I <b>have to be</b> misunderstood. – Мене, напевно, неправильно зрозуміли.</p>
+                            <p>I <b>must be</b> misunderstood. – Мене, напевно, неправильно зрозуміли.</p>
+                            <p>It <b>has to be</b> really difficult to survive in a desert. – Мабуть, вижити в пустелі - це дійсно складно.</p>
+                            <p>It <b>must be</b> really difficult to survive in a desert. – Мабуть, вижити в пустелі - це дійсно складно.</p>
+                            <p>That girl <b>has to be</b> Ann. – Та дівчина, напевно, Енн.</p>
+                            <p>That girl <b>must be</b> Ann. – Та дівчина, напевно, Енн.</p>
+                        </span>
+                    </p>
+
+                    <p className={'width marginTop'}>
+                        При утворенні заперечного речення з таким значенням конструкція <strong>have to</strong> замінюється
+                        дієсловом must в заперечній формі (<strong>must not</strong>).
+                        <span className={'example'}>
+                            <p>That guy <b>has to be</b> Paul. – Той хлопець, напевно, Пол.</p>
+                            <p>
+                                No, that <b>mustn’t be</b> Paul. Paul is tall and besides, he is blond. – Ні, це
+                                не може бути Пол. Пол високий і до того ж блондин.
+                            </p>
+                        </span>
+                    </p>
+                </article>
+            </section>
         </main>
     );
 };
