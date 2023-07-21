@@ -131,65 +131,98 @@ export const vocabularyPrepositions = [
             "over"
         ]
     },
+    {
+        id: 'P13',
+        infinitive: 'around',
+        transcriptionInf: '[əˈraʊnd]',
+        translation: 'навколо, навкруги',
+        incorrect_answers: [
+            "out of",
+            "towards",
+            "into"
+        ]
+    },
+    {
+        id: 'P14',
+        infinitive: 'below',
+        transcriptionInf: '[bɪˈloʊ]',
+        translation: 'під, нижче, внизу',
+        incorrect_answers: [
+            "onto",
+            "down",
+            "along"
+        ]
+    },
+    {
+        id: 'P15',
+        infinitive: 'close to',
+        transcriptionInf: '[kloʊs]/[tuː]',
+        translation: 'близько до, поруч з',
+        incorrect_answers: [
+            "back to",
+            "off",
+            "over"
+        ]
+    },
+    {
+        id: 'P16',
+        infinitive: 'next to',
+        transcriptionInf: '[nɛkst]/[tuː]',
+        translation: 'поруч, наступний до',
+        incorrect_answers: [
+            "out of",
+            "back to",
+            "out of"
+        ]
+    },
+    {
+        id: 'P17',
+        infinitive: 'over',
+        transcriptionInf: '[ˈoʊvər]',
+        translation: 'над, через',
+        incorrect_answers: [
+            "after",
+            "during",
+            "for"
+        ]
+    },
+    {
+        id: 'P18',
+        infinitive: 'across',
+        transcriptionInf: '[əˈkrɒs]',
+        translation: 'через, крізь, впоперек',
+        incorrect_answers: [
+            "into",
+            "round",
+            "towards"
+        ]
+    },
+    {
+        id: 'P19',
+        infinitive: 'back to',
+        transcriptionInf: '[bæk tuː]',
+        translation: 'назад до',
+        incorrect_answers: [
+            "along",
+            "past",
+            "up"
+        ]
+    },
+    {
+        id: 'P20',
+        infinitive: 'off',
+        transcriptionInf: '[ɒf]',
+        translation: 'від, з',
+        incorrect_answers: [
+            "along",
+            "down",
+            "through"
+        ]
+    },
     // {
-    //     id: 'P13',
-    //     infinitive: 'around',
-    //     transcriptionInf: '[əˈraʊnd]',
-    //     translation: 'навколо, навкруги',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'P14',
-    //     infinitive: 'below',
-    //     transcriptionInf: '[bɪˈloʊ]',
-    //     translation: 'під, нижче, внизу',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'P15',
-    //     infinitive: 'close to',
-    //     transcriptionInf: '[kloʊs]/[tuː]',
-    //     translation: 'близько до, поруч з',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'P16',
-    //     infinitive: 'next to',
-    //     transcriptionInf: '[nɛkst]/[tuː]',
-    //     translation: 'поруч, наступний до',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'P17',
-    //     infinitive: 'over',
-    //     transcriptionInf: '[ˈoʊvər]',
-    //     translation: 'над, через',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P21',
+    //     infinitive: 'through',
+    //     transcriptionInf: '[θruː]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",
@@ -198,9 +231,9 @@ export const vocabularyPrepositions = [
     //     ]
     // },
     // {
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P22',
+    //     infinitive: 'along',
+    //     transcriptionInf: '[əˈlɔŋ]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",
@@ -209,9 +242,9 @@ export const vocabularyPrepositions = [
     //     ]
     // },
     // {
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P23',
+    //     infinitive: 'down',
+    //     transcriptionInf: '[daʊn]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",
@@ -220,9 +253,9 @@ export const vocabularyPrepositions = [
     //     ]
     // },
     // {
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P24',
+    //     infinitive: 'onto',
+    //     transcriptionInf: '[ˈɒntuː]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",
@@ -231,9 +264,9 @@ export const vocabularyPrepositions = [
     //     ]
     // },
     // {
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P25',
+    //     infinitive: 'to',
+    //     transcriptionInf: '[tuː]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",
@@ -242,52 +275,9 @@ export const vocabularyPrepositions = [
     //     ]
     // },
     // {
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },{
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P26',
+    //     infinitive: 'up',
+    //     transcriptionInf: '[ʌp]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",
@@ -295,9 +285,9 @@ export const vocabularyPrepositions = [
     //         ""
     //     ]
     // },{
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P27',
+    //     infinitive: 'away from',
+    //     transcriptionInf: '[əˈweɪ frʌm]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",
@@ -305,9 +295,9 @@ export const vocabularyPrepositions = [
     //         ""
     //     ]
     // },{
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P28',
+    //     infinitive: 'into',
+    //     transcriptionInf: '[ˈɪntuː]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",
@@ -315,9 +305,9 @@ export const vocabularyPrepositions = [
     //         ""
     //     ]
     // },{
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P29',
+    //     infinitive: 'out of',
+    //     transcriptionInf: '[aʊt ʌv]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",
@@ -325,9 +315,19 @@ export const vocabularyPrepositions = [
     //         ""
     //     ]
     // },{
-    //     id: 'P',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
+    //     id: 'P30',
+    //     infinitive: 'round, around',
+    //     transcriptionInf: '[raʊnd, əˈraʊnd]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //         "",
+    //         "",
+    //         ""
+    //     ]
+    // },{
+    //     id: 'P31',
+    //     infinitive: 'towards',
+    //     transcriptionInf: '[təˈwɔrdz]',
     //     translation: '',
     //     incorrect_answers: [
     //         "",

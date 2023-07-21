@@ -406,147 +406,147 @@ export const vocabularyTravel = [
             "Adventure"
         ]
     },
-    // {
-    //     id: 'T38',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T39',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T40',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T41',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T42',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T43',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T44',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T45',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T46',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T47',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T48',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T49',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'T50',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
+    {
+        id: 'T38',
+        infinitive: 'Landscapes',
+        transcriptionInf: '[`lændˌskeɪps]',
+        translation: 'Пейзажі',
+        incorrect_answers: [
+            "Destination",
+            "Explore",
+            "Ticket"
+        ]
+    },
+    {
+        id: 'T39',
+        infinitive: 'Pilgrimage',
+        transcriptionInf: '[`pɪlɡrɪmɪʤ]',
+        translation: 'Паломництво',
+        incorrect_answers: [
+            "Expedition",
+            "Visa",
+            "Scenic"
+        ]
+    },
+    {
+        id: 'T40',
+        infinitive: 'Rental',
+        transcriptionInf: '[`rɛntəl]',
+        translation: 'Оренда',
+        incorrect_answers: [
+            "Sunset",
+            "Adventure",
+            "Backpacker"
+        ]
+    },
+    {
+        id: 'T41',
+        infinitive: 'Sunset',
+        transcriptionInf: '[`sʌnˌsɛt]',
+        translation: 'Захід сонця',
+        incorrect_answers: [
+            "Adventure",
+            "Pilgrimage",
+            "Backpacker"
+        ]
+    },
+    {
+        id: 'T42',
+        infinitive: 'Expedition',
+        transcriptionInf: '[ˌɛkspəˈdɪʃən]',
+        translation: 'Експедиція',
+        incorrect_answers: [
+            "Destination",
+            "Explore",
+            "Ticket"
+        ]
+    },
+    {
+        id: 'T43',
+        infinitive: 'Safari',
+        transcriptionInf: '[səˈfɑːri]',
+        translation: 'Сафарі',
+        incorrect_answers: [
+            "Expedition",
+            "Visa",
+            "Scenic"
+        ]
+    },
+    {
+        id: 'T44',
+        infinitive: 'Trekking',
+        transcriptionInf: '[`trɛkɪŋ]',
+        translation: 'Трекінг',
+        incorrect_answers: [
+            "Sunset",
+            "Scenic ",
+            "Backpacker"
+        ]
+    },
+    {
+        id: 'T45',
+        infinitive: 'Scenic ',
+        transcriptionInf: '[\'sinɪk]',
+        translation: 'Мальовничий',
+        incorrect_answers: [
+            "Destination",
+            "Explore",
+            "Ticket"
+        ]
+    },
+    {
+        id: 'T46',
+        infinitive: 'Visa',
+        transcriptionInf: '[`viːzə]',
+        translation: 'Віза',
+        incorrect_answers: [
+            "Sunset",
+            "Adventure",
+            "Pilgrimage"
+        ]
+    },
+    {
+        id: 'T47',
+        infinitive: 'Beachfront',
+        transcriptionInf: '[`biːtʃˌfrʌnt]',
+        translation: 'На березі пляжу',
+        incorrect_answers: [
+            "Archaeological",
+            "Expedition",
+            "Safari"
+        ]
+    },
+    {
+        id: 'T48',
+        infinitive: 'Intercontinental',
+        transcriptionInf: '[ˌɪntərkɑːnˈtɪnəntəl]',
+        translation: 'Міжконтинентальний',
+        incorrect_answers: [
+            "Travelogue",
+            "Backpacking",
+            "Itinerary"
+        ]
+    },
+    {
+        id: 'T49',
+        infinitive: 'Remote',
+        transcriptionInf: '[rɪˈmoʊt]',
+        translation: 'Віддалений',
+        incorrect_answers: [
+            "Sunset",
+            "Adventure",
+            "Pilgrimage"
+        ]
+    },
+    {
+        id: 'T50',
+        infinitive: 'Detour',
+        transcriptionInf: '[`diːˌtʊr]',
+        translation: 'Об\'їзд',
+        incorrect_answers: [
+            "Cultural",
+            "Staycation",
+            "Navigator"
+        ]
+    },
 ];
