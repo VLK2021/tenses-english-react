@@ -75,7 +75,11 @@ const PopUpComponent = (props) => {
                     <article className={'flexDirectionColumn'}>
                         {
                             visiblePop &&
-                            <div>{obj.infinitive}</div>
+                            <div className={'flexDirectionColumn'}>
+                                <div>{obj.infinitive}</div>
+                                <div>{obj.transcriptionInf}</div>
+                            </div>
+
                         }
 
                         <button className={'popBtn marginTop'} onClick={() => setVisiblePop(!visiblePop)}>read / don't
