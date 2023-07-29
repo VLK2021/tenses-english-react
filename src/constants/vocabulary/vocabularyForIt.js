@@ -549,4 +549,186 @@ export const vocabularyForIt = [
             "loop"
         ]
     },
+    {
+        id: 'VFI51',
+        infinitive: 'connect',
+        transcriptionInf: '[kəˈnɛkt]',
+        translation: 'підключатись',
+        incorrect_answers: [
+            "mirror",
+            "roof",
+            "carpet"
+        ]
+    },
+    {
+        id: 'VFI52',
+        infinitive: 'create',
+        transcriptionInf: '[kriˈeɪt]',
+        translation: 'створювати',
+        incorrect_answers: [
+            "abbreviation",
+            "algorithm",
+            "event"
+        ]
+    },
+    {
+        id: 'VFI53',
+        infinitive: 'disable',
+        transcriptionInf: '[/dɪsˈeɪbl]',
+        translation: 'відключити',
+        incorrect_answers: [
+            "optimistic",
+            "talented",
+            "happy"
+        ]
+    },
+    {
+        id: 'VFI54',
+        infinitive: 'approve',
+        transcriptionInf: '[əˈpruːv]',
+        translation: 'підтвердження',
+        incorrect_answers: [
+            "algorithm",
+            "hello",
+            "binary"
+        ]
+    },
+    {
+        id: 'VFI55',
+        infinitive: 'attach',
+        transcriptionInf: '[əˈtætʃ]',
+        translation: 'прикріплювати',
+        incorrect_answers: [
+            "brave",
+            "calm",
+            "charming"
+        ]
+    },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     //     id: 'VFI',
+    //     //     infinitive: '',
+    //     //     transcriptionInf: '[]',
+    //     //     translation: '',
+    //     //     incorrect_answers: [
+    //     //
+    //     //     ]
+    //     // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+
 ]

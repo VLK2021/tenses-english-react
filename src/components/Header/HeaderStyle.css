@@ -1,5 +1,6 @@
 .header {
     margin-bottom: 1rem;
+    justify-content: space-around;
 }
 
 .header-title {
@@ -9,4 +10,14 @@
     font-size: 3rem;
     text-shadow: 0.2rem 0.2rem 0.2rem black;
     text-transform: uppercase;
+}
+
+.header-icon > .home-icon {
+    font-size: 3rem;
+    color: var(--var-bg-button);
+    cursor: pointer;
+}
+
+.home-icon:hover {
+    color: var(--var-color-li);
 }

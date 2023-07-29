@@ -1,9 +1,13 @@
 import React, {useEffect, useState} from 'react';
+import {HiHome} from "react-icons/hi";
+import {useNavigate} from "react-router-dom";
 
 import './HeaderStyle.css';
 
 
 const Header = () => {
+    const navigate = useNavigate();
+
     const colors = ['#e60000', '#cc5200', '#4d79ff', 'lightseagreen', 'orange'];
     const [currentColorIndex, setCurrentColorIndex] = useState(0);
 
@@ -17,10 +21,21 @@ const Header = () => {
 
     const currentColor = colors[currentColorIndex];
 
+    const goHome = () => {
+        navigate('/');
+    }
+
 
     return (
         <main className={'width header flex'}>
+            <div className={'header-icon'}>
+                <HiHome className={'home-icon'} onClick={goHome}/>
+            </div>
+
             <p className={'header-title flex'} style={{color: currentColor}}>learning English</p>
+
+            <div>
+            </div>
         </main>
     );
 };
