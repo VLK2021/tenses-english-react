@@ -15,6 +15,9 @@
 
 .outlet{
     width: 100%;
-    min-height: 60vh;
-    background: snow;
+    min-height: 100vh;
+    background: var(--var-bg-home);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 }

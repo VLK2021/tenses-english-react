@@ -10,7 +10,7 @@ const Vocabulary = () => {
 
     return (
         <main className={'vocabulary width flexDirectionColumn'}>
-            <h1 className={''}>Vocabulary</h1>
+            <h1 className={'width flex'}>Vocabulary</h1>
 
             <section className={'width vocabulary-btn marginTop'}>
                 {
