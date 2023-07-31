@@ -30,10 +30,10 @@ const AnswerComponent = ({ answerArray, infinitive, setIsSelected, setCorrect, c
         if (selectedOption === infinitive) {
             setCorrect(correct +1);
         }
-        if (selectedOption !== infinitive || selectedOption ) {
+        if (selectedOption !== infinitive && selectedOption) {
             setWrong(wrong + 1);
         }
-    }, [selectedOption, infinitive, setCorrect, correct, setWrong, wrong]);
+    }, [selectedOption]);
 
     //перемішуємо масив слів
     const shuffleArray = (array) => {
