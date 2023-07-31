@@ -10,6 +10,9 @@ const PopUpQuizComponent = (props) => {
     const [arrayWords, setArrayWords] = useState([]);
     const [isSelected, setIsSelected] = useState(false);
 
+    const [correct, setCorrect] =useState(0);
+    const [wrong, setWrong] =useState(0);
+
     useEffect(() => {
         if (newVocabularyArray) {
             setArrayWords(newVocabularyArray);
@@ -62,11 +65,20 @@ const PopUpQuizComponent = (props) => {
 
     return (
         <main className={'popUpQuizComponent direction-column'}>
-            <button className={'trainingPopUp-btn'} onClick={() => setVisibleQuiz(false)}>close</button>
+            <button className={'trainingPopUp-btn'} onClick={() => {
+                setVisibleQuiz(false);
+                setCorrect(0);
+                setWrong(0);
+            }}>close</button>
 
             <div className={'width'}>
                 {
-                    obj && <QuizSingleComponent obj={obj} setIsSelected={setIsSelected}/>
+                    obj && <QuizSingleComponent obj={obj} setIsSelected={setIsSelected}
+                                                correct={correct}
+                                                setCorrect={setCorrect}
+                                                wrong={wrong}
+                                                setWrong={setWrong}
+                    />
                 }
             </div>
 

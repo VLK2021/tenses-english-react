@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import './AnswerComponentStyle.css';
 
 
-const AnswerComponent = ({ answerArray, infinitive, setIsSelected }) => {
+const AnswerComponent = ({ answerArray, infinitive, setIsSelected, setCorrect, correct, setWrong, wrong  }) => {
     const { register, setValue } = useForm();
 
     const [selectedOption, setSelectedOption] = useState('');
@@ -27,7 +27,13 @@ const AnswerComponent = ({ answerArray, infinitive, setIsSelected }) => {
         if (selectedOption) {
             setChangeColor((prevColors) => ({ ...prevColors, [selectedOption]: color }));
         }
-    }, [selectedOption, infinitive]);
+        if (selectedOption === infinitive) {
+            setCorrect(correct +1);
+        }
+        if (selectedOption !== infinitive || selectedOption ) {
+            setWrong(wrong + 1);
+        }
+    }, [selectedOption, infinitive, setCorrect, correct, setWrong, wrong]);
 
     //перемішуємо масив слів
     const shuffleArray = (array) => {

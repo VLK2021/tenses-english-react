@@ -8,7 +8,7 @@ import './HeaderStyle.css';
 const Header = () => {
     const navigate = useNavigate();
 
-    const colors = ['#e60000', '#cc5200', '#4d79ff', 'lightseagreen', 'orange'];
+    const colors = ['#e60000', '#cc5200', '#4d79ff', '#ff66cc', 'orange', '#0099ff', '#996600', '#66ff33', '#d966ff'];
     const [currentColorIndex, setCurrentColorIndex] = useState(0);
 
     useEffect(() => {

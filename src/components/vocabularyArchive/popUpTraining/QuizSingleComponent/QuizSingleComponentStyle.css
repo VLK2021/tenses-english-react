@@ -2,11 +2,26 @@
     padding: 1rem;
 }
 
-.quizSingleComponent-title{
+.quizSingleComponent-title {
     text-align: center;
     text-transform: uppercase;
     color: midnightblue;
     text-shadow: 0.2rem 0.2rem 0.2rem skyblue;
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.quizSingleComponentCorWrong {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: midnightblue;
+}
+
+.correct {
+    margin-right: 1rem;
+}
+
+.wrong {
+    margin-left: 1rem;
 }
