@@ -20,7 +20,7 @@ const AnswerComponent = ({ answerArray, infinitive, setIsSelected, setCorrect, c
         setShuffledAnswerArray(shuffleArray(answerArray));
     }, [answerArray, infinitive, setValue]);
 
-    //встановлюємо колір для слова
+    //встановлюємо колір для слова та рахуємо правильні і не правильні відповіді
     useEffect(() => {
         setChangeColor({});
         const color = selectedOption === infinitive ? 'green' : 'red';

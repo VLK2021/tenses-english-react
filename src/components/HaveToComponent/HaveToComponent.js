@@ -272,6 +272,146 @@ const HaveToComponent = () => {
                     </p>
                 </article>
             </section>
+
+            <section className={'haveToComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Have to чи Must?</h2>
+
+                <article className={'haveToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        В багатьох випадках have to може використовуватися замість модального
+                        дієслова <strong>must</strong>,
+                        що також вказує на необхідність виконання чогось.
+                        <span className={'example'}>
+                            <p>
+                                Oh, it’s later than I thought. I <b>must</b> go now. – О, вже пізніше, аніж я думав.
+                                Я повинен йти.
+                            </p>
+                            <p>
+                                Oh, it’s later than I thought. I <b>have to</b> go now. – О, вже пізніше, аніж я думав.
+                                Я повинен йти.
+                            </p>
+                            <p>
+                                You <b>must</b> have a passport to go abroad. – У тебе повинен бути паспорт, щоб
+                                поїхати за кордон.
+                            </p>
+                            <p>
+                                You <b>have to</b> have a passport to go abroad. – У тебе повинен бути паспорт,
+                                щоб поїхати за кордон.
+                            </p>
+                        </span>
+                    </p>
+
+                    <p className={'width marginTop'}>
+                        Однак існує певна різниця в використанні конструкції <strong>have to</strong> та модального
+                        дієслова <strong>must</strong>. Модальне дієслово <strong>must</strong> має тільки одну форму
+                        та вживається з смисловими дієсловами в трьох формах інфінітиву: <strong>Simple
+                        Infinitive</strong>
+                        (дієслово в першій формі), <strong>Continuous Infinitive</strong> та <strong>Perfect
+                        Infinitive</strong>.
+                        Конструкція <strong>have to</strong> має форму теперішнього, минулого (<strong>had to</strong>)
+                        та
+                        майбутнього часу (<strong>will have to</strong>). Саме дієслово must вживається тільки в одній
+                        формі та в більшій мірі виражає особисті рішення, відчуття, необхідність щось зробити.
+                        <span className={'example'}>
+                            <h3 className={'width'}>Active Voice:</h3>
+
+                            <p>
+                                Peter <b>must</b> leave the city today. – Пітер повинен залишити місто сьогодні. (теперішній час)
+                            </p>
+                            <p>
+                                Peter <b>had to</b> leave the city the next day. – Пітер повинен був залишити місто
+                                наступного дня. (минулий час)
+                            </p>
+                            <p>
+                                I <b>must</b> read this book now. – Я повинен прочитати цю книгу зараз. (теперішній час)
+                            </p>
+                            <p>
+                                I <b>will have to</b> read this book next semester. – Я повинен буду прочитати цю книгу
+                                наступного семестру. (майбутній час)
+                            </p>
+                        </span>
+
+                        <span className={'example'}>
+                            <h3 className={'width'}>Passive Voice:</h3>
+
+                            <p>
+                                It <b>must</b> be done right now! – Це повинно бути виконано негайно ж! (теперішній час)
+                            </p>
+                            <p>
+                                It <b>had to</b> be done yesterday. – Це повинно було бути виконаним вчора. (минулий час)
+                            </p>
+                        </span>
+                    </p>
+
+                    <p className={'width marginTop'}>
+                        Також конструкція <strong>have to</strong> передає відтінок необхідності зробити щось через
+                        певні обставини, а не за своїм бажанням, тобто конструкція може перекладатися як «доводиться»,
+                        «змушений», «зобов'язаний».
+                        <span className={'example'}>
+                            <p>
+                                I <b>have to</b> stay at home because my mother asked me to. – Я змушений залишитися
+                                вдома, тому що моя мати попрохала мене про це. (Повинен це зробити не за своїм бажанням)
+                            </p>
+                            <p>
+                                You <b>have to</b> help your sister because you have promised you would. – Ти повинен
+                                допомогти своїй сестрі, тому що ти пообіцяв зробити це.
+                            </p>
+                            <p>
+                                He can’t keep this puppy. He <b>has to</b> give it back to the owner even if he doesn’t
+                                want to. – Він не може залишити цього цуценя в себе. Він змушений повернути його
+                                власнику, навіть якщо він не хоче цього робити.
+                            </p>
+                        </span>
+                    </p>
+
+                    <p className={'width marginTop'}>
+                        За значенням відрізняються також й заперечні форми <strong>don't have to</strong> та <strong>must
+                        not</strong>. Докладніше про це написано в розділі заперечне речення з <strong>have to</strong>.
+                    </p>
+                </article>
+            </section>
+
+            <section className={'haveToComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'}>Have чи Have to</h2>
+
+                <article className={'haveToComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Слід також розрізняти вирази <strong>have to do / tell / show something</strong> та
+                        <strong>have something to do / tell / show</strong>.
+                        <span className={'example'}>
+                            <h3>have як звичайне дієслово:</h3>
+                            <p>
+                                I <b>have</b> something <b>to</b> tell you. – Я хочу дещо сказати тобі (в мене є що сказати тобі).
+                            </p>
+                            <h3>have to як модальна конструкція:</h3>
+                            <p>
+                                I <b>have to</b> tell you something. – Я повинен тобі щось сказати.
+                            </p>
+                        </span>
+                    </p>
+
+                    <p className={'width marginTop'}>
+                        В першому випадку дієслово <strong>have </strong>використовується в якості звичайного
+                        смислового дієслова, що виражає наявність певної інформації або предмету, якими мовець хоче,
+                        наприклад, поділитись. В другому реченні використовується <strong>have to</strong> в якості
+                        модальної конструкції і передає значення необхідності певної дії через певні обставини.
+                        <span className={'example'}>
+                            <p>
+                                I <b>have</b> something <b>to</b> do this weekend. – У мене є чим зайнятися цими вихідними.
+                            </p>
+                            <p>
+                                I <b>have to</b> do something this weekend. – Я повинен зробити щось в ці вихідні.
+                            </p>
+                            <p>
+                                Jack <b>has</b> something <b>to</b> show to his friend. – Джек хоче дещо показати своєму другові.
+                            </p>
+                            <p>
+                                Jack <b>has to</b> show something to his friend. – Джек повинен показати дещо своєму другові.
+                            </p>
+                        </span>
+                    </p>
+                </article>
+            </section>
         </main>
     );
 };

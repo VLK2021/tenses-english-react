@@ -13,9 +13,9 @@
 
 .quizSingleComponentCorWrong {
     font-weight: bold;
-    font-style: italic;
-    font-size: 1.2rem;
-    color: midnightblue;
+    font-size: 0.8rem;
+    color: var(--var-color-example-text);
+    text-transform: uppercase;
 }
 
 .correct {
