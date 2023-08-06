@@ -11,7 +11,8 @@ const PresentSimple = () => {
 
     return (
         <main className={'presentSimple flexDirectionColumn width'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
+
             <p className={'presentSimple-rule fontSizeText'}>
                 <strong>Present Simple</strong><i>(простий (неозначений) теперішній час)</i> - використовується для
                 вираження дії яка регулярно повторюється або для вираження
@@ -22,7 +23,7 @@ const PresentSimple = () => {
             </p>
 
             <section className={'presentSimple-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -32,12 +33,13 @@ const PresentSimple = () => {
             </section>
 
             <section className={'presentSimple-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'presentSimple-formation-info fontSizeText width'}>
                     <p>Від інфінітива смислового дієслова. (<i>без to</i>) (I read, you read, we read, they read)</p>
                     <p>У третій особі однини має закінчення. <strong>-s</strong> (<i>he reads, she reads</i>)</p>
-                    <p>Дієслова <a href={'/16'}><strong>to have</strong></a> і <a href={'/15'}><strong>to be</strong></a> мають особливі форми відмінювання.</p>
+                    <p>Дієслова <a href={'/16'}><strong>to have</strong></a> і <a href={'/15'}><strong>to
+                        be</strong></a> мають особливі форми відмінювання.</p>
                     <p>Питальні та заперечні речення утворюються за допомогою допоміжного
                         дієслова <strong>do</strong> і <strong>does</strong>.</p>
                 </article>

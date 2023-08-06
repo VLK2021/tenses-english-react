@@ -12,9 +12,9 @@ const Layout = () => {
 
     return (
         <main className={'main width'}>
-            <header className={'width'}>
+            <div className={'width header-block'}>
                 <Header/>
-            </header>
+            </div>
 
             <section className={'width layout'}>
                 <aside className={'layout-left'}>
