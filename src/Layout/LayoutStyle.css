@@ -1,23 +1,32 @@
+.main {
+}
+
+.header-block{
+    width: 74.4%;
+    background: var(--var-bg-header-outlet);
+    margin-bottom: 2rem;
+    position: fixed;
+    top: 0;
+}
+
 .layout {
     width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: start;
+    padding-top: 4rem;
 }
 
 .layout-left, .layout-right{
-    width: 15%;
+    width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
 .outlet{
-    width: 100%;
+    width: 80%;
     min-height: 100vh;
-    background: var(--var-bg-home);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: var(--var-bg-header-outlet);
 }

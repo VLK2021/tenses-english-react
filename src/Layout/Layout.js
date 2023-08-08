@@ -11,10 +11,10 @@ const Layout = () => {
     const secondNumberSlice = menu.length / 2;
 
     return (
-        <main className={'main width'}>
-            <div className={'width header-block'}>
+        <main className={'main width flexDirectionColumn'}>
+            <header className={'header-block'}>
                 <Header/>
-            </div>
+            </header>
 
             <section className={'width layout'}>
                 <aside className={'layout-left'}>

@@ -6,7 +6,8 @@
 
 :root {
     --var-bg-image: url(./images/greyfon.jpg) no-repeat center fixed;
-    --var-bg-home: url(./images/fonBgEng.jpg) no-repeat center fixed;
+    /*--var-bg-home: url(./images/fonBgEng.jpg) no-repeat center fixed;*/
+    --var-bg-header-outlet: #e6ffff;
     --var-bg-button: lightseagreen;
     --var-color-button: snow;
     --var-color-h: black;
