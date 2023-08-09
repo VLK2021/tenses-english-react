@@ -1,7 +1,8 @@
 .main {
+
 }
 
-.header-block{
+.header-block {
     width: 74.4%;
     background: var(--var-bg-header-outlet);
     margin-bottom: 2rem;
@@ -11,21 +12,20 @@
 
 .layout {
     width: 100%;
-    min-height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 
-.layout-left, .layout-right{
+.layout-left, .layout-right {
     width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
-.outlet{
+.outlet {
     width: 80%;
     min-height: 100vh;
     background: var(--var-bg-header-outlet);

@@ -1,11 +1,22 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './PastSimpleStyle.css';
 import {tenses} from "../../../constants";
+import {titlesAction} from "../../../store/slices/titles.slice";
+import {useDispatch} from "react-redux";
 
 
 const PastSimple = () => {
+    const dispatch = useDispatch();
+
     const {title, markers} = tenses[1];
+
+    const titlesPastSimple = [title];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesPastSimple));
+    }, [titlesPastSimple]);
 
 
     return (

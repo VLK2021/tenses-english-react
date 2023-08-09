@@ -3,6 +3,7 @@ import {HiHome} from "react-icons/hi";
 import {useNavigate} from "react-router-dom";
 
 import './HeaderStyle.css';
+import {MenuTitlesComponent} from "../MenuTitlesComponent/MenuTitlesComponent";
 
 
 const Header = () => {
@@ -27,15 +28,21 @@ const Header = () => {
 
 
     return (
-        <main className={'width header flex'}>
-            <div className={'header-icon'}>
-                <HiHome className={'home-icon'} onClick={goHome}/>
-            </div>
+        <main className={'width'}>
+            <section className={'width header flex'}>
+                <div className={'header-icon'}>
+                    <HiHome className={'home-icon'} onClick={goHome}/>
+                </div>
 
-            <p className={'header-title flex'} style={{color: currentColor}}>learning English</p>
+                <p className={'header-title flex'} style={{color: currentColor}}>learning English</p>
 
-            <div>
-            </div>
+                <div>
+                </div>
+            </section>
+
+            <section className={'width flex'}>
+                <MenuTitlesComponent/>
+            </section>
         </main>
     );
 };

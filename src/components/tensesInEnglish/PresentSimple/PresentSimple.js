@@ -1,12 +1,31 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './PresentSimpleSryle.css';
 import {tenses} from '../../../constants';
+import {useDispatch} from "react-redux";
+import {titlesAction} from "../../../store/slices/titles.slice";
 
 
 const PresentSimple = () => {
+    const dispatch = useDispatch();
 
     const {title, markers} = tenses[0];
+
+    const titlesPresentSimple = [
+        title,
+        'Time markers',
+        'Formation',
+        'To be в Present Simple',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence'
+    ];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesPresentSimple));
+    }, [titlesPresentSimple]);
+
 
 
     return (
@@ -46,7 +65,7 @@ const PresentSimple = () => {
             </section>
 
             <section className={'presentSimple-toBe flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>To be в Present Simple</h2>
+                <h2 className={'marginTop'} id={'To be в Present Simple'}>To be в Present Simple</h2>
 
                 <article className={'fontSizeText width'}>
                     <p className={'width'}>
@@ -73,7 +92,7 @@ const PresentSimple = () => {
             </section>
 
             <section className={'presentSimple-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'presentSimple-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -99,7 +118,7 @@ const PresentSimple = () => {
             </section>
 
             <section className={'presentSimple-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <p className={'width'}>
                     Заперечне речення в Present Simple утворюється за допомогою допоміжного
@@ -137,7 +156,7 @@ const PresentSimple = () => {
             </section>
 
             <section className={'presentSimple-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <p className={'width'}>
                     Питальне речення (загальне питання) в Present Simple утворюється за допомогою допоміжного
