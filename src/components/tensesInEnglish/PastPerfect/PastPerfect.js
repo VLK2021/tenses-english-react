@@ -1,15 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useDispatch} from "react-redux";
 
 import './PastPerfectStyle.css';
 import {tenses} from "../../../constants";
+import {titlesAction} from "../../../store/slices/titles.slice";
 
 
 const PastPerfect = () => {
+    const dispatch = useDispatch();
     const {title, markers} = tenses[7];
+
+    const titlesPastPerfect = [
+        title,
+        'Time markers',
+        'Formation',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence'
+    ];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesPastPerfect));
+    }, [titlesPastPerfect]);
 
     return (
         <main className={'pastPerfect width flexDirectionColumn'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
 
             <p className={'pastPerfect-rule fontSizeText'}>
                 <strong>Past Perfect Tense (Past Perfect)</strong> є одним із часів в англійській мові, який
@@ -28,7 +45,7 @@ const PastPerfect = () => {
             </p>
 
             <section className={'pastPerfect-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -38,7 +55,7 @@ const PastPerfect = () => {
             </section>
 
             <section className={'pastPerfect-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'pastPerfect-formation-info fontSizeText width'}>
                     <p>
@@ -54,7 +71,7 @@ const PastPerfect = () => {
             </section>
 
             <section className={'pastPerfect-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'pastPerfect-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -78,7 +95,7 @@ const PastPerfect = () => {
             </section>
 
             <section className={'pastPerfect-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -95,7 +112,7 @@ const PastPerfect = () => {
             </section>
 
             <section className={'pastPerfect-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>

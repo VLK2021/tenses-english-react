@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './AlphabetComponentStyle.css';
 import {alphabet} from '../../constants';
 import {AlphabetSingleComponent} from "../AlphabetSingleComponent/AlphabetSingleComponent";
+import {useDispatch} from "react-redux";
+import {titlesAction} from "../../store/slices/titles.slice";
 
 
 const AlphabetComponent = () => {
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles([]));
+    }, []);
+
 
     return (
         <main className={'alphabetComponent width flexDirectionColumn'}>

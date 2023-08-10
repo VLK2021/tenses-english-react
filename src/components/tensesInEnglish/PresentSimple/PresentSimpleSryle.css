@@ -8,6 +8,8 @@
     text-shadow: 0.2rem 0.2rem 0.2rem grey;
     margin: 0 0 1rem 0;
     text-decoration: underline;
+    padding-top: 3rem;
+    font-size: 2rem;
 }
 
 .presentSimple-rule{

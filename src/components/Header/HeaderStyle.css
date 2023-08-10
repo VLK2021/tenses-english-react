@@ -21,3 +21,7 @@
 .home-icon:hover {
     color: var(--var-color-li);
 }
+
+.header-main-menu-block{
+    padding-bottom: 1rem;
+}

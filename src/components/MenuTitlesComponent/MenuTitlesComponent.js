@@ -29,7 +29,7 @@ const MenuTitlesComponent = () => {
             {
                 titlesArray.length > 0 &&
                 titlesArray.map(obj =>
-                    <div>
+                    <div className={'menuTitlesComponent-block'} key={obj}>
                         <a href={`#${obj}`} onClick={(e) => scrollToContent(e, obj)}>
                             {obj}
                         </a>

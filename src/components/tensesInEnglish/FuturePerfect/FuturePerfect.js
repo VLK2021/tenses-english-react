@@ -1,14 +1,33 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useDispatch} from "react-redux";
 
 import './FuturePerfectStyle.css';
 import {tenses} from "../../../constants";
+import {titlesAction} from "../../../store/slices/titles.slice";
 
 
 const FuturePerfect = () => {
+    const dispatch = useDispatch();
     const {title, markers} = tenses[8];
+
+    const titlesFuturePerfect = [
+        title,
+        'Time markers',
+        'Formation',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence'
+    ];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesFuturePerfect));
+    }, [titlesFuturePerfect]);
+
+
     return (
         <main className={'futurePerfect width flexDirectionColumn'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
 
             <p className={'futurePerfect-rule fontSizeText'}>
                 <strong>Future Perfect Tense (Future Perfect)</strong> є одним із часів в англійській мові, який
@@ -20,7 +39,7 @@ const FuturePerfect = () => {
             </p>
 
             <section className={'futurePerfect-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -30,7 +49,7 @@ const FuturePerfect = () => {
             </section>
 
             <section className={'futurePerfect-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'futurePerfect-formation-info fontSizeText width'}>
                     <p>
@@ -42,7 +61,7 @@ const FuturePerfect = () => {
             </section>
 
             <section className={'futurePerfect-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'futurePerfect-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -75,7 +94,7 @@ const FuturePerfect = () => {
             </section>
 
             <section className={'futurePerfect-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -99,7 +118,7 @@ const FuturePerfect = () => {
             </section>
 
             <section className={'futurePerfect-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>

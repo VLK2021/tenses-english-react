@@ -1,16 +1,33 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './PresentContinuousStyle.css';
 import {tenses} from "../../../constants";
+import {titlesAction} from "../../../store/slices/titles.slice";
+import {useDispatch} from "react-redux";
 
 
 const PresentContinuous = () => {
+    const dispatch = useDispatch();
     const {title, markers} = tenses[3];
+
+    const titlesPresentContinuous = [
+        title,
+        'Time markers',
+        'Formation',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence'
+    ];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesPresentContinuous));
+    }, [titlesPresentContinuous]);
 
 
     return (
         <main className={'presentContinuous flexDirectionColumn width'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
 
             <p className={'presentContinuous-rule fontSizeText'}>
                 <strong>Present Continuous</strong> (Present Progressive)виражає: дії, що були заплановані на найближче
@@ -24,7 +41,7 @@ const PresentContinuous = () => {
             </p>
 
             <section className={'presentContinuous-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -34,7 +51,7 @@ const PresentContinuous = () => {
             </section>
 
             <section className={'presentContinuous-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'futureSimple-formation-info fontSizeText width'}>
                     <p>
@@ -48,7 +65,7 @@ const PresentContinuous = () => {
             </section>
 
             <section className={'presentContinuous-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'futureSimple-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -72,7 +89,7 @@ const PresentContinuous = () => {
             </section>
 
             <section className={'presentContinuous-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -92,7 +109,7 @@ const PresentContinuous = () => {
             </section>
 
             <section className={'presentContinuous-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>

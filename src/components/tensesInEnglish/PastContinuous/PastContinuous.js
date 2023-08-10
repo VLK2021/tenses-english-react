@@ -1,16 +1,33 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './PastContinuousStyle.css';
 import {tenses} from "../../../constants";
+import {useDispatch} from "react-redux";
+import {titlesAction} from "../../../store/slices/titles.slice";
 
 
 const PastContinuous = () => {
+    const dispatch = useDispatch();
     const {title, markers} = tenses[4];
+
+    const titlesPastContinuous = [
+        title,
+        'Time markers',
+        'Formation',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence'
+    ];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesPastContinuous));
+    }, [titlesPastContinuous]);
 
 
     return (
         <div className={'pastContinuous flexDirectionColumn width'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
 
             <p className={'pastContinuous-rule fontSizeText'}>
                 <strong>Past Continuous</strong> (ще його називають Past Progressive) - це минулий тривалий час.
@@ -20,7 +37,7 @@ const PastContinuous = () => {
             </p>
 
             <section className={'pastContinuous-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -30,7 +47,7 @@ const PastContinuous = () => {
             </section>
 
             <section className={'pastContinuous-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'futureSimple-formation-info fontSizeText width'}>
                     <p>
@@ -42,7 +59,7 @@ const PastContinuous = () => {
             </section>
 
             <section className={'pastContinuous-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'futureSimple-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -67,7 +84,7 @@ const PastContinuous = () => {
             </section>
 
             <section className={'pastContinuous-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -88,7 +105,7 @@ const PastContinuous = () => {
             </section>
 
             <section className={'pastContinuous-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -116,7 +133,6 @@ const PastContinuous = () => {
                     </p>
                 </article>
             </section>
-
         </div>
     );
 };

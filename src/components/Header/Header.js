@@ -28,7 +28,7 @@ const Header = () => {
 
 
     return (
-        <main className={'width'}>
+        <main className={'width header-main'}>
             <section className={'width header flex'}>
                 <div className={'header-icon'}>
                     <HiHome className={'home-icon'} onClick={goHome}/>
@@ -40,7 +40,7 @@ const Header = () => {
                 </div>
             </section>
 
-            <section className={'width flex'}>
+            <section className={'width flex header-main-menu-block'}>
                 <MenuTitlesComponent/>
             </section>
         </main>

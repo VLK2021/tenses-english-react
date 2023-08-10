@@ -11,7 +11,15 @@ const PastSimple = () => {
 
     const {title, markers} = tenses[1];
 
-    const titlesPastSimple = [title];
+    const titlesPastSimple = [
+        title,
+        'Time markers',
+        'Formation',
+        'To be в Past Simple',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence',
+    ];
 
 
     useEffect(() => {
@@ -21,7 +29,7 @@ const PastSimple = () => {
 
     return (
         <main className={'pastSimple flexDirectionColumn width'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
             <p className={'pastSimple-rule fontSizeText'}>
                 <strong>Past Simple</strong> – це простий або неозначений час (Simple або Indefinite), який вживається
                 для опису дії, що відбулася в минулому. Також ми використовуємо цей час, коли перелічуємо декілька
@@ -34,7 +42,7 @@ const PastSimple = () => {
             </p>
 
             <section className={'pastSimple-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -44,7 +52,7 @@ const PastSimple = () => {
             </section>
 
             <section className={'pastSimple-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'pastSimple-formation-info fontSizeText width'}>
                     <p className={'width'}>
@@ -64,7 +72,7 @@ const PastSimple = () => {
             </section>
 
             <section className={'pastSimple-toBe flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>To be в Past Simple</h2>
+                <h2 className={'marginTop'} id={'To be в Past Simple'}>To be в Past Simple</h2>
 
                 <article className={'fontSizeText width'}>
                     <p className={'width'}>
@@ -87,7 +95,7 @@ const PastSimple = () => {
             </section>
 
             <section className={'pastSimple-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'pastSimple-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -111,7 +119,7 @@ const PastSimple = () => {
             </section>
 
             <section className={'pastSimple-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <p className={'width'}>
                     Заперечення в Past Simple утворюється за допомогою допоміжного дієслова <strong>did</strong> та
@@ -143,7 +151,7 @@ const PastSimple = () => {
             </section>
 
             <section className={'pastSimple-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <p className={'width'}>
                     Загальне питання в Past Simple утворюється за допомогою допоміжного дієслова <strong>did</strong>,

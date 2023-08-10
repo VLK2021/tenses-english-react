@@ -1,16 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useDispatch} from "react-redux";
 
 import './FutureSimpleStyle.css';
 import {tenses} from "../../../constants";
+import {titlesAction} from "../../../store/slices/titles.slice";
 
 
 const FutureSimple = () => {
     const {title, markers} = tenses[2];
+    const dispatch = useDispatch();
+
+    const titlesFutureSimple = [
+        title,
+        'Time markers',
+        'Formation',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence'
+    ];
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesFutureSimple));
+    }, [titlesFutureSimple]);
 
 
     return (
         <main className={'futureSimple flexDirectionColumn width'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
 
             <p className={'futureSimple-rule fontSizeText'}>
                 <strong>Future Simple</strong> (Майбутній простий час) вживається для вираження подій, які відбудуться
@@ -21,7 +37,7 @@ const FutureSimple = () => {
             </p>
 
             <section className={'futureSimple-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -31,7 +47,7 @@ const FutureSimple = () => {
             </section>
 
             <section className={'futureSimple-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'futureSimple-formation-info fontSizeText width'}>
                     <p>
@@ -53,7 +69,7 @@ const FutureSimple = () => {
             </section>
 
             <section className={'futureSimple-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'futureSimple-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -78,7 +94,7 @@ const FutureSimple = () => {
             </section>
 
             <section className={'futureSimple-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -98,7 +114,7 @@ const FutureSimple = () => {
             </section>
 
             <section className={'futureSimple-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>

@@ -8,6 +8,8 @@
     text-shadow: 0.2rem 0.2rem 0.2rem grey;
     margin: 0 0 1rem 0;
     text-decoration: underline;
+    font-size: 2rem;
+    padding-top: 3rem;
 }
 
 .pastPerfect-rule{

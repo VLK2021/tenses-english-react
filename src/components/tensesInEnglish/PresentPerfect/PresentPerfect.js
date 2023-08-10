@@ -1,16 +1,33 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useDispatch} from "react-redux";
 
 import './PresentPerfectStyle.css';
 import {tenses} from "../../../constants";
+import {titlesAction} from "../../../store/slices/titles.slice";
 
 
 const PresentPerfect = () => {
+    const dispatch = useDispatch();
     const {title, markers} = tenses[6];
+
+    const titlesPresentPerfect = [
+        title,
+        'Time markers',
+        'Formation',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence'
+    ];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesPresentPerfect));
+    }, [titlesPresentPerfect]);
 
 
     return (
         <main className={'presentPerfect width flexDirectionColumn'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
 
             <p className={'presentPerfect-rule fontSizeText'}>
                 <strong>Present Perfect Tense (Теперішній завершений)</strong> є одним із часів в англійській мові, який
@@ -25,7 +42,7 @@ const PresentPerfect = () => {
             </p>
 
             <section className={'presentPerfect-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -35,7 +52,7 @@ const PresentPerfect = () => {
             </section>
 
             <section className={'presentPerfect-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'presentPerfect-formation-info fontSizeText width'}>
                     <p>
@@ -54,7 +71,7 @@ const PresentPerfect = () => {
             </section>
 
             <section className={'presentPerfect-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'presentPerfect-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -77,7 +94,7 @@ const PresentPerfect = () => {
             </section>
 
             <section className={'presentPerfect-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -95,7 +112,7 @@ const PresentPerfect = () => {
             </section>
 
             <section className={'presentPerfect-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>

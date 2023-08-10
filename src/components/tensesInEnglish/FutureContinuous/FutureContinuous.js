@@ -1,15 +1,34 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useDispatch} from "react-redux";
 
 import './FutureContinuousStyle.css';
 import {tenses} from "../../../constants";
+import {titlesAction} from "../../../store/slices/titles.slice";
 
 
 const FutureContinuous = () => {
+    const dispatch = useDispatch();
     const {title, markers} = tenses[5];
+
+    const titlesFutureContinuous = [
+        title,
+        'Time markers',
+        'Formation',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence'
+    ];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesFutureContinuous));
+    }, [titlesFutureContinuous]);
+
+
 
     return (
         <main className={'futureContinuous width flexDirectionColumn'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
 
             <p className={'pastContinuous-rule fontSizeText'}>
                 <strong>Future Continuous (Майбутній тривалий час)</strong> є одним з часів в англійській мові і
@@ -24,7 +43,7 @@ const FutureContinuous = () => {
             </p>
 
             <section className={'futureContinuous-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -34,7 +53,7 @@ const FutureContinuous = () => {
             </section>
 
             <section className={'futureContinuous-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'futureContinuous-formation-info fontSizeText width'}>
                     <p>
@@ -47,7 +66,7 @@ const FutureContinuous = () => {
             </section>
 
             <section className={'futureContinuous-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'futureContinuous-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -72,7 +91,7 @@ const FutureContinuous = () => {
             </section>
 
             <section className={'futureContinuous-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -91,7 +110,7 @@ const FutureContinuous = () => {
             </section>
 
             <section className={'futureContinuous-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>

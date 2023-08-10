@@ -5,10 +5,13 @@ import {useForm} from "react-hook-form";
 import './IrregularVerbsStyle.css';
 import {irregularVerbs, titles} from '../../constants';
 import IrregularVerb from "../IrregularVerb/IrregularVerb";
+import {useDispatch} from "react-redux";
+import {titlesAction} from "../../store/slices/titles.slice";
 
 
 const IrregularVerbs = () => {
     const {register, handleSubmit, setValue} = useForm();
+    const dispatch = useDispatch();
 
     const [arr, setArr] = useState(irregularVerbs);
     const [query, setQuery] = useState('');
@@ -21,6 +24,10 @@ const IrregularVerbs = () => {
         setArr(irregularVerbs.filter(current => current.infinitive.toLowerCase().includes(query)))
         setValue('search', query);
     }, [query]);
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles([]));
+    }, []);
 
 
     return (
