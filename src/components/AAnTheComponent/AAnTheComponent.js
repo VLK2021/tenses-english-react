@@ -1,13 +1,36 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useDispatch} from "react-redux";
 
 import './AAnTheComponentStyle.css';
+import {titlesAction} from "../../store/slices/titles.slice";
 
 
 const AAnTheComponent = () => {
+    const dispatch = useDispatch();
+
+    const titlesAAnTheComponent = [
+        'a / an / the',
+        'Неозначений артикль a / an',
+        'Означений артикль the',
+        'Родові поняття',
+        'Національності',
+        'Група предметів',
+        'Час, історичні епохи',
+        'Найвищий ступіть порівняння',
+        'Some, most, none',
+        'Only, last, first, wrong, right, very',
+        'Нульовий артикль',
+    ];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesAAnTheComponent));
+    }, [titlesAAnTheComponent]);
+
 
     return (
         <main className={'aAnTheComponent width flexDirectionColumn'}>
-            <h1>a / an / the</h1>
+            <h1 id={'a / an / the'}>a / an / the</h1>
 
             <p className={'aAnTheComponent-rule fontSizeText'}>
                 В англійській мові слова, що однаково вимовляються або пишуться, можуть належати до різних частин
@@ -28,7 +51,7 @@ const AAnTheComponent = () => {
             </p>
 
             <section className={'aAnTheComponent-a-an flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Неозначений артикль a / an</h2>
+                <h2 className={'marginTop'} id={'Неозначений артикль a / an'}>Неозначений артикль a / an</h2>
 
                 <article className={'aAnTheComponent-a-an-info width fontSizeText'}>
                     <p className={'width'}>
@@ -70,7 +93,7 @@ const AAnTheComponent = () => {
             </section>
 
             <section className={'aAnTheComponent-a-an flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Означений артикль the</h2>
+                <h2 className={'marginTop'} id={'Означений артикль the'}>Означений артикль the</h2>
 
                 <article className={'aAnTheComponent-a-an-info width fontSizeText'}>
                     <p className={'width'}>
@@ -202,7 +225,7 @@ const AAnTheComponent = () => {
                 </article>
 
                 <article className={'aAnTheComponent-a-an-info width fontSizeText flexDirectionColumn'}>
-                    <h2 className={'marginTop'}>Родові поняття</h2>
+                    <h2 className={'marginTop'} id={'Родові поняття'}>Родові поняття</h2>
 
                     <p className={'width'}>
                         Артикль <strong>the</strong> використовується з родовими поняттями, коли обчислювальний
@@ -239,7 +262,7 @@ const AAnTheComponent = () => {
                 </article>
 
                 <article className={'aAnTheComponent-a-an-info width fontSizeText flexDirectionColumn'}>
-                    <h2 className={'marginTop'}>Національності</h2>
+                    <h2 className={'marginTop'} id={'Національності'}>Національності</h2>
 
                     <p className={'width'}>
                         Артикль <strong>the</strong> використовується з назвами національностей, що закінчуються
@@ -270,7 +293,7 @@ const AAnTheComponent = () => {
                 </article>
 
                 <article className={'aAnTheComponent-a-an-info width fontSizeText flexDirectionColumn'}>
-                    <h2 className={'marginTop'}>Група предметів</h2>
+                    <h2 className={'marginTop'} id={'Група предметів'}>Група предметів</h2>
 
                     <p className={'width'}>
                         Артикль <strong>the</strong> використовується, коли мова іде про групу предметів.
@@ -297,7 +320,7 @@ const AAnTheComponent = () => {
                 </article>
 
                 <article className={'aAnTheComponent-a-an-info width fontSizeText flexDirectionColumn'}>
-                    <h2 className={'marginTop'}>Час, історичні епохи</h2>
+                    <h2 className={'marginTop'} id={'Час, історичні епохи'}>Час, історичні епохи</h2>
 
                     <p className={'width'}>
                         Артикль <strong>the</strong> використовується перед словами <strong>day (день), morning (ранок),
@@ -336,7 +359,7 @@ const AAnTheComponent = () => {
                 </article>
 
                 <article className={'aAnTheComponent-a-an-info width fontSizeText flexDirectionColumn'}>
-                    <h2 className={'marginTop'}>Найвищий ступіть порівняння</h2>
+                    <h2 className={'marginTop'} id={'Найвищий ступіть порівняння'}>Найвищий ступіть порівняння</h2>
 
                     <p className={'width'}>
                         Артикль <strong>the</strong> обов'язково використовується з найвищим ступенем порівняння.
@@ -355,7 +378,7 @@ const AAnTheComponent = () => {
                 </article>
 
                 <article className={'aAnTheComponent-a-an-info width fontSizeText flexDirectionColumn'}>
-                    <h2 className={'marginTop'}>Some, most, none</h2>
+                    <h2 className={'marginTop'} id={'Some, most, none'}>Some, most, none</h2>
 
                     <p className={'width'}>
                         Артикль <strong>the</strong> використовується після слів <strong>some</strong> (декілька),
@@ -388,7 +411,8 @@ const AAnTheComponent = () => {
                 </article>
 
                 <article className={'aAnTheComponent-a-an-info width fontSizeText flexDirectionColumn'}>
-                    <h2 className={'marginTop'}>Only, last, first, wrong, right, very</h2>
+                    <h2 className={'marginTop'} id={'Only, last, first, wrong, right, very'}>Only, last, first, wrong,
+                        right, very</h2>
 
                     <p className={'width'}>
                         Артикль <strong>the</strong> використовується перед словами <strong>only (єдиний), last
@@ -419,7 +443,7 @@ const AAnTheComponent = () => {
             </section>
 
             <section className={'aAnTheComponent-a-an flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Нульовий артикль</h2>
+                <h2 className={'marginTop'} id={'Нульовий артикль'}>Нульовий артикль</h2>
 
                 <p className={'aAnTheComponent-rule fontSizeText'}>
                     <strong>Zero article</strong> (нульовий артикль) – це відсутність неозначеного (<strong>a /

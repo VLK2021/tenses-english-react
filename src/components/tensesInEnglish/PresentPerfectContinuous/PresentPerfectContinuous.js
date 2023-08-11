@@ -1,15 +1,33 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './PresentPerfectContinuousStyle.css';
 import {tenses} from "../../../constants";
+import {useDispatch} from "react-redux";
+import {titlesAction} from "../../../store/slices/titles.slice";
 
 
 const PresentPerfectContinuous = () => {
+    const dispatch = useDispatch();
     const {title, markers} = tenses[9];
+
+
+    const titlesPresentPerfect = [
+        title,
+        'Time markers',
+        'Formation',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence'
+    ];
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesPresentPerfect))
+    }, []);
+
 
     return (
         <main className={'presentPerfectContinuous width flexDirectionColumn'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
 
             <p className={'presentPerfectContinuous-rule fontSizeText'}>
                 <strong>Present Perfect Continuous (Теперішній доконано-тривалий час)</strong> є часом англійської
@@ -22,7 +40,7 @@ const PresentPerfectContinuous = () => {
             </p>
 
             <section className={'presentPerfectContinuous-markers flexDirectionColumn width'}>
-                <h2>Time markers</h2>
+                <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
                     {
@@ -32,7 +50,7 @@ const PresentPerfectContinuous = () => {
             </section>
 
             <section className={'presentPerfectContinuous-formation flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Formation</h2>
+                <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
                 <article className={'presentPerfectContinuous-formation-info fontSizeText width'}>
                     <p>
@@ -51,7 +69,7 @@ const PresentPerfectContinuous = () => {
             </section>
 
             <section className={'presentPerfectContinuous-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'presentPerfectContinuous-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -74,7 +92,7 @@ const PresentPerfectContinuous = () => {
             </section>
 
             <section className={'presentPerfectContinuous-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -92,7 +110,7 @@ const PresentPerfectContinuous = () => {
             </section>
 
             <section className={'presentPerfectContinuous-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>

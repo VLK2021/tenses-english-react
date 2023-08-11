@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import './MenuTitlesComponentStyle.css';
 import {useSelector} from "react-redux";
@@ -6,6 +6,10 @@ import {useSelector} from "react-redux";
 
 const MenuTitlesComponent = () => {
     const {titlesArray} = useSelector(store => store.titles);
+
+//ховаємо та показуємо блоки з меню
+    const [menuVisible, setMenuVisible] = useState(false);
+    const [menuVisibleCircle, setMenuVisibleCircle] = useState(true);
 
 //робимо так щоб після кліку на посилання контекст не ховався під хедер а був під ним + плавна прокрутка
     const scrollToContent = (event, targetId) => {
@@ -23,19 +27,36 @@ const MenuTitlesComponent = () => {
         });
     };
 
+    const menuChange = () => {
+        setMenuVisible(!menuVisible);
+        setMenuVisibleCircle(!menuVisibleCircle);
+    }
+
 
     return (
-        <main className={'menuTitlesComponent width flex'}>
-            {
-                titlesArray.length > 0 &&
-                titlesArray.map(obj =>
-                    <div className={'menuTitlesComponent-block'} key={obj}>
-                        <a href={`#${obj}`} onClick={(e) => scrollToContent(e, obj)}>
-                            {obj}
-                        </a>
-                    </div>
-                )
-            }
+        <main className={'width'}>
+            <div className={'flex width menuTitlesComponent-block-first-main'} onMouseMove={menuChange}>
+                {
+                    menuVisibleCircle &&
+                    titlesArray.map(obj =>
+                        <div className={'menuTitlesComponent-block-first'} key={obj}>
+                        </div>
+                    )
+                }
+            </div>
+
+            <div className={'width flex menuTitlesComponent'} onMouseLeave={menuChange}>
+                {
+                    titlesArray.length > 0 && menuVisible &&
+                    titlesArray.map(obj =>
+                        <div className={'menuTitlesComponent-block'} key={obj}>
+                            <a href={`#${obj}`} onClick={(e) => scrollToContent(e, obj)}>
+                                {obj}
+                            </a>
+                        </div>
+                    )
+                }
+            </div>
         </main>
     );
 };

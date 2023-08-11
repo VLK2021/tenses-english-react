@@ -1,14 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {useDispatch} from "react-redux";
 
 import './ThereIsThereAreComponentStyle.css';
+import {titlesAction} from "../../store/slices/titles.slice";
 
 
 const ThereIsThereAreComponent = () => {
+    const dispatch = useDispatch();
+
+    const titlesThereIsThereAre = [
+        'There is / There are',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence',
+        'Особливості використання',
+        'Перерахування предметів',
+        'There з іншими дієсловами',
+    ];
+
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesThereIsThereAre));
+    }, [titlesThereIsThereAre]);
 
 
     return (
         <main className={'thereIsThereAreComponent width flexDirectionColumn'}>
-            <h1>There is / There are</h1>
+            <h1 id={'There is / There are'}>There is / There are</h1>
 
             <p className={'thereIsThereAreComponent-rule fontSizeText'}>
                 Конструкції <strong>There is та There are</strong> використовуються для позначення наявності чогось в
@@ -40,7 +58,7 @@ const ThereIsThereAreComponent = () => {
             </p>
 
             <section className={'thereIsThereAreComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'thereIsThereAreComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -89,7 +107,7 @@ const ThereIsThereAreComponent = () => {
             </section>
 
             <section className={'thereIsThereAreComponent-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -149,7 +167,7 @@ const ThereIsThereAreComponent = () => {
             </section>
 
             <section className={'thereIsThereAreComponent-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
                     <p className={'width'}>
@@ -210,7 +228,7 @@ const ThereIsThereAreComponent = () => {
             </section>
 
             <section className={'thereIsThereAreComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Особливості використання</h2>
+                <h2 className={'marginTop'} id={'Особливості використання'}>Особливості використання</h2>
 
                 <article className={'thereIsThereAreComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -239,7 +257,7 @@ const ThereIsThereAreComponent = () => {
             </section>
 
             <section className={'thereIsThereAreComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Перерахування предметів</h2>
+                <h2 className={'marginTop'} id={'Перерахування предметів'}>Перерахування предметів</h2>
 
                 <article className={'thereIsThereAreComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -258,7 +276,7 @@ const ThereIsThereAreComponent = () => {
             </section>
 
             <section className={'thereIsThereAreComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>There з іншими дієсловами</h2>
+                <h2 className={'marginTop'} id={'There з іншими дієсловами'}>There з іншими дієсловами</h2>
 
                 <article className={'thereIsThereAreComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
