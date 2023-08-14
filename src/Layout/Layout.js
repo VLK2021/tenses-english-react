@@ -10,6 +10,7 @@ import {Footer, Header} from "../components";
 const Layout = () => {
     const secondNumberSlice = menu.length / 2;
 
+
     return (
         <main className={'main width flexDirectionColumn'}>
             <header className={'header-block'}>
@@ -23,7 +24,9 @@ const Layout = () => {
                     }
                 </aside>
 
-                <article className={'outlet'}><Outlet/></article>
+                <article className={'outlet'}>
+                    <Outlet/>
+                </article>
 
                 <aside className={'layout-right'}>
                     {

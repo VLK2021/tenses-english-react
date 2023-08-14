@@ -698,59 +698,59 @@ export const tenses = [
         markers: [
             {
                 id: 1,
-                name: ','
+                name: 'before,'
             },
             {
                 id: 2,
-                name: ','
+                name: 'till,'
             },
             {
                 id: 3,
-                name: ','
+                name: 'untill,'
             },
             {
                 id: 4,
-                name: ','
+                name: 'for an hour,'
             },
             {
                 id: 5,
-                name: ','
+                name: 'for 5 hours,'
             },
             {
                 id: 6,
-                name: ','
+                name: 'for a day,'
             },
             {
                 id: 7,
-                name: ','
+                name: 'for a week,'
             },
             {
                 id: 8,
-                name: ','
+                name: 'for a month,'
             },
             {
                 id: 9,
-                name: ','
+                name: 'all morning / the whole morning,'
             },
             {
                 id: 10,
-                name: ','
+                name: 'all day (long) / the whole day,'
             },
             {
                 id: 11,
-                name: ','
+                name: 'all week / the whole week,'
             },
             {
                 id: 12,
-                name: ','
+                name: 'all month / the whole month,'
             },
             {
                 id: 13,
-                name: ','
+                name: 'since 5 o’clock,'
             },
             {
                 id: 14,
-                name: ''
+                name: 'since last month '
             },
         ]
     },
@@ -760,60 +760,44 @@ export const tenses = [
         markers: [
             {
                 id: 1,
-                name: ','
+                name: 'till,'
             },
             {
                 id: 2,
-                name: ','
+                name: 'until,'
             },
             {
                 id: 3,
-                name: ','
+                name: 'for 2 hours,'
             },
             {
                 id: 4,
-                name: ','
+                name: 'or 3 weeks,'
             },
             {
                 id: 5,
-                name: ','
+                name: 'for 1 year,'
             },
             {
                 id: 6,
-                name: ','
+                name: 'by the end of the hour,'
             },
             {
                 id: 7,
-                name: ','
+                name: 'by the end of the morning,'
             },
             {
                 id: 8,
-                name: ','
+                name: 'by the end of the day,'
             },
             {
                 id: 9,
-                name: ','
+                name: 'by the end of the month,'
             },
             {
                 id: 10,
-                name: ','
-            },
-            {
-                id: 11,
-                name: ','
-            },
-            {
-                id: 12,
-                name: ','
-            },
-            {
-                id: 13,
-                name: ','
-            },
-            {
-                id: 14,
-                name: ''
-            },
+                name: 'by the end of the year'
+            }
         ]
     }
 ]
