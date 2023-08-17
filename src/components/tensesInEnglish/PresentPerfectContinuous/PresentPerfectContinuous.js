@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 
 import './PresentPerfectContinuousStyle.css';
+import '../TensesInEnglishStyle.css';
 import {tenses} from "../../../constants";
 import {useDispatch} from "react-redux";
 import {titlesAction} from "../../../store/slices/titles.slice";
@@ -26,10 +27,10 @@ const PresentPerfectContinuous = () => {
 
 
     return (
-        <main className={'presentPerfectContinuous width flexDirectionColumn'}>
+        <main className={'tensComponent presentPerfectContinuous width flexDirectionColumn'}>
             <h1 id={`${title}`}>{title}</h1>
 
-            <p className={'presentPerfectContinuous-rule fontSizeText'}>
+            <p className={'tensComponent-rule fontSizeText'}>
                 <strong>Present Perfect Continuous (Теперішній доконано-тривалий час)</strong> є часом англійської
                 граматики, який використовується для вираження тривалої дії або стану, які почалися в минулому
                 і тривають до моменту розмови або мають зв'язок з ним. Якщо дія завершилася, то її результати можна
@@ -39,7 +40,7 @@ const PresentPerfectContinuous = () => {
                 незадоволення чимось або роздратування через певну тривалу дію.
             </p>
 
-            <section className={'presentPerfectContinuous-markers flexDirectionColumn width'}>
+            <section className={'tensComponent-markers flexDirectionColumn width'}>
                 <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
@@ -49,10 +50,10 @@ const PresentPerfectContinuous = () => {
                 </ul>
             </section>
 
-            <section className={'presentPerfectContinuous-formation flexDirectionColumn width'}>
+            <section className={'tensComponent-formation flexDirectionColumn width'}>
                 <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
-                <article className={'presentPerfectContinuous-formation-info fontSizeText width'}>
+                <article className={'tensComponent-formation-info fontSizeText width'}>
                     <p>
                         Утворення <strong>Present Perfect Continuous</strong> використовує допоміжне дієслово
                         <strong>"have"</strong> у формі Present Perfect (has/have) + been + <strong>-ing</strong> форма
@@ -68,10 +69,10 @@ const PresentPerfectContinuous = () => {
                 </article>
             </section>
 
-            <section className={'presentPerfectContinuous-affirmative flexDirectionColumn width'}>
+            <section className={'tensComponent-affirmative flexDirectionColumn width'}>
                 <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
-                <article className={'presentPerfectContinuous-affirmative-info width fontSizeText'}>
+                <article className={'tensComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
                         Стверджувальне речення в <strong>Present Perfect Continuous (Present Perfect
                         Progressive)</strong> утворюється за допомогою комплексного допоміжного дієслова
@@ -91,7 +92,7 @@ const PresentPerfectContinuous = () => {
                 </article>
             </section>
 
-            <section className={'presentPerfectContinuous-negative flexDirectionColumn width fontSizeText'}>
+            <section className={'tensComponent-negative flexDirectionColumn width fontSizeText'}>
                 <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
@@ -109,7 +110,7 @@ const PresentPerfectContinuous = () => {
                 </article>
             </section>
 
-            <section className={'presentPerfectContinuous-interrogative flexDirectionColumn width fontSizeText'}>
+            <section className={'tensComponent-interrogative flexDirectionColumn width fontSizeText'}>
                 <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>

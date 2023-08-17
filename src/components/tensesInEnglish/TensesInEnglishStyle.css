@@ -1,0 +1,39 @@
+.tensComponent{
+    padding: 1rem;
+}
+
+.tensComponent > h1{
+    color: var(--var-color-h);
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.2rem 0.2rem grey;
+    margin: 0 0 1rem 0;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.tensComponent-rule{
+    color: var(--var-color-text);
+    margin: 0 0 1rem 0;
+}
+
+.tensComponent-markers > h2,
+.tensComponent-formation > h2,
+.tensComponent-affirmative > h2,
+.tensComponent-negative > h2,
+.tensComponent-interrogative > h2{
+    color: var(--var-color-h);
+}
+
+.tensComponent-markers > ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.tensComponent-markers > ul > li{
+    text-align: center;
+    color: var(--var-color-li);
+}

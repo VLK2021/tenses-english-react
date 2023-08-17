@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {useDispatch} from "react-redux";
 
 import './FuturePerfectStyle.css';
+import '../TensesInEnglishStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
 
@@ -26,10 +27,10 @@ const FuturePerfect = () => {
 
 
     return (
-        <main className={'futurePerfect width flexDirectionColumn'}>
+        <main className={'tensComponent futurePerfect width flexDirectionColumn'}>
             <h1 id={`${title}`}>{title}</h1>
 
-            <p className={'futurePerfect-rule fontSizeText'}>
+            <p className={'tensComponent-rule fontSizeText'}>
                 <strong>Future Perfect Tense (Future Perfect)</strong> є одним із часів в англійській мові, який
                 використовується для вираження дій або станів, які будуть завершені до певного моменту в майбутньому.
                 Він вказує на послідовність подій, де дія завершиться до певного моменту в майбутньому.
@@ -38,7 +39,7 @@ const FuturePerfect = () => {
                 у майбутньому.
             </p>
 
-            <section className={'futurePerfect-markers flexDirectionColumn width'}>
+            <section className={'tensComponent-markers flexDirectionColumn width'}>
                 <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
@@ -48,10 +49,10 @@ const FuturePerfect = () => {
                 </ul>
             </section>
 
-            <section className={'futurePerfect-formation flexDirectionColumn width'}>
+            <section className={'tensComponent-formation flexDirectionColumn width'}>
                 <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
-                <article className={'futurePerfect-formation-info fontSizeText width'}>
+                <article className={'tensComponent-formation-info fontSizeText width'}>
                     <p>
                         Для утворення <strong>Future Perfect</strong> використовується допоміжне дієслово
                         <strong>"will have"</strong> (для всіх особових займенників) у поєднанні з основним дієсловом
@@ -60,10 +61,10 @@ const FuturePerfect = () => {
                 </article>
             </section>
 
-            <section className={'futurePerfect-affirmative flexDirectionColumn width'}>
+            <section className={'tensComponent-affirmative flexDirectionColumn width'}>
                 <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
-                <article className={'futurePerfect-affirmative-info width fontSizeText'}>
+                <article className={'tensComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
                         <strong>Future Perfect</strong> утворюється за допомогою допоміжного
                         дієслова <strong>will</strong>
@@ -93,7 +94,7 @@ const FuturePerfect = () => {
                 </article>
             </section>
 
-            <section className={'futurePerfect-negative flexDirectionColumn width fontSizeText'}>
+            <section className={'tensComponent-negative flexDirectionColumn width fontSizeText'}>
                 <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
@@ -117,7 +118,7 @@ const FuturePerfect = () => {
                 </article>
             </section>
 
-            <section className={'futurePerfect-interrogative flexDirectionColumn width fontSizeText'}>
+            <section className={'tensComponent-interrogative flexDirectionColumn width fontSizeText'}>
                 <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>

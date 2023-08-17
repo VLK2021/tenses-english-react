@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {useDispatch} from "react-redux";
 
 import './PastPerfectContinuousStyle.css';
+import '../TensesInEnglishStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
 
@@ -27,10 +28,10 @@ const PastPerfectContinuous = () => {
 
 
     return (
-        <main className={'pastPerfectContinuous width flexDirectionColumn'}>
+        <main className={'tensComponent pastPerfectContinuous width flexDirectionColumn'}>
             <h1 id={`${title}`}>{title}</h1>
 
-            <p className={'pastPerfectContinuous-rule fontSizeText'}>
+            <p className={'tensComponent-rule fontSizeText'}>
                 <strong>Past Perfect Continuous</strong> (або <strong>Past Perfect Progressive</strong>) - це часова
                 форма дієслова, яка використовується для вираження тривалості дії в минулому до певного моменту часу,
                 або для позначення тривалості дії, яка почалася в минулому і тривала до певного моменту в минулому.
@@ -43,7 +44,7 @@ const PastPerfectContinuous = () => {
                 моменту або ж іншої дії у минулому. Результат такої тривалої дії також був відчутний в минулому.
             </p>
 
-            <section className={'pastPerfectContinuous-markers flexDirectionColumn width'}>
+            <section className={'tensComponent-markers flexDirectionColumn width'}>
                 <h2 id={'Time markers'}>Time markers</h2>
 
                 <ul className={'fontSizeText width'}>
@@ -53,10 +54,10 @@ const PastPerfectContinuous = () => {
                 </ul>
             </section>
 
-            <section className={'pastPerfectContinuous-formation flexDirectionColumn width'}>
+            <section className={'tensComponent-formation flexDirectionColumn width'}>
                 <h2 className={'marginTop'} id={'Formation'}>Formation</h2>
 
-                <article className={'pastPerfectContinuous-formation-info fontSizeText width'}>
+                <article className={'tensComponent-formation-info fontSizeText width'}>
                     <p>
                         <strong>Past Perfect Continuous</strong> утворюється шляхом поєднання допоміжного
                         дієслова <strong>"had"</strong> в минулому часі з часткою <strong>"been"</strong> і
@@ -67,10 +68,10 @@ const PastPerfectContinuous = () => {
                 </article>
             </section>
 
-            <section className={'pastPerfectContinuous-affirmative flexDirectionColumn width'}>
+            <section className={'tensComponent-affirmative flexDirectionColumn width'}>
                 <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
-                <article className={'pastPerfectContinuous-affirmative-info width fontSizeText'}>
+                <article className={'tensComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
                         Стверджувальне речення в <strong>Past Perfect Continuous</strong> (Past Perfect Progressive)
                         утворюється
@@ -96,7 +97,7 @@ const PastPerfectContinuous = () => {
                 </article>
             </section>
 
-            <section className={'pastPerfectContinuous-negative flexDirectionColumn width fontSizeText'}>
+            <section className={'tensComponent-negative flexDirectionColumn width fontSizeText'}>
                 <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <article className={'width fontSizeText'}>
@@ -123,7 +124,7 @@ const PastPerfectContinuous = () => {
                 </article>
             </section>
 
-            <section className={'pastPerfectContinuous-interrogative flexDirectionColumn width fontSizeText'}>
+            <section className={'tensComponent-interrogative flexDirectionColumn width fontSizeText'}>
                 <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <article className={'width fontSizeText'}>
