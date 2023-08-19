@@ -5,6 +5,7 @@ import './FuturePerfectContinuous.css';
 import '../TensesInEnglishStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const FuturePerfectContinuous = () => {
@@ -179,6 +180,10 @@ const FuturePerfectContinuous = () => {
                     </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </main>
     );

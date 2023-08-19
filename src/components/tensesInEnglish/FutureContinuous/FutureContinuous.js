@@ -4,6 +4,7 @@ import {useDispatch} from "react-redux";
 import './FutureContinuousStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const FutureContinuous = () => {
@@ -135,6 +136,10 @@ const FutureContinuous = () => {
                     </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </main>
     );

@@ -5,6 +5,7 @@ import './FuturePerfectStyle.css';
 import '../TensesInEnglishStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const FuturePerfect = () => {
@@ -152,6 +153,10 @@ const FuturePerfect = () => {
                     </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </main>
     );

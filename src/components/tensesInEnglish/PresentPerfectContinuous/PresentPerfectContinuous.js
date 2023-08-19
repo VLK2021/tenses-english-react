@@ -5,6 +5,7 @@ import '../TensesInEnglishStyle.css';
 import {tenses} from "../../../constants";
 import {useDispatch} from "react-redux";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const PresentPerfectContinuous = () => {
@@ -137,6 +138,10 @@ const PresentPerfectContinuous = () => {
                     </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </main>
     );

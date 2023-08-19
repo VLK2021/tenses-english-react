@@ -4,6 +4,7 @@ import './PresentContinuousStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
 import {useDispatch} from "react-redux";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const PresentContinuous = () => {
@@ -135,6 +136,9 @@ const PresentContinuous = () => {
                 </article>
             </section>
 
+            <section className={'width'}>
+                <GoUpButton title={title}/>
+            </section>
         </main>
     );
 };

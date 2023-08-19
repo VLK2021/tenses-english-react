@@ -4,6 +4,7 @@ import {useDispatch} from "react-redux";
 import './FutureSimpleStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const FutureSimple = () => {
@@ -142,6 +143,10 @@ const FutureSimple = () => {
                     </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </main>
     );

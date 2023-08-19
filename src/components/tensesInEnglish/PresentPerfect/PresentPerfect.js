@@ -4,6 +4,7 @@ import {useDispatch} from "react-redux";
 import './PresentPerfectStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const PresentPerfect = () => {
@@ -136,6 +137,10 @@ const PresentPerfect = () => {
                     </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </main>
     );

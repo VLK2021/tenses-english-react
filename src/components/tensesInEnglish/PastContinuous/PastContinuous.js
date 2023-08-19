@@ -4,6 +4,7 @@ import './PastContinuousStyle.css';
 import {tenses} from "../../../constants";
 import {useDispatch} from "react-redux";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const PastContinuous = () => {
@@ -132,6 +133,10 @@ const PastContinuous = () => {
                     </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </div>
     );

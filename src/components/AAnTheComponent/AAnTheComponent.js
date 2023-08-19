@@ -3,6 +3,7 @@ import {useDispatch} from "react-redux";
 
 import './AAnTheComponentStyle.css';
 import {titlesAction} from "../../store/slices/titles.slice";
+import GoUpButton from "../GoUpButton/GoUpButton";
 
 
 const AAnTheComponent = () => {
@@ -522,6 +523,10 @@ const AAnTheComponent = () => {
                             <p>to declare war – оголосити війну</p>
                         </span>
                 </p>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={'a / an / the'}/>
             </section>
         </main>
     );

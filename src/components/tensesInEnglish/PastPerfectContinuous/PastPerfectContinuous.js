@@ -5,6 +5,7 @@ import './PastPerfectContinuousStyle.css';
 import '../TensesInEnglishStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const PastPerfectContinuous = () => {
@@ -168,6 +169,10 @@ const PastPerfectContinuous = () => {
                     </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </main>
     );

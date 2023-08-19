@@ -4,6 +4,7 @@ import {useDispatch} from "react-redux";
 import './PastPerfectStyle.css';
 import {tenses} from "../../../constants";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const PastPerfect = () => {
@@ -137,6 +138,10 @@ const PastPerfect = () => {
                     </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </main>
     );

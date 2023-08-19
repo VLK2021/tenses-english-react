@@ -4,6 +4,7 @@ import './PresentSimpleSryle.css';
 import {tenses} from '../../../constants';
 import {useDispatch} from "react-redux";
 import {titlesAction} from "../../../store/slices/titles.slice";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const PresentSimple = () => {
@@ -179,6 +180,10 @@ const PresentSimple = () => {
                             <div><b>How long do</b> they play the guitars? – Як давно вони грають на гітарах?</div>
                     </span>
                 </p>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={title}/>
             </section>
         </main>
     );

@@ -18,3 +18,4 @@ export * from './vocabularyArchive/popUpTraining/PopUpComponent/PopUpComponent';
 export * from './Footer/Footer';
 export * from './Header/Header';
 export * from './MenuTitlesComponent/MenuTitlesComponent';
+export * from './GoUpButton/GoUpButton';

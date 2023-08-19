@@ -3,6 +3,7 @@ import {useDispatch} from "react-redux";
 
 import './ThereIsThereAreComponentStyle.css';
 import {titlesAction} from "../../store/slices/titles.slice";
+import GoUpButton from "../GoUpButton/GoUpButton";
 
 
 const ThereIsThereAreComponent = () => {
@@ -292,6 +293,10 @@ const ThereIsThereAreComponent = () => {
                         </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={'There is / There are'}/>
             </section>
         </main>
     );
