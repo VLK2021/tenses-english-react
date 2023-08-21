@@ -1,13 +1,29 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './UsedToComponentStyle.css';
+import {useDispatch} from "react-redux";
+import {titlesAction} from "../../store/slices/titles.slice";
+import GoUpButton from "../GoUpButton/GoUpButton";
 
 
 const UsedToComponent = () => {
+    const dispatch = useDispatch();
+
+    const titlesUsedToComponent = [
+        'used to',
+        'Affirmative sentence',
+        'Negative sentence',
+        'Interrogative sentence',
+        'To be used to / To get used to',
+    ];
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesUsedToComponent));
+    }, [titlesUsedToComponent]);
 
     return (
         <main className={'usedToComponent width flexDirectionColumn'}>
-            <h1>used to</h1>
+            <h1 id={'used to'}>used to</h1>
 
             <p className={'usedToComponent-rule fontSizeText'}>
                 Конструкція <strong>used to</strong> використовується для вираження повторюваних дій або звичок
@@ -22,7 +38,7 @@ const UsedToComponent = () => {
             </p>
 
             <section className={'usedToComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Affirmative sentence</h2>
+                <h2 className={'marginTop'} id={'Affirmative sentence'}>Affirmative sentence</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -48,7 +64,7 @@ const UsedToComponent = () => {
             </section>
 
             <section className={'usedToComponent-negative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Negative sentence</h2>
+                <h2 className={'marginTop'} id={'Negative sentence'}>Negative sentence</h2>
 
                 <p className={'width'}>
                     <strong>Заперечне речення</strong> утворюється за допомогою допоміжного
@@ -65,7 +81,7 @@ const UsedToComponent = () => {
             </section>
 
             <section className={'usedToComponent-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>Interrogative sentence</h2>
+                <h2 className={'marginTop'} id={'Interrogative sentence'}>Interrogative sentence</h2>
 
                 <p className={'width'}>
                     Питальне речення з <strong>used to</strong> утворюється за допомогою допоміжного
@@ -81,7 +97,7 @@ const UsedToComponent = () => {
             </section>
 
             <section className={'usedToComponent-interrogative flexDirectionColumn width fontSizeText'}>
-                <h2 className={'marginTop'}>To be used to / To get used to</h2>
+                <h2 className={'marginTop'} id={'To be used to / To get used to'}>To be used to / To get used to</h2>
 
                 <p className={'width'}>
                     Конструкцію <strong>used to</strong>, що вказує на повторювані дії у минулому, не слід плутати з
@@ -124,6 +140,9 @@ const UsedToComponent = () => {
                 </p>
             </section>
 
+            <section className={'width'}>
+                <GoUpButton title={'used to'}/>
+            </section>
         </main>
     );
 };

@@ -5,7 +5,7 @@ import {useSelector} from "react-redux";
 
 
 const MenuTitlesComponent = () => {
-    const {titlesArray} = useSelector(store => store.titles);
+    const titlesArray = useSelector(store => store.titles.titlesArray);
 
 //ховаємо та показуємо блоки з меню
     const [menuVisible, setMenuVisible] = useState(false);

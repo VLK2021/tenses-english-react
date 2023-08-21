@@ -1,13 +1,33 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './SequenceOfTensesComponentStyle.css';
+import GoUpButton from "../../GoUpButton/GoUpButton";
+import {useDispatch} from "react-redux";
+import {titlesAction} from "../../../store/slices/titles.slice";
 
 
 const SequenceOfTensesComponent = () => {
+    const dispatch = useDispatch();
+
+    const titlesSequenceOfTensesComponent = [
+        'Sequence Of Tenses',
+        'Одночасні дії',
+        'Дія, що передує іншій дії',
+        'Тривала дія, що передує іншій дії у минулому',
+        'Дії, що відбуваються після інших дій',
+        'Декілька підрядних речень',
+        'Теперішній та майбутній часи',
+        'Особливі підрядні речення',
+        'Загальновідома інформація'
+    ];
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesSequenceOfTensesComponent));
+    }, [titlesSequenceOfTensesComponent]);
 
     return (
         <main className={'sequenceOfTensesComponent width flexDirectionColumn'}>
-            <h1>Sequence Of Tenses</h1>
+            <h1 id={'Sequence Of Tenses'}>Sequence Of Tenses</h1>
 
             <p className={'sequenceOfTensesComponent-rule fontSizeText'}>
                 <strong>Узгодження часів в англійській мові</strong> – це певна система залежності граматичного часу
@@ -42,7 +62,7 @@ const SequenceOfTensesComponent = () => {
             </p>
 
             <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Одночасні дії</h2>
+                <h2 className={'marginTop'} id={'Одночасні дії'}>Одночасні дії</h2>
 
                 <article className={'sequenceOfTensesComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -72,7 +92,7 @@ const SequenceOfTensesComponent = () => {
             </section>
 
             <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Дія, що передує іншій дії</h2>
+                <h2 className={'marginTop'} id={'Дія, що передує іншій дії'}>Дія, що передує іншій дії</h2>
 
                 <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -93,7 +113,7 @@ const SequenceOfTensesComponent = () => {
             </section>
 
             <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Тривала дія, що передує іншій дії у минулому</h2>
+                <h2 className={'marginTop'} id={'Тривала дія, що передує іншій дії у минулому'}>Тривала дія, що передує іншій дії у минулому</h2>
 
                 <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -135,7 +155,7 @@ const SequenceOfTensesComponent = () => {
             </section>
 
             <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Дії, що відбуваються після інших дій</h2>
+                <h2 className={'marginTop'} id={'Дії, що відбуваються після інших дій'}>Дії, що відбуваються після інших дій</h2>
 
                 <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -155,7 +175,7 @@ const SequenceOfTensesComponent = () => {
             </section>
 
             <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Декілька підрядних речень</h2>
+                <h2 className={'marginTop'} id={'Декілька підрядних речень'}>Декілька підрядних речень</h2>
 
                 <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -175,10 +195,10 @@ const SequenceOfTensesComponent = () => {
                 </article>
             </section>
 
-            <h1 className={'h1-second'}>Відсутність узгодження</h1>
+            <h1 className={'h1-second marginTop'}>Відсутність узгодження</h1>
 
             <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Теперішній та майбутній часи</h2>
+                <h2 className={'marginTop'} id={'Теперішній та майбутній часи'}>Теперішній та майбутній часи</h2>
 
                 <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -196,7 +216,7 @@ const SequenceOfTensesComponent = () => {
             </section>
 
             <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
-            <h2 className={'marginTop'}>Особливі підрядні речення</h2>
+            <h2 className={'marginTop'} id={'Особливі підрядні речення'}>Особливі підрядні речення</h2>
 
             <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
                 <p className={'width'}>
@@ -226,7 +246,7 @@ const SequenceOfTensesComponent = () => {
         </section>
 
             <section className={'sequenceOfTensesComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Загальновідома інформація</h2>
+                <h2 className={'marginTop'} id={'Загальновідома інформація'}>Загальновідома інформація</h2>
 
                 <article className={'equenceOfTensesComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -250,6 +270,10 @@ const SequenceOfTensesComponent = () => {
                         </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={'Sequence Of Tenses'}/>
             </section>
         </main>
     );

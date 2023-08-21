@@ -1,13 +1,36 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './ToBeComponentStyle.css';
+import {useDispatch} from "react-redux";
+import {titlesAction} from "../../store/slices/titles.slice";
+import GoUpButton from "../GoUpButton/GoUpButton";
 
 
 const ToBeComponent = () => {
+    const dispatch = useDispatch();
+
+    const titlesToBeComponent = [
+        'to be',
+        'Тo be в теперішньому часі',
+        'Тo be в минулому часі',
+        'To be в майбутньому часі',
+        'To be не змінюється',
+        'Функції дієслова to be',
+        'Смислове дієслово to be',
+        'Дієслово-зв\'язка to be',
+        'To be як допоміжне дієслово',
+        'Модальна конструкція to be to',
+        // 'Нульовий артикль',
+    ];
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesToBeComponent));
+    }, [titlesToBeComponent]);
+
 
     return (
         <main className={'toBeComponent width flexDirectionColumn'}>
-            <h1>to be</h1>
+            <h1 id={'to be'}>to be</h1>
 
             <p className={'toBeComponent-rule fontSizeText'}>
                 Дієслово <strong>to be</strong> є єдиним дієсловом в англійській мові, яке змінює свою форму в
@@ -19,7 +42,7 @@ const ToBeComponent = () => {
             </p>
 
             <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Тo be в теперішньому часі</h2>
+                <h2 className={'marginTop'} id={'Тo be в теперішньому часі'}>Тo be в теперішньому часі</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -108,7 +131,7 @@ const ToBeComponent = () => {
             </section>
 
             <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Тo be в минулому часі</h2>
+                <h2 className={'marginTop'} id={'Тo be в минулому часі'}>Тo be в минулому часі</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -169,7 +192,7 @@ const ToBeComponent = () => {
             </section>
 
             <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>To be в майбутньому часі</h2>
+                <h2 className={'marginTop'} id={'To be в майбутньому часі'}>To be в майбутньому часі</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -188,7 +211,7 @@ const ToBeComponent = () => {
             </section>
 
             <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>To be не змінюється</h2>
+                <h2 className={'marginTop'} id={'To be не змінюється'}>To be не змінюється</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -218,7 +241,7 @@ const ToBeComponent = () => {
             </section>
 
             <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Функції дієслова to be</h2>
+                <h2 className={'marginTop'} id={'Функції дієслова to be'}>Функції дієслова to be</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -242,7 +265,7 @@ const ToBeComponent = () => {
             </section>
 
             <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Смислове дієслово to be</h2>
+                <h2 className={'marginTop'} id={'Смислове дієслово to be'}>Смислове дієслово to be</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -258,7 +281,7 @@ const ToBeComponent = () => {
             </section>
 
             <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Дієслово-зв'язка to be</h2>
+                <h2 className={'marginTop'} id={'Дієслово-зв\'язка to be'}>Дієслово-зв'язка to be</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -276,7 +299,7 @@ const ToBeComponent = () => {
             </section>
 
             <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>To be як допоміжне дієслово</h2>
+                <h2 className={'marginTop'} id={'To be як допоміжне дієслово'}>To be як допоміжне дієслово</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -302,7 +325,7 @@ const ToBeComponent = () => {
             </section>
 
             <section className={'toBeComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Модальна конструкція to be to</h2>
+                <h2 className={'marginTop'} id={'Модальна конструкція to be to'}>Модальна конструкція to be to</h2>
 
                 <article className={'usedToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -319,6 +342,10 @@ const ToBeComponent = () => {
                         </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={'to be'}/>
             </section>
         </main>
     );

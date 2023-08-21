@@ -1,13 +1,34 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import './HaveToComponentStyle.css';
+import GoUpButton from "../GoUpButton/GoUpButton";
+import {useDispatch} from "react-redux";
+import {titlesAction} from "../../store/slices/titles.slice";
 
 
 const HaveToComponent = () => {
+    const dispatch = useDispatch();
+
+    const titlesHaveToComponent = [
+        'have to',
+        'Стверджувальне речення',
+        'Заперечне речення',
+        'Питальне речення',
+        'Вираження ступеня впевненості, можливості',
+        'Have to чи Have got to',
+        'Форма Got to',
+        'Have to чи Must?',
+        'Have чи Have to'
+    ];
+
+    useEffect(() => {
+        dispatch(titlesAction.getTitles(titlesHaveToComponent));
+    }, [titlesHaveToComponent]);
+
 
     return (
         <main className={'haveToComponent width flexDirectionColumn'}>
-            <h1>have to</h1>
+            <h1 id={'have to'}>have to</h1>
 
             <p className={'haveToComponent-rule fontSizeText'}>
                 Модальна конструкція <strong>have to</strong> з дієсловом у формі інфінітиву (в першій формі) виражає
@@ -18,7 +39,7 @@ const HaveToComponent = () => {
             </p>
 
             <section className={'haveToComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Стверджувальне речення</h2>
+                <h2 className={'marginTop'} id={'Стверджувальне речення'}>Стверджувальне речення</h2>
 
                 <article className={'haveToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -95,7 +116,7 @@ const HaveToComponent = () => {
             </section>
 
             <section className={'haveToComponent-negative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Заперечне речення</h2>
+                <h2 className={'marginTop'} id={'Заперечне речення'}>Заперечне речення</h2>
 
                 <article className={'haveToComponent-negative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -136,7 +157,7 @@ const HaveToComponent = () => {
             </section>
 
             <section className={'haveToComponent-interrogative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Заперечне речення</h2>
+                <h2 className={'marginTop'} id={'Питальне речення'}>Питальне речення</h2>
 
                 <article className={'haveToComponent-interrogative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -160,7 +181,7 @@ const HaveToComponent = () => {
             <h1 className={'haveToComponent-h1-second'}>Особливості вживання</h1>
 
             <section className={'haveToComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Вираження ступеня впевненості, можливості</h2>
+                <h2 className={'marginTop'} id={'Вираження ступеня впевненості, можливості'}>Вираження ступеня впевненості, можливості</h2>
 
                 <article className={'haveToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -195,7 +216,7 @@ const HaveToComponent = () => {
             </section>
 
             <section className={'haveToComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Have to чи Have got to</h2>
+                <h2 className={'marginTop'} id={'Have to чи Have got to'}>Have to чи Have got to</h2>
 
                 <article className={'haveToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -246,7 +267,7 @@ const HaveToComponent = () => {
             </section>
 
             <section className={'haveToComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Форма Got to</h2>
+                <h2 className={'marginTop'} id={'Форма Got to'}>Форма Got to</h2>
 
                 <article className={'haveToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -274,7 +295,7 @@ const HaveToComponent = () => {
             </section>
 
             <section className={'haveToComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Have to чи Must?</h2>
+                <h2 className={'marginTop'} id={'Have to чи Must?'}>Have to чи Must?</h2>
 
                 <article className={'haveToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -372,7 +393,7 @@ const HaveToComponent = () => {
             </section>
 
             <section className={'haveToComponent-affirmative flexDirectionColumn width'}>
-                <h2 className={'marginTop'}>Have чи Have to</h2>
+                <h2 className={'marginTop'} id={'Have чи Have to'}>Have чи Have to</h2>
 
                 <article className={'haveToComponent-affirmative-info width fontSizeText'}>
                     <p className={'width'}>
@@ -411,6 +432,10 @@ const HaveToComponent = () => {
                         </span>
                     </p>
                 </article>
+            </section>
+
+            <section className={'width'}>
+                <GoUpButton title={'have to'}/>
             </section>
         </main>
     );

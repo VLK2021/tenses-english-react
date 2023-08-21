@@ -621,9 +621,9 @@ export const vocabularyForIt = [
         transcriptionInf: '[kəmˈprɛs]',
         translation: 'стискати',
         incorrect_answers: [
-                 "attach",
-                "responsive",
-                "protocol"
+            "attach",
+            "responsive",
+            "protocol"
         ]
     },
     {
@@ -670,42 +670,50 @@ export const vocabularyForIt = [
             "charming"
         ]
     },
-    // {
-    //     id: 'VFI62',
-    //     infinitive: 'drawback',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //
-    //     ]
-    // },
-    // {
-    //     id: 'VFI63',
-    //     infinitive: 'layout',
-    //     transcriptionInf: '[]',
-    //     translation: 'макет, розмітка',
-    //     incorrect_answers: [
-    //
-    //     ]
-    // },
-    // {
-    //     id: 'VFI64',
-    //     infinitive: 'validation',
-    //     transcriptionInf: '[]',
-    //     translation: 'перевірка',
-    //     incorrect_answers: [
-    //
-    //     ]
-    // },
-    // {
-    //     id: 'VFI65',
-    //     infinitive: 'uninstall',
-    //     transcriptionInf: '[]',
-    //     translation: 'видаляти, деінсталювати',
-    //     incorrect_answers: [
-    //
-    //     ]
-    // },
+    {
+        id: 'VFI62',
+        infinitive: 'drawback',
+        transcriptionInf: '[ˈdrɔːbæk]',
+        translation: 'недолік',
+        incorrect_answers: [
+            "attach",
+            "responsive",
+            "protocol"
+        ]
+    },
+    {
+        id: 'VFI63',
+        infinitive: 'layout',
+        transcriptionInf: '[ˈleɪaʊt]',
+        translation: 'макет, розмітка',
+        incorrect_answers: [
+            "architecture",
+            "decor",
+            "curtain"
+        ]
+    },
+    {
+        id: 'VFI64',
+        infinitive: 'validation',
+        transcriptionInf: '[ˌvælɪˈdeɪʃən]',
+        translation: 'перевірка',
+        incorrect_answers: [
+            "credentials",
+            "disconnect",
+            "layout"
+        ]
+    },
+    {
+        id: 'VFI65',
+        infinitive: 'uninstall',
+        transcriptionInf: '[ˌʌnɪnˈstɔːl]',
+        translation: 'видаляти, деінсталювати',
+        incorrect_answers: [
+            "replace",
+            "valid",
+            "validation"
+        ]
+    },
     // {
     //     id: 'VFI66',
     //     infinitive: 'replace',
@@ -725,14 +733,158 @@ export const vocabularyForIt = [
     //     ]
     // },
     // {
-    //     //     id: 'VFI',
-    //     //     infinitive: '',
+    //     //     id: 'VFI68',
+    //     //     infinitive: 'valid',
     //     //     transcriptionInf: '[]',
-    //     //     translation: '',
+    //     //     translation: 'коректний / дійсний',
     //     //     incorrect_answers: [
     //     //
     //     //     ]
     //     // },
+    // {
+    //     id: 'VFI69',
+    //     infinitive: 'developer',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    //
+    //     ]
+    // },
     // {
     //     id: 'VFI',
     //     infinitive: '',
