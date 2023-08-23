@@ -2,11 +2,7 @@
     padding: 1rem;
 }
 
-.canCouldComponent > h1 {
-    color: var(--var-color-h);
-    text-transform: uppercase;
-    text-shadow: 0.2rem 0.2rem 0.2rem grey;
-    margin: 0 0 1rem 0;
-    text-decoration: underline;
-    font-size: 2rem;
+.h3{
+    font-size: 1.5rem;
+    font-style: italic;
 }
