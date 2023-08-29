@@ -714,33 +714,35 @@ export const vocabularyForIt = [
             "validation"
         ]
     },
-    // {
-    //     id: 'VFI66',
-    //     infinitive: 'replace',
-    //     transcriptionInf: '[]',
-    //     translation: 'замінити',
-    //     incorrect_answers: [
-    //
-    //     ]
-    // },
-    // {
-    //     id: 'VFI67',
-    //     infinitive: 'negotiate',
-    //     transcriptionInf: '[]',
-    //     translation: 'вести переговори',
-    //     incorrect_answers: [
-    //
-    //     ]
-    // },
-    // {
-    //     //     id: 'VFI68',
-    //     //     infinitive: 'valid',
-    //     //     transcriptionInf: '[]',
-    //     //     translation: 'коректний / дійсний',
-    //     //     incorrect_answers: [
-    //     //
-    //     //     ]
-    //     // },
+    {
+        id: 'VFI66',
+        infinitive: 'replace',
+        transcriptionInf: '[rɪˈpleɪs]',
+        translation: 'замінити',
+        incorrect_answers: [
+            "database",
+            "variable",
+            "keyword"
+        ]
+    },
+    {
+        id: 'VFI67',
+        infinitive: 'negotiate',
+        transcriptionInf: '[nɪˈɡoʊʃiˌeɪt]',
+        translation: 'вести переговори',
+        incorrect_answers: [
+            "drawback",
+            "replace",
+            "credentials"
+        ]
+    },
+    {
+        id: 'VFI68',
+        infinitive: 'valid',
+        transcriptionInf: '[ˈvælɪd]',
+        translation: 'коректний / дійсний',
+        incorrect_answers: []
+    },
     // {
     //     id: 'VFI69',
     //     infinitive: 'developer',

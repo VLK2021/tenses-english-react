@@ -15,9 +15,9 @@ const CanCouldComponent = () => {
         'Affirmative sentence',
         'Negative sentence',
         'Interrogative sentence',
-        '',
-        '',
-        '',
+        'Фізична можливість',
+        'Факти, правила, обставини',
+        'Дозволи, прохання, заборони',
         '',
         '',
         '',
@@ -153,6 +153,93 @@ const CanCouldComponent = () => {
                     </p>
                 </article>
             </section>
+
+            <h1 className={'CanCouldComponent-h1-second'}>Особливості вживання</h1>
+
+            <section className={'tensComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'} id={'Фізична можливість'}>Фізична можливість</h2>
+
+                <article className={'tensComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Модальне дієсловол <strong>can</strong>, як правило, виражає розумову або фізичну здатність
+                        або нездатність щось виконати або зробити, вміння та навички людини.
+                        <span className={'example'}>
+                            <p>Harry Potter <b>can</b> talk to snakes. – Гаррі Поттер може (вміє) розмовляти зі зміями.</p>
+                            <p>He <b>can’t</b> speak Portuguese. – Він не може розмовляти португальською.</p>
+                            <p><b>Can</b> you swim? – Ти вмієш плавати?</p>
+                            <p>I <b>could</b> dance all night long when I was young. – Я міг танцювати всю ніч, коли був молодим.</p>
+                            <p>Jack <b>couldn’t</b> drive a car before last summer. – Джек не вмів водити машину до минулого літа.</p>
+                            <p><b>Could</b> Alex dance the waltz at the high school? – Алекс міг танцювати вальс в старшій школі?</p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'tensComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'} id={'Факти, правила, обставини'}>Факти, правила, обставини</h2>
+
+                <article className={'tensComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Модальне дієслово <strong>can</strong> з формою простого інфінітиву (першою формою)
+                        використовується для вираження загальновідомих фактів, правил, а також дій, що можуть бути
+                        виконані при певних обставинах. Часто в таких реченнях can використовується з підметом,
+                        вираженим займенником You, що не називає певну особу, а вживається як узагальнення.
+                        <span className={'example'}>
+                            <p>
+                                It <b>can</b> be pretty difficult to find a job these days. – В ці дні знайти роботу може
+                                бути дуже складно.
+                            </p>
+                            <p>Small dogs <b>can</b> be very aggressive. – Маленькі собаки можуть бути дуже агресивними.</p>
+                            <p>
+                                Children <b>can’t</b> buy alcohol and cigarettes. – Діти не можуть купляти алкоголь
+                                та цигарки.
+                            </p>
+                            <p>
+                                You <b>can</b> drive only when you have your driving license. – Можна водити машину, тільки
+                                коли у тебе є водійські права.
+                            </p>
+                            <p>
+                                You <b>can’t</b> get a driving license until you are 18. – Не можна отримати водійські права,
+                                допоки тобі не виповниться 18.
+                            </p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+            <section className={'tensComponent-affirmative flexDirectionColumn width'}>
+                <h2 className={'marginTop'} id={'Дозволи, прохання, заборони'}>Дозволи, прохання, заборони</h2>
+
+                <article className={'tensComponent-affirmative-info width fontSizeText'}>
+                    <p className={'width'}>
+                        Модальне дієслово <strong>can</strong> з формою простого інфінітиву смислового дієслова
+                        використовується для вираження дозволів, прохань або ж заборони робити щось. В питаннях
+                        дієслово <strong>could</strong> виражає більш ввічливе прохання і він може вживатися
+                        в теперішньому часі.
+                        <span className={'example'}>
+                            <p><b>Can</b> I speak to your boss? – Можна я побалакаю з твоїм босом?</p>
+                            <p>Yes, you <b>can</b>. – Так, можна.</p>
+                            <p>No, you <b>can’t</b>. – Ні, неможна.</p>
+                            <p><b>Could</b> I use your notes? – Чи можна мені скористатися твоїми записами?</p>
+                            <p>Of course you <b>can</b>. – Звичайно, що можна.</p>
+                            <p>No, you <b>can’t</b>. – Ні, неможна.</p>
+                        </span>
+                    </p>
+                    <p className={'width marginTop'}>
+                        В теперішьному часі модальне дієслово <strong>could</strong> ніколи не використовується в
+                        відповідях на прохання (в дозволах або заборонах), а тільки при узгодженні часів у реченні.
+                        <span className={'example'}>
+                            <p>She said you <b>could not</b>. – Вона сказала, що тобі неможна.</p>
+                            <p>
+                                I asked her, but she said I <b>couldn’t</b> do it. – Я спитав у неї, одна вона сказала, що
+                                мені неможна (було) цього робити.
+                            </p>
+                        </span>
+                    </p>
+                </article>
+            </section>
+
+
 
             <section className={'width'}>
                 <GoUpButton title={'Can / Could'}/>
