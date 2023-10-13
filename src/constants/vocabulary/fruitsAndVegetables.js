@@ -505,50 +505,50 @@ export const fruitsAndVegetables = [
             "zucchini"
         ]
     },
-    // {
-    //     id: 'FV47',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FV48',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FV49',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FV50',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
+    {
+        id: 'FV47',
+        infinitive: 'Pomegranate',
+        transcriptionInf: '[ˈpɑmˌɡrænɪt]',
+        translation: 'гранат',
+        incorrect_answers: [
+            "raspberry",
+            "fig",
+            "cabbage"
+        ]
+    },
+    {
+        id: 'FV48',
+        infinitive: 'Dill',
+        transcriptionInf: '[dɪl]]',
+        translation: 'кріп',
+        incorrect_answers: [
+            "Pomegranate",
+            "Basil",
+            "Parsley"
+        ]
+    },
+    {
+        id: 'FV49',
+        infinitive: 'Peas',
+        transcriptionInf: '[piːz]',
+        translation: 'горох ',
+        incorrect_answers: [
+            "Parsley",
+            "Cranberry",
+            "zucchini"
+        ]
+    },
+    {
+        id: 'FV50',
+        infinitive: 'Beans',
+        transcriptionInf: '[biːnz]',
+        translation: 'Квасоля',
+        incorrect_answers: [
+            "raspberry",
+            "apricot",
+            "papaya"
+        ]
+    },
     // {
     //     id: 'FV51',
     //     infinitive: '',

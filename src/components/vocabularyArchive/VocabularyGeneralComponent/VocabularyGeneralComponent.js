@@ -21,6 +21,7 @@ import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
 import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
 import {PopUpQuizComponent} from "../popUpTraining/PopUpQuizComponent/PopUpQuizComponent";
+import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const VocabularyGeneralComponent = () => {
@@ -99,10 +100,26 @@ const VocabularyGeneralComponent = () => {
         setVisible(false);
     }
 
+    //робимо так щоб після кліку на посилання контекст не ховався під хедер а був під ним + плавна прокрутка
+    const scrollToContent = (event, title) => {
+        event.preventDefault();
+
+        const headerHeight = document.querySelector('.header-block').offsetHeight;
+        const offset = parseFloat(getComputedStyle(document.documentElement).fontSize);
+
+        const targetPosition = document.getElementById(title).getBoundingClientRect().top;
+        const scrollPosition = window.scrollY + targetPosition - headerHeight - offset;
+
+        window.scrollTo({
+            top: scrollPosition,
+            behavior: 'smooth',
+        });
+    };
+
 
     return (
         <main className={'wrapper width flexDirectionColumn'}>
-            <h1>{title}</h1>
+            <h1 id={`${title}`}>{title}</h1>
 
             <section className={'select width'}>
                 <article>
@@ -166,6 +183,13 @@ const VocabularyGeneralComponent = () => {
                     />
                 }
             </section>
+
+
+            <a href={`#${title}`} onClick={(e) => scrollToContent(e, title)}>
+                <button className={'go-up flex'}>
+                    go up
+                </button>
+            </a>
         </main>
     );
 };
