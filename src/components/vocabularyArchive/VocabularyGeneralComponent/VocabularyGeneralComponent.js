@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
+import {ImArrowUp} from "react-icons/im";
 
 import './VocabularyGeneralComponentStyle.css';
 import '../VocabularyGeneralStyle.css';
@@ -21,7 +22,6 @@ import FormSearchComponent from "../FormSearchComponent/FormSearchComponent";
 import VocabularySingleComponent from "../VocabularySingleComponent/VocabularySingleComponent";
 import PopUpComponent from "../popUpTraining/PopUpComponent/PopUpComponent";
 import {PopUpQuizComponent} from "../popUpTraining/PopUpQuizComponent/PopUpQuizComponent";
-import GoUpButton from "../../GoUpButton/GoUpButton";
 
 
 const VocabularyGeneralComponent = () => {
@@ -187,7 +187,7 @@ const VocabularyGeneralComponent = () => {
 
             <a href={`#${title}`} onClick={(e) => scrollToContent(e, title)}>
                 <button className={'go-up flex'}>
-                    go up
+                    <ImArrowUp/>
                 </button>
             </a>
         </main>

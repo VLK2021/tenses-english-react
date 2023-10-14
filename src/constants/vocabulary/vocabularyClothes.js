@@ -164,184 +164,151 @@ export const vocabularyClothes = [
             "gloves"
         ]
     },
-    // {
-    //     id: 'С16',
-    //     infinitive: 'tie',
-    //     transcriptionInf: '[taɪ]',
-    //     translation: 'галстук',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "skirt",
-    //         "shorts"
-    //     ]
-    // },
-    // {
-    //     id: 'С17',
-    //     infinitive: 'belt',
-    //     transcriptionInf: '[bɛlt]',
-    //     translation: 'ремінь',
-    //     incorrect_answers: [
-    //         "hat",
-    //         "socks",
-    //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С18',
-    //     infinitive: 'sweatshirt',
-    //     transcriptionInf: '[ˈswɛtʃɜːrt]',
-    //     translation: 'толстовка',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "pants",
-    //         "shoes"
-    //     ]
-    // },
-    // {
-    //     id: 'С19',
-    //     infinitive: 'pajamas',
-    //     transcriptionInf: '[pəˈdʒɑːməz]',
-    //     translation: 'піжама',
-    //     incorrect_answers: [
-    //         "dress",
-    //         "jacket",
-    //         "scarf"
-    //     ]
-    // },
-    // {
-    //     id: 'С20',
-    //     infinitive: 'cap',
-    //     transcriptionInf: '[kæp]',
-    //     translation: 'кепка',
-    //     incorrect_answers: [
-    //         "coat",
-    //         "pants",
-    //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С21',
-    //     infinitive: 'suit',
-    //     transcriptionInf: '[suːt]',
-    //     translation: 'костюм',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "skirt",
-    //         "shorts"
-    //     ]
-    // },
-    // {
-    //     id: 'С22',
-    //     infinitive: 'sneakers',
-    //     transcriptionInf: '[ˈsnikərz]',
-    //     translation: 'кросівки',
-    //     incorrect_answers: [
-    //         "hat",
-    //         "dress",
-    //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С23',
-    //     infinitive: 'blazer',
-    //     transcriptionInf: '[ˈbleɪzər]',
-    //     translation: 'піджак',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "pants",
-    //         "shoes"
-    //     ]
-    // },
-    // {
-    //     id: 'С24',
-    //     infinitive: 'gown',
-    //     transcriptionInf: '[ɡaʊn]',
-    //     translation: 'сукня',
-    //     incorrect_answers: [
-    //         "hat",
-    //         "socks",
-    //         "gloves",
-    //         ]
-    // },
-    // {
-    //     id: 'С25',
-    //     infinitive: 'overcoat',
-    //     transcriptionInf: '[ˈoʊvərkoʊt]',
-    //     translation: 'пальто',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "pants",
-    //         "dress"
-    //     ]
-    // },
-    // {
-    //     id: 'С26',
-    //     infinitive: 'sandals',
-    //     transcriptionInf: '[ˈsændəlz]',
-    //     translation: 'сандалі',
-    //     incorrect_answers: [
-    //         "skirt",
-    //         "jacket",
-    //         "shorts"
-    //     ]
-    // },
-    // {
-    //     id: 'С27',
-    //     infinitive: 'vest',
-    //     transcriptionInf: '[vɛst]',
-    //     translation: 'жилет',
-    //     incorrect_answers: [
-    //         "hat",
-    //         "dress",
-    //         "scarf"
-    //     ]
-    // },
-    // {
-    //     id: 'С28',
-    //     infinitive: 't-shirt',
-    //     transcriptionInf: '[ˈtiːʃərt]',
-    //     translation: 'футболка',
-    //     incorrect_answers: [
-    //         "pants",
-    //         "jacket",
-    //         "gloves"
-    //     ]
-    // },
+    {
+        id: 'С16',
+        infinitive: 'tie',
+        transcriptionInf: '[taɪ]',
+        translation: 'галстук',
+        incorrect_answers: [
+            "shirt",
+            "skirt",
+            "shorts"
+        ]
+    },
+    {
+        id: 'С17',
+        infinitive: 'belt',
+        transcriptionInf: '[bɛlt]',
+        translation: 'ремінь',
+        incorrect_answers: [
+            "hat",
+            "socks",
+            "gloves"
+        ]
+    },
+    {
+        id: 'С18',
+        infinitive: 'sweatshirt',
+        transcriptionInf: '[ˈswɛtʃɜːrt]',
+        translation: 'толстовка',
+        incorrect_answers: [
+            "shirt",
+            "pants",
+            "shoes"
+        ]
+    },
+    {
+        id: 'С19',
+        infinitive: 'pajamas',
+        transcriptionInf: '[pəˈdʒɑːməz]',
+        translation: 'піжама',
+        incorrect_answers: [
+            "dress",
+            "jacket",
+            "scarf"
+        ]
+    },
+    {
+        id: 'С20',
+        infinitive: 'cap',
+        transcriptionInf: '[kæp]',
+        translation: 'кепка',
+        incorrect_answers: [
+            "coat",
+            "pants",
+            "gloves"
+        ]
+    },
+    {
+        id: 'С21',
+        infinitive: 'suit',
+        transcriptionInf: '[suːt]',
+        translation: 'костюм',
+        incorrect_answers: [
+            "shirt",
+            "skirt",
+            "shorts"
+        ]
+    },
+    {
+        id: 'С22',
+        infinitive: 'sneakers',
+        transcriptionInf: '[ˈsnikərz]',
+        translation: 'кросівки',
+        incorrect_answers: [
+            "hat",
+            "dress",
+            "gloves"
+        ]
+    },
+    {
+        id: 'С23',
+        infinitive: 'blazer',
+        transcriptionInf: '[ˈbleɪzər]',
+        translation: 'піджак',
+        incorrect_answers: [
+            "shirt",
+            "pants",
+            "shoes"
+        ]
+    },
+    {
+        id: 'С24',
+        infinitive: 'sandals',
+        transcriptionInf: '[ˈsændəlz]',
+        translation: 'сандалі',
+        incorrect_answers: [
+            "skirt",
+            "jacket",
+            "shorts"
+        ]
+    },
+    {
+        id: 'С25',
+        infinitive: 'vest',
+        transcriptionInf: '[vɛst]',
+        translation: 'жилет',
+        incorrect_answers: [
+            "hat",
+            "dress",
+            "scarf"
+        ]
+    },
+    {
+        id: 'С26',
+        infinitive: 't-shirt',
+        transcriptionInf: '[ˈtiːʃərt]',
+        translation: 'футболка',
+        incorrect_answers: [
+            "pants",
+            "jacket",
+            "gloves"
+        ]
+    },
+    {
+        id: 'С27',
+        infinitive: 'trousers',
+        transcriptionInf: '[ˈtraʊzərz]',
+        translation: 'брюки',
+        incorrect_answers: [
+            "shirt",
+            "skirt",
+            "shorts"
+        ]
+    },
+    {
+        id: 'С28',
+        infinitive: 'beret',
+        transcriptionInf: '[bəˈreɪ]',
+        translation: 'берет',
+        incorrect_answers: [
+            "hat",
+            "socks",
+            "gloves"
+        ]
+    },
     // {
     //     id: 'С29',
-    //     infinitive: 'trousers',
-    //     transcriptionInf: '[ˈtraʊzərz]',
-    //     translation: 'брюки',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "skirt",
-    //         "shorts"
-    //     ]
-    // },
-    // {
-    //     id: 'С30',
-    //     infinitive: 'beret',
-    //     transcriptionInf: '[bəˈreɪ]',
-    //     translation: 'берет',
-    //     incorrect_answers: [
-    //         "hat",
-    //         "socks",
-    //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С31',
-    //     infinitive: 'blazer',
-    //     transcriptionInf: '[ˈbleɪzər]',
-    //     translation: 'піджак',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "pants",
-    //         "shoes"
-    //     ]
-    // },
-    // {
-    //     id: 'С32',
     //     infinitive: 'sweatpants',
     //     transcriptionInf: '[ˈswɛtpænts]',
     //     translation: 'спортивні штани',
@@ -352,7 +319,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С33',
+    //     id: 'С30',
     //     infinitive: 'trench coat',
     //     transcriptionInf: '[trɛntʃ koʊt]',
     //     translation: 'тренч',
@@ -363,18 +330,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С34',
-    //     infinitive: 'socks',
-    //     transcriptionInf: '[sɑːks]',
-    //     translation: 'шкарпетки',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "pants",
-    //         "shoes"
-    //     ]
-    // },
-    // {
-    //     id: 'С35',
+    //     id: 'С31',
     //     infinitive: 'swimsuit',
     //     transcriptionInf: '[ˈswɪmsuːt]',
     //     translation: 'купальник',
@@ -385,7 +341,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С36',
+    //     id: 'С32',
     //     infinitive: 'hoodie',
     //     transcriptionInf: '[ˈhʊdi]',
     //     translation: 'худі',
@@ -396,7 +352,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С37',
+    //     id: 'С33',
     //     infinitive: 'robe',
     //     transcriptionInf: '[roʊb]',
     //     translation: 'халат',
@@ -407,18 +363,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С38',
-    //     infinitive: 'waistcoat',
-    //     transcriptionInf: '[ˈweɪstkoʊt]',
-    //     translation: 'жилет',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "socks",
-    //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С39',
+    //     id: 'С34',
     //     infinitive: 'slippers',
     //     transcriptionInf: '[ˈslɪpərz]',
     //     translation: 'тапочки',
@@ -429,7 +374,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С40',
+    //     id: 'С35',
     //     infinitive: 'raincoat',
     //     transcriptionInf: '[ˈreɪnkoʊt]',
     //     translation: 'плащ',
@@ -440,7 +385,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С41',
+    //     id: 'С36',
     //     infinitive: 'bowtie',
     //     transcriptionInf: '[ˈboʊtaɪ]',
     //     translation: 'бабочка',
@@ -451,7 +396,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С42',
+    //     id: 'С37',
     //     infinitive: 'sleeve',
     //     transcriptionInf: '[sliːv]',
     //     translation: 'рукав',
@@ -462,7 +407,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С43',
+    //     id: 'С38',
     //     infinitive: 'flip-flops',
     //     transcriptionInf: '[ˈflɪpflɑːps]',
     //     translation: 'шльопанці',
@@ -473,18 +418,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С44',
-    //     infinitive: 'mittens',
-    //     transcriptionInf: '[ˈmɪtənz]',
-    //     translation: 'рукавички',
-    //     incorrect_answers: [
-    //         "dress",
-    //         "jacket",
-    //         "scarf"
-    //     ]
-    // },
-    // {
-    //     id: 'С45',
+    //     id: 'С39',
     //     infinitive: 'kimono',
     //     transcriptionInf: '[kɪˈmoʊnoʊ]',
     //     translation: 'кімоно',
@@ -495,29 +429,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С46',
-    //     infinitive: 'tie',
-    //     transcriptionInf: '[taɪ]',
-    //     translation: 'галстук',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "skirt",
-    //         "shorts"
-    //     ]
-    // },
-    // {
-    //     id: 'С47',
-    //     infinitive: 'leather jacket',
-    //     transcriptionInf: '[ˈlɛðər ˈdʒækɪt]',
-    //     translation: 'шкіряна куртка',
-    //     incorrect_answers: [
-    //         "hat",
-    //         "dress",
-    //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С48',
+    //     id: 'С40',
     //     infinitive: 'hood',
     //     transcriptionInf: '[hʊd]',
     //     translation: 'капюшон',
@@ -528,7 +440,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С49',
+    //     id: 'С41',
     //     infinitive: 'leggings',
     //     transcriptionInf: '[ˈlɛɡɪŋz]',
     //     translation: 'легінси',
@@ -539,29 +451,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С50',
-    //     infinitive: 'tie-dye',
-    //     transcriptionInf: '[ˈtaɪˌdaɪ]',
-    //     translation: 'фарбування вузлами',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "dress",
-    //         "scarf"
-    //     ]
-    // },
-    // {
-    //     id: 'С51',
-    //     infinitive: 'robe',
-    //     transcriptionInf: '[roʊb]',
-    //     translation: 'халат',
-    //     incorrect_answers: [
-    //         "pants",
-    //         "jacket",
-    //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С52',
+    //     id: 'С42',
     //     infinitive: 'tuxedo',
     //     transcriptionInf: '[tʌkˈsiːdoʊ]',
     //     translation: 'смокінг',
@@ -572,7 +462,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С53',
+    //     id: 'С43',
     //     infinitive: 'suspenders',
     //     transcriptionInf: '[səˈspɛndərz]',
     //     translation: 'подтяжки',
@@ -583,18 +473,7 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С54',
-    //     infinitive: 'jumper',
-    //     transcriptionInf: '[ˈdʒʌmpər]',
-    //     translation: 'світшот',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "skirt",
-    //         "shorts"
-    //     ]
-    // },
-    // {
-    //     id: 'С55',
+    //     id: 'С44',
     //     infinitive: 'swimming trunks',
     //     transcriptionInf: '[ˈswɪmɪŋ trʌŋks]',
     //     translation: 'купальні труси',
@@ -602,17 +481,6 @@ export const vocabularyClothes = [
     //         "coat",
     //         "pants",
     //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С56',
-    //     infinitive: 'tie',
-    //     transcriptionInf: '[taɪ]',
-    //     translation: 'галстук',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "skirt",
-    //         "shorts"
     //     ]
     // },
     // {
@@ -660,17 +528,6 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С61',
-    //     infinitive: 'button',
-    //     transcriptionInf: '[ˈbʌtn]',
-    //     translation: 'ґудзик',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "pants",
-    //         "shoes"
-    //     ]
-    // },
-    // {
     //     id: 'С62',
     //     infinitive: 'nightgown',
     //     transcriptionInf: '[ˈnaɪtˌɡaʊn]',
@@ -693,17 +550,6 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С64',
-    //     infinitive: 'socks',
-    //     transcriptionInf: '[sɑːks]',
-    //     translation: 'шкарпетки',
-    //     incorrect_answers: [
-    //         "hat",
-    //         "pants",
-    //         "shoes"
-    //     ]
-    // },
-    // {
     //     id: 'С65',
     //     infinitive: 'waist',
     //     transcriptionInf: '[weɪst]',
@@ -712,17 +558,6 @@ export const vocabularyClothes = [
     //         "coat",
     //         "skirt",
     //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С66',
-    //     infinitive: 'fedora',
-    //     transcriptionInf: '[fɪˈdɔːrə]',
-    //     translation: 'федора',
-    //     incorrect_answers: [
-    //         "shirt",
-    //         "pants",
-    //         "dress"
     //     ]
     // },
     // {
@@ -748,17 +583,6 @@ export const vocabularyClothes = [
     //     ]
     // },
     // {
-    //     id: 'С69',
-    //     infinitive: 'sailor',
-    //     transcriptionInf: '[ˈseɪlər]',
-    //     translation: 'моряк',
-    //     incorrect_answers: [
-    //         "dress",
-    //         "jacket",
-    //         "scarf"
-    //     ]
-    // },
-    // {
     //     id: 'С70',
     //     infinitive: 'pinafore',
     //     transcriptionInf: '[ˈpɪnəfɔːr]',
@@ -767,17 +591,6 @@ export const vocabularyClothes = [
     //         "coat",
     //         "pants",
     //         "gloves"
-    //     ]
-    // },
-    // {
-    //     id: 'С71',
-    //     infinitive: 'visor',
-    //     transcriptionInf: '[ˈvaɪzər]',
-    //     translation: 'візор',
-    //     incorrect_answers: [
-    //         "hat",
-    //         "dress",
-    //         "scarf"
     //     ]
     // },
 ];
