@@ -27,6 +27,10 @@ const HomeComponent = () => {
         setCounter(0);
     }
 
+    const resT = () => {
+        setTimer(0);
+    }
+
 
 
     useEffect(() => {
@@ -44,13 +48,14 @@ const HomeComponent = () => {
     return (
         <div className={'homeComponent width'}>
             <button onClick={inc}>increment</button>
-            <div>{counter}</div>
+            <h1>{counter}</h1>
             <button onClick={dec}>decrement</button>
             <button onClick={res}>reset</button>
 
             <div>
                 <h3>Timer</h3>
-                <div>{timer}</div>
+                <h1>{timer}</h1>
+                <button onClick={resT}>reset</button>
             </div>
         </div>
     );

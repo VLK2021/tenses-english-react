@@ -1,18 +1,18 @@
 export const vocabularyFodDrink = [
     {
         id: 'FD1',
-        infinitive: 'Coffee',
+        infinitive: 'coffee',
         transcriptionInf: '[ˈkɒfi]',
         translation: 'кава',
         incorrect_answers: [
-            "Juice",
-            "Salad",
-            "Tea"
+            "juice",
+            "salad",
+            "tea"
         ]
     },
     {
         id: 'FD2',
-        infinitive: 'Pizza',
+        infinitive: 'pizza',
         transcriptionInf: '[ˈpiːtsə]',
         translation: 'піца',
         incorrect_answers: [
@@ -23,7 +23,7 @@ export const vocabularyFodDrink = [
     },
     {
         id: 'FD3',
-        infinitive: 'Sandwich',
+        infinitive: 'sandwich',
         transcriptionInf: '[ˈsændwɪtʃ]',
         translation: 'сендвіч ',
         incorrect_answers: [
@@ -34,7 +34,7 @@ export const vocabularyFodDrink = [
     },
     {
         id: 'FD4',
-        infinitive: 'Juice',
+        infinitive: 'juice',
         transcriptionInf: '[dʒuːs]',
         translation: 'сік',
         incorrect_answers: [
@@ -45,7 +45,7 @@ export const vocabularyFodDrink = [
     },
     {
         id: 'FD5',
-        infinitive: 'Burger',
+        infinitive: 'burger',
         transcriptionInf: '[ˈbɜːrɡər]',
         translation: 'бургер ',
         incorrect_answers: [
@@ -56,7 +56,7 @@ export const vocabularyFodDrink = [
     },
     {
         id: 'FD6',
-        infinitive: 'Salad',
+        infinitive: 'salad',
         transcriptionInf: '[ˈsæləd]',
         translation: 'салат',
         incorrect_answers: [
@@ -67,7 +67,7 @@ export const vocabularyFodDrink = [
     },
     {
         id: 'FD7',
-        infinitive: 'Chocolate',
+        infinitive: 'chocolate',
         transcriptionInf: '[ˈtʃɒklət]',
         translation: 'шоколад',
         incorrect_answers: [
@@ -78,7 +78,7 @@ export const vocabularyFodDrink = [
     },
     {
         id: 'FD8',
-        infinitive: 'Tea',
+        infinitive: 'tea',
         transcriptionInf: '[tiː]',
         translation: 'чай',
         incorrect_answers: [
@@ -89,7 +89,7 @@ export const vocabularyFodDrink = [
     },
     {
         id: 'FD9',
-        infinitive: 'Milk ',
+        infinitive: 'milk ',
         transcriptionInf: '[mɪlk]',
         translation: 'молоко ',
         incorrect_answers: [
@@ -100,7 +100,7 @@ export const vocabularyFodDrink = [
     },
     {
         id: 'FD10',
-        infinitive: 'Water',
+        infinitive: 'water',
         transcriptionInf: '[ˈwɔːtər]',
         translation: 'вода',
         incorrect_answers: [
@@ -109,116 +109,116 @@ export const vocabularyFodDrink = [
             "Grape"
         ]
     },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'FD',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
+    {
+        id: 'FD11',
+        infinitive: 'soup',
+        transcriptionInf: '[suːp]',
+        translation: 'cуп',
+        incorrect_answers: [
+            "burger",
+            "milk",
+            "tea"
+        ]
+    },
+    {
+        id: 'FD12',
+        infinitive: 'dumplings',
+        transcriptionInf: '[ˈdʌmplɪŋz]',
+        translation: 'пельмені',
+        incorrect_answers: [
+            "soup",
+            "pizza",
+            "coffee"
+        ]
+    },
+    {
+        id: 'FD13',
+        infinitive: 'pasta',
+        transcriptionInf: '[ˈpæstə]',
+        translation: 'паста',
+        incorrect_answers: [
+            "dumplings",
+            "salad",
+            "juice"
+        ]
+    },
+    {
+        id: 'FD14',
+        infinitive: 'meat',
+        transcriptionInf: '[miːt]',
+        translation: 'мясо',
+        incorrect_answers: [
+            "pasta",
+            "water",
+            "tea"
+        ]
+    },
+    {
+        id: 'FD15',
+        infinitive: 'fish',
+        transcriptionInf: '[fɪʃ]',
+        translation: 'риба',
+        incorrect_answers: [
+            "sandwich",
+            "coffee",
+            "chocolate"
+        ]
+    },
+    {
+        id: 'FD16',
+        infinitive: 'cheese',
+        transcriptionInf: '[ʧiːz]',
+        translation: 'сир',
+        incorrect_answers: [
+            "banana",
+            "burger",
+            "milk"
+        ]
+    },
+    {
+        id: 'FD17',
+        infinitive: 'bread',
+        transcriptionInf: '[brɛd]',
+        translation: 'хліб',
+        incorrect_answers: [
+            "juice",
+            "salad",
+            "tea"
+        ]
+    },
+    {
+        id: 'FD18',
+        infinitive: 'eggs',
+        transcriptionInf: '[ɛɡz]',
+        translation: 'яйця',
+        incorrect_answers: [
+            "bread",
+            "cheese",
+            "fish"
+        ]
+    },
+    {
+        id: 'FD19',
+        infinitive: 'sauce',
+        transcriptionInf: '[sɔs]',
+        translation: 'cоус',
+        incorrect_answers: [
+            "pasta",
+            "eggs",
+            "dumplings"
+        ]
+    },
+    {
+        id: 'FD20',
+        infinitive: 'honey',
+        transcriptionInf: '[ˈhʌni]',
+        translation: 'мед',
+        incorrect_answers: [
+            "chocolate",
+            "bread",
+            "sauce"
+        ]
+    },
     // {
     //     id: 'FD',
     //     infinitive: '',

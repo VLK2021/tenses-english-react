@@ -265,8 +265,8 @@ export const vocabularyForIt = [
     },
     {
         id: 'VFI25',
-        infinitive: 'query',
-        transcriptionInf: '[ˈkwɪəri]',
+        infinitive: 'request',
+        transcriptionInf: '[rɪˈkwɛst]',
         translation: 'запит',
         incorrect_answers: [
             "beautiful",
@@ -741,14 +741,65 @@ export const vocabularyForIt = [
         infinitive: 'valid',
         transcriptionInf: '[ˈvælɪd]',
         translation: 'коректний / дійсний',
-        incorrect_answers: []
+        incorrect_answers: [
+            "architecture",
+            "decor",
+            "curtain"
+        ]
+    },
+    {
+        id: 'VFI69',
+        infinitive: 'developer',
+        transcriptionInf: '[dɪˈvɛləpər]',
+        translation: 'розробник',
+        incorrect_answers: [
+            "approve",
+            "connect",
+            "testing"
+        ]
+    },
+    {
+        id: 'VFI70',
+        infinitive: 'response',
+        transcriptionInf: '[rɪˈspɑns]',
+        translation: 'відповідь',
+        incorrect_answers: [
+            "credentials",
+            "disconnect",
+            "layout"
+        ]
+    },
+    {
+        id: 'VFI71',
+        infinitive: 'template',
+        transcriptionInf: '[ˈtɛmˌpleɪt]',
+        translation: 'шаблон',
+        incorrect_answers: [
+            "response",
+            "valid",
+            "developer"
+        ]
     },
     // {
-    //     id: 'VFI69',
-    //     infinitive: 'developer',
+    //     id: 'VFI',
+    //     infinitive: '',
     //     transcriptionInf: '[]',
     //     translation: '',
     //     incorrect_answers: [
+    //"",
+    //             "",
+    //             ""
+    //     ]
+    // },
+    // {
+    //     id: 'VFI',
+    //     infinitive: '',
+    //     transcriptionInf: '[]',
+    //     translation: '',
+    //     incorrect_answers: [
+    // "",
+    // "",
+    // ""
     //
     //     ]
     // },
@@ -758,7 +809,9 @@ export const vocabularyForIt = [
     //     transcriptionInf: '[]',
     //     translation: '',
     //     incorrect_answers: [
-    //
+    //"",
+    //             "",
+    //             ""
     //     ]
     // },
     // {
@@ -767,7 +820,9 @@ export const vocabularyForIt = [
     //     transcriptionInf: '[]',
     //     translation: '',
     //     incorrect_answers: [
-    //
+    //"",
+    //             "",
+    //             ""
     //     ]
     // },
     // {
@@ -776,7 +831,9 @@ export const vocabularyForIt = [
     //     transcriptionInf: '[]',
     //     translation: '',
     //     incorrect_answers: [
-    //
+    //"",
+    //             "",
+    //             ""
     //     ]
     // },
     // {
@@ -785,7 +842,9 @@ export const vocabularyForIt = [
     //     transcriptionInf: '[]',
     //     translation: '',
     //     incorrect_answers: [
-    //
+    //"",
+    //             "",
+    //             ""
     //     ]
     // },
     // {
@@ -794,43 +853,9 @@ export const vocabularyForIt = [
     //     transcriptionInf: '[]',
     //     translation: '',
     //     incorrect_answers: [
-    //
-    //     ]
-    // },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //
-    //     ]
-    // },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //
-    //     ]
-    // },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //
-    //     ]
-    // },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //
+    //"",
+    //             "",
+    //             ""
     //     ]
     // },
     // {
