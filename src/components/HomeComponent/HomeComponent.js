@@ -43,6 +43,10 @@ const HomeComponent = () => {
         }
     }, [timer]);
 
+    // const arr = ['one', 'two','four'];
+    // const [primary, secondary] = arr;
+    // console.log(primary, secondary)
+
 
 
     return (

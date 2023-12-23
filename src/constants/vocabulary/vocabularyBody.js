@@ -439,50 +439,50 @@ export const vocabularyBody = [
             "back"
         ]
     },
-    // {
-    //     id: 'B41',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'B42',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'B43',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
-    // {
-    //     id: 'B44',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //         "",
-    //         "",
-    //         ""
-    //     ]
-    // },
+    {
+        id: 'B41',
+        infinitive: 'stomach',
+        transcriptionInf: '[ˈstʌmək]',
+        translation: 'шлунок',
+        incorrect_answers: [
+            "throat",
+            "skull",
+            "vein"
+        ]
+    },
+    {
+        id: 'B42',
+        infinitive: ' liver',
+        transcriptionInf: '[ˈlɪvər]',
+        translation: 'печінка',
+        incorrect_answers: [
+            "stomach",
+            "ribs",
+            "spine"
+        ]
+    },
+    {
+        id: 'B43',
+        infinitive: 'lungs',
+        transcriptionInf: '[lʌŋz]',
+        translation: 'легені',
+        incorrect_answers: [
+            "heart",
+            "heel",
+            "knee"
+        ]
+    },
+    {
+        id: 'B44',
+        infinitive: 'nail',
+        transcriptionInf: '[neɪl]',
+        translation: 'ніготь',
+        incorrect_answers: [
+            "throat",
+            "skull",
+            "vein"
+        ]
+    },
     // {
     //     id: 'B44',
     //     infinitive: '',
