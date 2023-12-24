@@ -780,73 +780,73 @@ export const vocabularyForIt = [
             "developer"
         ]
     },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //"",
-    //             "",
-    //             ""
-    //     ]
-    // },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    // "",
-    // "",
-    // ""
-    //
-    //     ]
-    // },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //"",
-    //             "",
-    //             ""
-    //     ]
-    // },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //"",
-    //             "",
-    //             ""
-    //     ]
-    // },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //"",
-    //             "",
-    //             ""
-    //     ]
-    // },
-    // {
-    //     id: 'VFI',
-    //     infinitive: '',
-    //     transcriptionInf: '[]',
-    //     translation: '',
-    //     incorrect_answers: [
-    //"",
-    //             "",
-    //             ""
-    //     ]
-    // },
+    {
+        id: 'VFI72',
+        infinitive: 'internal ',
+        transcriptionInf: '[ɪnˈtɜrnəl]',
+        translation: 'внутрішній',
+        incorrect_answers: [
+            "response",
+            "negotiate",
+            "template"
+        ]
+    },
+    {
+        id: 'VFI73',
+        infinitive: 'external',
+        transcriptionInf: '[ɪkˈstɜrnəl]',
+        translation: 'зовнішній',
+        incorrect_answers: [
+            "enable",
+            "microservices",
+            "attach"
+
+        ]
+    },
+    {
+        id: 'VFI74',
+        infinitive: 'module',
+        transcriptionInf: '[mɑdʒul]',
+        translation: 'модуль',
+        incorrect_answers: [
+            "iteration",
+            "variable",
+            "library"
+        ]
+    },
+    {
+        id: 'VFI75',
+        infinitive: 'extension',
+        transcriptionInf: '[ɪkˈstɛnʃən]',
+        translation: 'розширення',
+        incorrect_answers: [
+            "property",
+            "framework",
+            "deployment"
+        ]
+    },
+    {
+        id: 'VFI76',
+        infinitive: 'support',
+        transcriptionInf: '[səˈpɔrt]',
+        translation: 'підтримка',
+        incorrect_answers: [
+            "binary",
+            "request",
+            "loop"
+        ]
+    },
+    {
+        id: 'VFI77',
+        infinitive: 'assignment',
+        transcriptionInf: '[əˈsaɪnmənt]',
+        translation: 'завдання',
+        incorrect_answers: [
+            "approve",
+            "connect",
+            "testing"
+        ]
+    },
     // {
     //     id: 'VFI',
     //     infinitive: '',
