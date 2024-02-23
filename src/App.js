@@ -30,7 +30,7 @@ function App() {
         <div className="App">
             <Routes>
                 <Route path={'/'} element={<Layout/>}>
-                    <Route index element={<HomeComponent/>}/>
+                    <Route index element={<PresentSimple/>}/>
                     <Route path={'1'} element={<PresentSimple/>}/>
                     <Route path={'2'} element={<PastSimple/>}/>
                     <Route path={'3'} element={<FutureSimple/>}/>

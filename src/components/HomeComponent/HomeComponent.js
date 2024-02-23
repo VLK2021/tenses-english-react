@@ -9,6 +9,7 @@ const HomeComponent = () => {
     const dispatch = useDispatch();
 
     const [counter, setCounter] = useState(0);
+
     const [timer, setTimer] = useState(0);
 
     useEffect(() => {
@@ -43,9 +44,9 @@ const HomeComponent = () => {
         }
     }, [timer]);
 
-    // const arr = ['one', 'two','four'];
-    // const [primary, secondary] = arr;
-    // console.log(primary, secondary)
+    const arr = ['one', 'two','four'];
+    const [primary, secondary] = arr;
+    console.log(primary, secondary)
 
 
 
