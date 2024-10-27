@@ -1,7 +1,6 @@
 .header-block {
-    width: 74.2%;
-    background: var(--var-bg-header-outlet);
-    margin-bottom: 2rem;
+    /*background: var(--var-bg-header-outlet);*/
+    width: 100%;
     position: fixed;
     top: 0;
 }
@@ -11,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    padding-top: 6rem;
+    padding-top: 10rem;
 }
 
 .layout-left, .layout-right {

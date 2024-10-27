@@ -23,7 +23,7 @@ const Header = () => {
     const currentColor = colors[currentColorIndex];
 
     const goHome = () => {
-        navigate('/');
+        navigate('/home');
     }
 
 

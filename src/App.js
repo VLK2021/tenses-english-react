@@ -29,6 +29,7 @@ function App() {
     return (
         <div className="App">
             <Routes>
+                <Route path={'/home'} element={<HomeComponent/>}/>
                 <Route path={'/'} element={<Layout/>}>
                     <Route index element={<PresentSimple/>}/>
                     <Route path={'1'} element={<PresentSimple/>}/>
