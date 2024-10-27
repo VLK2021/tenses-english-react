@@ -1,3 +1,25 @@
+.container {
+    width: 100%;
+}
+
+
+.main{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maineHomeComponentBlock {
+    width: 100%;
+    min-height: 90vh;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
 .header-block {
     /*background: var(--var-bg-header-outlet);*/
     width: 100%;
