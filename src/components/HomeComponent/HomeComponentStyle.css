@@ -1,5 +1,136 @@
 .homeComponent {
-    color: red;
-    font-size: 3rem;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+.video-element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+    filter: brightness(60%);
+    transition: filter 0.5s ease-in-out;
+}
+
+.video-element:hover {
+    filter: brightness(80%);
+}
+
+.homeComponent > h1 {
+    width: 100%;
+    text-transform: uppercase;
     font-weight: bold;
+    font-size: 2.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    animation: fadeIn 2s ease;
+}
+
+/* Анімація для заголовка */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.homeComponent-menuBlock {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    animation: fadeInUp 1.5s ease forwards;
+}
+
+/* Анімація для меню */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.homeComponent-menuBlock button {
+    width: 12rem; /* Фіксована ширина для однакового розміру */
+    height: 3rem; /* Фіксована висота для однакового розміру */
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(135deg, #4a90e2, #e94e77);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.homeComponent-menuBlock button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #e94e77, #4a90e2);
+}
+
+@media (max-width: 1024px) {
+    .homeComponent > h1 {
+        font-size: 2rem;
+        padding: 0.8rem;
+    }
+
+    .homeComponent-menuBlock {
+        gap: 1rem;
+    }
+
+    .homeComponent-menuBlock button {
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .homeComponent > h1 {
+        font-size: 1.8rem;
+    }
+
+    .homeComponent-menuBlock {
+        width: 100%;
+        gap: 0.8rem;
+    }
+
+    .homeComponent-menuBlock button {
+        width: 8rem;
+        height: 2.5rem;
+        font-size: 0.8rem;
+    }
 }

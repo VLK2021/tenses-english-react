@@ -23,7 +23,7 @@ const Header = () => {
     const currentColor = colors[currentColorIndex];
 
     const goHome = () => {
-        navigate('/home');
+        navigate('/');
     }
 
 
@@ -34,7 +34,7 @@ const Header = () => {
                     <HiHome className={'home-icon'} onClick={goHome}/>
                 </div>
 
-                <p className={'header-title flex'} style={{color: currentColor}}>learning English</p>
+                <p className={'header-title flex'} style={{color: currentColor}}>Easy English</p>
 
                 <div>
                 </div>
