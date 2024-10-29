@@ -40,9 +40,9 @@ const Header = () => {
                 </div>
             </section>
 
-            <section className={'width flex header-main-menu-block'}>
-                <MenuTitlesComponent/>
-            </section>
+            {/*<section className={'width flex header-main-menu-block'}>*/}
+            {/*    <MenuTitlesComponent/>*/}
+            {/*</section>*/}
         </main>
     );
 };

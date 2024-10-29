@@ -5,6 +5,7 @@ import './LayoutStyle.css';
 import {menu} from '../constants';
 import Button from "../components/Button/Button";
 import {Footer, Header, HomeComponent, MenuTitlesComponent} from "../components";
+import {SideMenuComponent} from "../components/SideMenuComponent/SideMenuComponent";
 
 
 const Layout = () => {
@@ -22,17 +23,16 @@ const Layout = () => {
                         <Header/>
                     </header>
 
-                    <section className={'width layout'}>
+                    <section className={'layout'}>
                         <aside className={'sideMenu'}>
                             <div
-                                className={`sidebar ${expanded ? 'expanded' : 'collapsed'}`}
+                                className={`width sidebar ${expanded ? 'expanded' : 'collapsed'}`}
                                 onMouseEnter={() => setExpanded(true)}
                                 onMouseLeave={() => setExpanded(false)}
                             >
-
+                                <SideMenuComponent/>
                             </div>
                         </aside>
-
 
 
                         <aside className={'layout-left'}>

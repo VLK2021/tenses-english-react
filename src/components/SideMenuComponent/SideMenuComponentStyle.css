@@ -1,0 +1,80 @@
+.menu-container {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 1rem;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 1rem 0.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: width 0.3s ease;
+}
+
+.menu.collapsed {
+    width: 100%;
+}
+
+.menu.expanded {
+    width: 14.5rem;
+    background-color: #333;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%; /* Вирівнювання елементів по ширині контейнера */
+    padding: 0.5rem;
+    text-align: left;
+    transition: color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.menu-item a {
+    color: #4a90e2; /* Основний колір тексту */
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.menu-item:hover a {
+    color: #e94e77;
+    transform: translateX(3px); /* Легкий рух тексту вправо */
+}
+
+.menu-item::before {
+    content: "";
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    background: linear-gradient(135deg, #4a90e2, #e94e77);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    margin-right: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover::before {
+    transform: rotate(15deg); /* Поворот ромба при наведенні */
+    box-shadow: 0 0 8px rgba(233, 78, 119, 0.6); /* Тінь для ромба */
+}
+
+.menu-item.with-text {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.menu.expanded .menu-item {
+    gap: 0.5rem;
+}
