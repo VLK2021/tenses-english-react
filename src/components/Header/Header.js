@@ -3,7 +3,6 @@ import {HiHome} from "react-icons/hi";
 import {useNavigate} from "react-router-dom";
 
 import './HeaderStyle.css';
-import {MenuTitlesComponent} from "../MenuTitlesComponent/MenuTitlesComponent";
 
 
 const Header = () => {
@@ -39,10 +38,6 @@ const Header = () => {
                 <div>
                 </div>
             </section>
-
-            {/*<section className={'width flex header-main-menu-block'}>*/}
-            {/*    <MenuTitlesComponent/>*/}
-            {/*</section>*/}
         </main>
     );
 };

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+// Даний компонент ніде не використовується
 import './MenuTitlesComponentStyle.css';
 import {useSelector} from "react-redux";
 

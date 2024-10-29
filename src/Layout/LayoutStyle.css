@@ -43,7 +43,6 @@
 }
 
 
-
 /* Загальні стилі для бічного меню */
 .sidebar {
     position: fixed;
@@ -55,7 +54,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 2rem;
-    transition: width 0.3s ease;
+    transition: width 0.4s ease;
     overflow: hidden;
     z-index: 1;
 }

@@ -1,31 +1,49 @@
-.header-main{
+.header-main {
     width: 100%;
+    padding: 1rem 0;
 }
 
 .header {
-    /*margin-bottom: 1.6rem;*/
-    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
 }
 
 .header-title {
-    width: 60%;
-    padding: 0.5rem;
-    font-weight: bold;
+    width: auto;
+    font-weight: 800;
     font-size: 3rem;
-    text-shadow: 0.2rem 0.2rem 0.2rem black;
+    color: white;
+    transition: color 0.5s ease;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5), 0 0 10px rgba(77, 121, 255, 0.6);
     text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    animation: pulse 2s infinite;
 }
 
+/* Анімація для заголовка */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5), 0 0 15px rgba(77, 121, 255, 0.6);
+    }
+    50% {
+        transform: scale(1.05);
+        text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 102, 204, 0.7);
+    }
+}
+
+/* Стилі для іконки */
 .header-icon > .home-icon {
     font-size: 3rem;
     color: var(--var-bg-button);
     cursor: pointer;
+    transition: color 0.4s ease, transform 0.3s ease;
 }
 
 .home-icon:hover {
-    color: var(--var-color-li);
-}
-
-.header-main-menu-block{
-    padding-bottom: 1rem;
+    color: #e94e77;
+    transform: scale(1.2) rotate(-10deg);
 }
