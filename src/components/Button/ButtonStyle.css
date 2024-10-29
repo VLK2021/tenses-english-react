@@ -1,16 +1,59 @@
-.btn-left{
+.customBtn {
+    width: 100%;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+/*button {*/
+/*    width: 100%;*/
+/*    height: 3rem;*/
+/*    padding: 0.5rem;*/
+/*    font-size: 0.8rem;*/
+/*    font-weight: bold;*/
+/*    text-transform: uppercase;*/
+/*    color: var(--var-color-button, #ffffff);*/
+/*    background: var(--var-bg-button, linear-gradient(135deg, #4a90e2, #e94e77));*/
+/*    border: 1px solid #ffffff;*/
+/*    border-radius: 0.5rem;*/
+/*    cursor: pointer;*/
+/*    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);*/
+/*    transition: all 0.4s ease;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*}*/
+
+/* Заокруглені ліві та праві краї */
+.btn-left {
     border-radius: 0.5rem 0 0 0.5rem;
 }
 
-.btn-right{
+.btn-right {
     border-radius: 0 0.5rem 0.5rem 0;
 }
 
-button:hover{
-    opacity: 50%;
+/* Ефект при наведенні */
+button:hover {
+    opacity: 0.9;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #e94e77, #4a90e2);
+    border: none;
 }
 
-.active > button{
-    background: var(--var-color-li);
+/* Стан натискання */
+button:active {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: none;
 }
 
+/* Активний стан */
+.active > button {
+    background: linear-gradient(135deg, #e94e77, #4a90e2);
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 128, 0, 0.3);
+    border: none;
+}

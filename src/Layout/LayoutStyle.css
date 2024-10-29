@@ -3,10 +3,8 @@
     padding: 1rem 3rem;
 }
 
-
 .main{
     width: 100%;
-    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,13 +14,9 @@
 .maineHomeComponentBlock {
     width: 100%;
     min-height: 90vh;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
 }
 
 .header-block {
-    /*background: var(--var-bg-header-outlet);*/
     width: 100%;
     position: fixed;
     top: 0;
@@ -41,11 +35,39 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+    gap: 1px;
 }
 
 .outlet {
-    width: 100%;
+    width: 76%;
     min-height: 100vh;
     background: var(--var-bg-header-outlet);
 }
+
+
+
+/* Загальні стилі для бічного меню */
+.sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 3rem;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sidebar.expanded {
+    width: 13rem;
+}
+
+
+
 

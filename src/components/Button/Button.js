@@ -6,17 +6,10 @@ import './ButtonStyle.css';
 
 const Button = ({obj}) => {
     const {id, name} = obj;
-
-    const setBtnClass = (id) => {
-        if (id >= 13) {
-            return 'btn-right'
-        } else {
-            return 'btn-left'
-        }
-    };
+    const setBtnClass = id => (id >= 13 ? 'btn-right' : 'btn-left');
 
     return (
-        <div>
+        <div className={'customBtn'}>
             <NavLink to={id.toString()}>
                 <button className={`${setBtnClass(id)}`}>
                     {name}
