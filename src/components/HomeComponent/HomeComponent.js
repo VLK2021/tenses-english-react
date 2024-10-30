@@ -23,14 +23,24 @@ const HomeComponent = () => {
             <h1 className={'flex'}>easy english</h1>
 
             <section className={'homeComponent-menuBlock'}>
-                {menu
-                    .map(obj => (
+                {
+                    menu.map(obj => (
                         <NavLink key={obj.id} to={obj.id.toString()}>
                             <button>{obj.name}</button>
                         </NavLink>
                     ))
-                }</section>
+                }
+            </section>
 
+            <section className={'width flex homeComponent-blockTraining'}>
+                <NavLink to={'#'}>
+                    <button>quiz</button>
+                </NavLink>
+
+                <NavLink to={'#'}>
+                    <button>practice words</button>
+                </NavLink>
+            </section>
         </div>
     );
 };
