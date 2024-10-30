@@ -33,11 +33,11 @@ const HomeComponent = () => {
             </section>
 
             <section className={'width flex homeComponent-blockTraining'}>
-                <NavLink to={'#'}>
+                <NavLink to={'/24'}>
                     <button>quiz</button>
                 </NavLink>
 
-                <NavLink to={'#'}>
+                <NavLink to={'/24'}>
                     <button>practice words</button>
                 </NavLink>
             </section>

@@ -19,3 +19,18 @@
     align-items: center;
     gap: 0.5rem;
 }
+
+.vocabulary .vocabulary-btn button {
+    font-size: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.vocabulary .vocabulary-btn button:hover{
+    color: var(--var-color-button);
+    font-style: italic;
+    text-align: center;
+    font-size: 1rem;
+    justify-content: center;
+}

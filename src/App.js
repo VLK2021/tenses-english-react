@@ -18,8 +18,17 @@ import FuturePerfectContinuous from "./components/tensesInEnglish/FuturePerfectC
 import SequenceOfTensesComponent
     from "./components/tensesInEnglish/SequenceOfTensesComponent/SequenceOfTensesComponent";
 import {
-    AAnTheComponent, AlphabetComponent, CanCouldComponent, HaveToComponent, HomeComponent, IrregularVerbs,
-    ThereIsThereAreComponent, ToBeComponent, ToBeGoingToComponent, UsedToComponent, VocabularyGeneralComponent,
+    AAnTheComponent,
+    AlphabetComponent,
+    CanCouldComponent,
+    HaveToComponent,
+    HomeComponent,
+    IrregularVerbs,
+    ThereIsThereAreComponent,
+    ToBeComponent,
+    ToBeGoingToComponent,
+    UsedToComponent,
+    VocabularyGeneralComponent,
     WillWouldComponent
 } from "./components";
 
